@@ -98,6 +98,10 @@ Sau đó mở `http://127.0.0.1:8765`.
 
 Chạy `npm test` để thực thi collection bằng Newman. Kết quả mong đợi là **6 request, 20 assertion, 0 failure**; báo cáo được tạo tại `reports/newman-report.html`.
 
+Ảnh chụp báo cáo sau khi chạy:
+
+![Báo cáo Newman của Phạm Duy Quang, MSSV 23017167: 6 request, 20 assertion, 0 lỗi](./output/newman-summary-23017167.png)
+
 Để tự chụp ảnh minh chứng bằng Postman:
 
 1. Import collection và environment như mục 5, chọn environment **JSONPlaceholder - Public**.
