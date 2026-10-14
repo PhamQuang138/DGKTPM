@@ -38,7 +38,7 @@
 % --- Thông tin đề tài ---
 \title[ĐGKTPM: Đánh giá \& Kiểm thử Mioto.vn]{\textbf{BÁO CÁO BÀI TẬP LỚN MÔN HỌC}}
 \subtitle{\textbf{ĐÁNH GIÁ CHẤT LƯỢNG VÀ KIỂM THỬ CHỨC NĂNG\\HỆ THỐNG ĐẶT XE TRỰC TUYẾN MIOTO (MIOTO.VN)}}
-\author[Nhóm 8]{\textbf{Nhóm thực hiện: Nhóm 8}\\\small 1. Phạm Duy Quang -- 23017167 (Trưởng nhóm)\\\small 2. Trần Văn Nhật -- 23010625\\\small 3. Phạm Văn Đạt -- 23017150\\\small Lớp: K17 - CNTT}
+\author[Nhóm 8]{\textbf{Nhóm thực hiện: Nhóm 8}\\\small 1. Phạm Duy Quang -- 23017167 (Trưởng nhóm)\\\small 2. Trần Văn Nhật -- 23010625\\\small 3. Phạm Văn Đạt -- 23017150\\\small Lớp: AI\&KHDL\_1}
 \institute[Phenikaa Uni]{\textbf{Học phần: Đánh giá và Kiểm định Chất lượng Phần mềm}\\\small GVHD: \textbf{TS. Trịnh Thanh Bình}\\\small Khoa Công nghệ Thông tin -- Trường Đại học Phenikaa}
 \date{Tháng 10 Năm 2026}
 
@@ -107,43 +107,43 @@
 
 \begin{frame}{2.1. Kiến trúc Hệ thống Phân tán (Microservices Architecture)}
   \begin{center}
-  \resizebox{0.88\textwidth}{!}{
-    \begin{tikzpicture}[node distance=1.2cm and 1.5cm, >=Stealth, auto,
-      client/.style={rectangle, draw=blue!80, fill=blue!10, thick, rounded corners, minimum width=2.5cm, minimum height=0.8cm, align=center},
-      gateway/.style={rectangle, draw=orange!80, fill=orange!15, thick, rounded corners, minimum width=9cm, minimum height=0.8cm, align=center},
-      service/.style={rectangle, draw=teal!80, fill=teal!10, thick, rounded corners, minimum width=2.5cm, minimum height=0.9cm, align=center, font=\small},
-      third/.style={rectangle, draw=purple!80, fill=purple!10, thick, dashed, rounded corners, minimum width=2.2cm, minimum height=0.8cm, align=center, font=\scriptsize}]
+  \resizebox{0.84\textwidth}{!}{
+    \begin{tikzpicture}[>=Stealth, auto,
+      client/.style={rectangle, draw=blue!80, fill=blue!10, thick, rounded corners=4pt, minimum width=2.6cm, minimum height=0.75cm, align=center, font=\scriptsize\bfseries},
+      gateway/.style={rectangle, draw=orange!80, fill=orange!15, thick, rounded corners=4pt, minimum width=9.2cm, minimum height=0.75cm, align=center, font=\scriptsize\bfseries},
+      service/.style={rectangle, draw=teal!80, fill=teal!10, thick, rounded corners=4pt, minimum width=2.1cm, minimum height=0.8cm, align=center, font=\tiny\bfseries},
+      third/.style={rectangle, draw=purple!80, fill=purple!10, thick, dashed, rounded corners=4pt, minimum width=2.1cm, minimum height=0.75cm, align=center, font=\tiny}]
 
       % Clients
-      \node[client] (web) {Web Frontend\\(ReactJS SPA)};
-      \node[client, right=2cm of web] (app) {Mobile App\\(iOS / Android)};
+      \node[client] (web) at (2.2, 0) {Web Client\\(ReactJS SPA)};
+      \node[client] (app) at (7.0, 0) {Mobile App\\(iOS / Android)};
 
       % Gateway
-      \node[gateway, below=1cm of $(web)!0.5!(app)$] (gw) {\textbf{API Gateway \& Reverse Proxy (Cloudflare / NGINX)}};
+      \node[gateway] (gw) at (4.6, -1.2) {API Gateway \& Reverse Proxy (Cloudflare / NGINX / Rate Limiter)};
 
       % Microservices
-      \node[service, below left=1.2cm and 1.8cm of gw] (scar) {\textbf{m-car.mioto.vn}\\Xe \& Lịch bận};
-      \node[service, right=0.5cm of scar] (spay) {\textbf{payment.mioto.vn}\\Đặt cọc \& Webhook};
-      \node[service, right=0.5cm of spay] (swallet) {\textbf{m-wallet.mioto.vn}\\Ví \& Thuế TNCN};
-      \node[service, right=0.5cm of swallet] (srtc) {\textbf{m-rtc.mioto.vn}\\Chat \& WebSocket};
+      \node[service] (scar) at (0.3, -2.6) {\textbf{m-car.mioto.vn}\\Xe \& Lịch bận};
+      \node[service] (spay) at (2.9, -2.6) {\textbf{payment.mioto}\\Đặt cọc \& IPN};
+      \node[service] (swallet) at (5.5, -2.6) {\textbf{m-wallet.mioto}\\Ví \& Doanh thu};
+      \node[service] (srtc) at (8.1, -2.6) {\textbf{m-rtc.mioto.vn}\\Chat WebSocket};
 
       % Third parties
-      \node[third, below=1cm of scar] (maps) {HERE Maps /\\Google Maps};
-      \node[third, below=1cm of spay] (alepay) {Alepay / MoMo /\\VNPay (PCI-DSS)};
-      \node[third, below=1cm of swallet] (csgt) {Tra cứu GPLX\\(Cục CSGT)};
-      \node[third, below=1cm of srtc] (insur) {Bảo hiểm\\MIC / VNI};
+      \node[third] (maps) at (0.3, -3.9) {HERE Maps /\\Google Maps};
+      \node[third] (alepay) at (2.9, -3.9) {Cổng Alepay /\\MoMo / VNPay};
+      \node[third] (csgt) at (5.5, -3.9) {Tra cứu GPLX\\(Cục CSGT)};
+      \node[third] (insur) at (8.1, -3.9) {Bảo hiểm\\MIC / VNI};
 
       % Arrows
-      \draw[->, thick] (web) -- (gw);
-      \draw[->, thick] (app) -- (gw);
+      \draw[->, thick] (web) -- (2.2, -0.8) -- (gw);
+      \draw[->, thick] (app) -- (7.0, -0.8) -- (gw);
       \draw[->, thick] (gw) -- (scar);
       \draw[->, thick] (gw) -- (spay);
       \draw[->, thick] (gw) -- (swallet);
       \draw[->, thick] (gw) -- (srtc);
       \draw[->, thick, dashed] (scar) -- (maps);
       \draw[->, thick, dashed] (spay) -- (alepay);
-      \draw[->, thick, dashed] (scar) -- (insur);
-      \draw[->, thick, dashed] (gw) -- (csgt);
+      \draw[->, thick, dashed] (swallet) -- (csgt);
+      \draw[->, thick, dashed] (srtc) -- (insur);
     \end{tikzpicture}
   }
   \end{center}
@@ -237,25 +237,25 @@
 
 \begin{frame}{4.2. Bảng Quyết định (Decision Table) cho Thuật toán Tính Giá}
   \begin{table}[ht]
-    \centering\scriptsize
-    \begin{tabularx}{\textwidth}{lcccccc}
+    \centering\fontsize{6pt}{7.5pt}\selectfont
+    \begin{tabularx}{\textwidth}{p{2.6cm}cccccc}
       \toprule
       \textbf{Điều kiện / Hành động} & \textbf{R1} & \textbf{R2} & \textbf{R3} & \textbf{R4} & \textbf{R5} & \textbf{R6} \\
       \midrule
-      \textbf{C1: Loại ngày thuê} & Ngày thường & Cuối tuần & Ngày Lễ/Tết & Ngày thường & Cuối tuần & Ngày thường \\
-      \textbf{C2: Khoảng cách giao ($d$)} & Tại bãi ($d=0$) & $\le 5$km & $> 5$km & Tại bãi ($d=0$) & $> 5$km & $> 5$km \\
+      \textbf{C1: Loại ngày thuê} & Ngày thường & Cuối tuần & Lễ/Tết & Ngày thường & Cuối tuần & Ngày thường \\
+      \textbf{C2: Khoảng cách ($d$)} & Tại bãi ($0$) & $\le 5$km & $> 5$km & Tại bãi ($0$) & $> 5$km & $> 5$km \\
       \textbf{C3: Mã Voucher} & Không & Không & Không & Giảm 10\% & Giảm 100k & Hết hạn \\
       \midrule
       \textbf{A1: Phụ phí ngày} & 0đ & +15\% & +30\% & 0đ & +15\% & 0đ \\
-      \textbf{A2: Phí giao xe} & 0đ & 0đ (Free) & $(d-5)\times 15k$ & 0đ & $(d-5)\times 15k$ & $(d-5)\times 15k$ \\
-      \textbf{A3: Phí bảo hiểm MIC} & 10\% tiền thuê & 10\% tiền thuê & 10\% tiền thuê & 10\% tiền thuê & 10\% tiền thuê & 10\% tiền thuê \\
-      \textbf{A4: Mức giảm Voucher} & 0đ & 0đ & 0đ & -10\% giá gốc & -100.000đ & 0đ (Báo lỗi) \\
-      \textbf{A5: Tiền đặt cọc (30\%)} & $30\% \times \text{Tổng}$ & $30\% \times \text{Tổng}$ & $30\% \times \text{Tổng}$ & $30\% \times \text{Tổng}$ & $30\% \times \text{Tổng}$ & $30\% \times \text{Tổng}$ \\
+      \textbf{A2: Phí giao xe} & 0đ (Free) & 0đ (Free) & $(d-5)\times 15$k & 0đ & $(d-5)\times 15$k & $(d-5)\times 15$k \\
+      \textbf{A3: Bảo hiểm MIC} & 10\% thuê & 10\% thuê & 10\% thuê & 10\% thuê & 10\% thuê & 10\% thuê \\
+      \textbf{A4: Mức giảm Voucher} & 0đ & 0đ & 0đ & -10\% gốc & -100.000đ & 0đ (Báo lỗi) \\
+      \textbf{A5: Tiền cọc (30\%)} & $30\% \times T$ & $30\% \times T$ & $30\% \times T$ & $30\% \times T$ & $30\% \times T$ & $30\% \times T$ \\
       \bottomrule
     \end{tabularx}
   \end{table}
   \begin{center}
-    \footnotesize $\Rightarrow$ 100\% các ca kiểm thử dựa trên Bảng quyết định trên đều đạt kết quả nghiệm thu \textbf{PASSED}.
+    \footnotesize $\Rightarrow$ 100\% các ca kiểm thử dựa trên Bảng quyết định trên đều đạt nghiệm thu \textbf{PASSED}.
   \end{center}
 \end{frame}
 
@@ -281,35 +281,35 @@
 
 \begin{frame}{5.1. Sơ đồ Dòng Điều Khiển (Control Flow Graph - CFG)}
   \begin{columns}
-    \begin{column}{0.5\textwidth}
+    \begin{column}{0.48\textwidth}
       \begin{center}
-      \resizebox{0.82\textwidth}{!}{
-        \begin{tikzpicture}[>=Stealth, node distance=0.7cm,
-          nstyle/.style={circle, draw=miotoblue, fill=blue!10, thick, inner sep=1pt, minimum size=6mm, font=\scriptsize},
-          cond/.style={diamond, draw=orange!80, fill=orange!15, thick, inner sep=0pt, minimum size=7mm, font=\scriptsize}]
+      \resizebox{0.75\textwidth}{!}{
+        \begin{tikzpicture}[>=Stealth, node distance=0.55cm,
+          nstyle/.style={circle, draw=miotoblue, fill=blue!10, thick, inner sep=1pt, minimum size=5.5mm, font=\scriptsize},
+          cond/.style={diamond, draw=orange!80, fill=orange!15, thick, inner sep=0pt, minimum size=6.5mm, font=\scriptsize}]
 
           \node[cond] (n1) {1};
-          \node[nstyle, below left=0.6cm and 0.5cm of n1] (n2) {2};
-          \node[cond, below right=0.6cm and 0.5cm of n1] (n3) {3};
-          \node[nstyle, below left=0.6cm and 0.3cm of n3] (n4a) {4a};
-          \node[nstyle, below right=0.6cm and 0.3cm of n3] (n4b) {4b};
+          \node[nstyle, below left=0.5cm and 0.4cm of n1] (n2) {2};
+          \node[cond, below right=0.5cm and 0.4cm of n1] (n3) {3};
+          \node[nstyle, below left=0.5cm and 0.25cm of n3] (n4a) {4a};
+          \node[nstyle, below right=0.5cm and 0.25cm of n3] (n4b) {4b};
           
-          \node[nstyle, below=1.8cm of n1] (n5) {5};
-          \node[cond, below=0.5cm of n5] (n6) {6};
-          \node[nstyle, below left=0.5cm and 0.4cm of n6] (n7) {7};
-          \node[nstyle, below right=0.5cm and 0.4cm of n6] (n8) {8};
+          \node[nstyle, below=1.5cm of n1] (n5) {5};
+          \node[cond, below=0.4cm of n5] (n6) {6};
+          \node[nstyle, below left=0.4cm and 0.35cm of n6] (n7) {7};
+          \node[nstyle, below right=0.4cm and 0.35cm of n6] (n8) {8};
           
-          \node[nstyle, below=1.6cm of n6] (n9) {9};
-          \node[cond, below=0.5cm of n9] (n10) {10};
-          \node[nstyle, below left=0.5cm and 0.5cm of n10] (n11) {11};
-          \node[cond, below right=0.5cm and 0.5cm of n10] (n12) {12};
-          \node[nstyle, below left=0.5cm and 0.3cm of n12] (n13a) {13a};
-          \node[nstyle, below right=0.5cm and 0.3cm of n12] (n13b) {13b};
+          \node[nstyle, below=1.4cm of n6] (n9) {9};
+          \node[cond, below=0.4cm of n9] (n10) {10};
+          \node[nstyle, below left=0.4cm and 0.4cm of n10] (n11) {11};
+          \node[cond, below right=0.4cm and 0.4cm of n10] (n12) {12};
+          \node[nstyle, below left=0.4cm and 0.25cm of n12] (n13a) {13a};
+          \node[nstyle, below right=0.4cm and 0.25cm of n12] (n13b) {13b};
           
-          \node[nstyle, below=1.8cm of n10] (n14) {14};
-          \node[cond, below=0.5cm of n14] (n15) {15};
-          \node[nstyle, below left=0.5cm and 0.4cm of n15] (n16) {16};
-          \node[nstyle, below right=0.5cm and 0.4cm of n15] (n17) {17};
+          \node[nstyle, below=1.5cm of n10] (n14) {14};
+          \node[cond, below=0.4cm of n14] (n15) {15};
+          \node[nstyle, below left=0.4cm and 0.35cm of n15] (n16) {16};
+          \node[nstyle, below right=0.4cm and 0.35cm of n15] (n17) {17};
 
           \draw[->] (n1) -- node[left]{\tiny T} (n2);
           \draw[->] (n1) -- node[right]{\tiny F} (n3);
@@ -339,12 +339,11 @@
       }
       \end{center}
     \end{column}
-    \begin{column}{0.5\textwidth}
+    \begin{column}{0.52\textwidth}
       \begin{block}{Tính toán Cyclomatic Complexity $V(G)$}
         Đồ thị dòng điều khiển hàm tính cước có:
         \begin{itemize}
-          \item Số nút: $N = 18$ nút.
-          \item Số cung: $E = 23$ cung.
+          \item Số nút: $N = 18$ nút; Số cung: $E = 23$ cung.
           \item Số thành phần liên thông: $P = 1$.
         \end{itemize}
         \textbf{Phương pháp 1 (Cung \& Nút):}
@@ -352,11 +351,9 @@
         \textbf{Phương pháp 2 (Nút điều kiện $P$):}
         Có 6 nút rẽ nhánh (1, 3, 6, 10, 12, 15):
         $$V(G) = P + 1 = 6 + 1 = \mathbf{7}$$
-        \textbf{Phương pháp 3 (Vùng khép kín $R$):}
-        $$V(G) = \text{Enclosed Regions} + 1 = 6 + 1 = \mathbf{7}$$
       \end{block}
       \begin{alertblock}{Kết luận Hộp trắng}
-        Có \textbf{chính xác 7 đường đi cơ sở độc lập (Basis Paths)} cần bao phủ.
+        Có \textbf{7 đường đi cơ sở độc lập (Basis Paths)} cần bao phủ đạt 100\% branch coverage.
       \end{alertblock}
     \end{column}
   \end{columns}
