@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1628,7 +1628,7 @@ Package rerunfilecheck Info: File `slide_bao_cao_mioto.out' has not changed.
 Here is how much of TeX's memory you used:
  31190 strings out of 467871
  636288 string characters out of 5418376
- 1068093 words of memory out of 5000000
+ 1068101 words of memory out of 5000000
  59381 multiletter control sequences out of 15000+600000
  820912 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1653,7 +1653,7 @@ C:/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C
 :/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C
 :/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb><C:
 /Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt9.pfb>
-Output written on slide_bao_cao_mioto.pdf (18 pages, 487997 bytes).
+Output written on slide_bao_cao_mioto.pdf (18 pages, 488066 bytes).
 PDF statistics:
  495 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 500000)
