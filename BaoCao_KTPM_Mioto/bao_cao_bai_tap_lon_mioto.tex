@@ -78,9 +78,9 @@
 }
 \lstset{style=mystyle}
 
-% --- Định dạng Tiêu đề Chương ---
+% --- Định dạng Tiêu đề Chương (Chuẩn mực học thuật, không ép viết hoa toàn bộ) ---
 \titleformat{\chapter}[display]
-  {\normalfont\bfseries\centering}{\LARGE\MakeUppercase{\chaptertitlename}\ \thechapter}{15pt}{\LARGE\MakeUppercase}
+  {\normalfont\bfseries\centering}{\LARGE\chaptertitlename\ \thechapter}{12pt}{\LARGE}
 \titlespacing*{\chapter}{0pt}{10pt}{20pt}
 
 % --- Header & Footer ---
@@ -142,45 +142,8 @@
   \end{center}
 \end{titlepage}
 
-% ==============================================================================
-% LỜI CAM ĐOAN & LỜI CẢM ƠN
-% ==============================================================================
 \pagenumbering{roman}
-\chapter*{LỜI CAM ĐOAN}
-\addcontentsline{toc}{chapter}{LỜI CAM ĐOAN}
 
-Chúng em xin cam đoan rằng toàn bộ nội dung trong bản Báo cáo bài tập lớn môn \textbf{Đánh giá và Kiểm định Chất lượng Phần mềm} với đề tài \textbf{"Đánh giá chất lượng và kiểm thử chức năng hệ thống đặt xe trực tuyến Mioto (Mioto.vn)"} là công trình nghiên cứu, khảo sát thực tế và thực nghiệm độc lập của tập thể \textbf{Nhóm 8} dưới sự hướng dẫn khoa học của Thầy giáo hướng dẫn.
-
-Các số liệu khảo sát, quy trình bóc tách mã nguồn hệ thống, sơ đồ kiến trúc vi dịch vụ, sơ đồ Use Case, sơ đồ máy trạng thái, đồ thị dòng điều khiển (CFG), các bộ ca kiểm thử chức năng (Functional Test Cases), ma trận truy xuất nguồn gốc (RTM), kịch bản kiểm thử tự động API (Postman Collection) và kiểm thử giao diện E2E (Selenium WebDriver Python) đều được thực hiện nghiêm túc, trung thực và chưa từng được công bố trong bất kỳ công trình nào khác. Mọi thông tin tham khảo trích dẫn trong tài liệu này đều được ghi rõ nguồn gốc rõ ràng tại Danh mục tài liệu tham khảo.
-
-\vspace{15mm}
-\begin{flushright}
-  \textit{Hà Nội, ngày 14 tháng 10 năm 2026}\\[5mm]
-  \textbf{Đại diện Nhóm 8 -- Nhóm trưởng}\\[15mm]
-  \textbf{Phạm Duy Quang}
-\end{flushright}
-
-\newpage
-\chapter*{LỜI CẢM ƠN}
-\addcontentsline{toc}{chapter}{LỜI CẢM ƠN}
-
-Lời đầu tiên, tập thể Nhóm 8 chúng em xin trân trọng gửi lời cảm ơn sâu sắc nhất tới Ban Giám hiệu, Khoa Công nghệ Thông tin -- Trường Đại học Phenikaa đã tạo điều kiện học tập và nghiên cứu tốt nhất cho chúng em trong suốt quá trình học tập.
-
-Đặc biệt, chúng em xin bày tỏ lòng biết ơn chân thành và sâu sắc nhất tới \textbf{TS. Trịnh Thanh Bình}, giảng viên phụ trách môn học Đánh giá và Kiểm định Chất lượng Phần mềm. Thầy đã tận tình truyền đạt những kiến thức nền tảng quý báu về quy trình kiểm thử phần mềm (STLC), các kỹ thuật thiết kế ca kiểm thử hộp đen, hộp trắng, kiểm thử tự động hóa và các tiêu chuẩn quốc tế (IEEE 829, ISO/IEC 25010), đồng thời luôn định hướng, động viên chúng em trong quá trình triển khai bài tập lớn này.
-
-Mặc dù nhóm chúng em đã dành nhiều tâm huyết và nỗ lực nghiên cứu để hoàn thiện bản báo cáo một cách đầy đủ và chi tiết nhất, song do hạn chế về mặt thời gian và kinh nghiệm thực tế, bản báo cáo khó tránh khỏi những thiếu sót nhất định. Chúng em rất mong nhận được những lời nhận xét, góp ý quý báu của Thầy để bài báo cáo của nhóm được hoàn thiện hơn nữa.
-
-Chúng em xin kính chúc Thầy luôn dồi dào sức khỏe, hạnh phúc và gặt hái được nhiều thành công hơn nữa trong sự nghiệp giảng dạy và nghiên cứu khoa học!
-
-\vspace{15mm}
-\begin{flushright}
-  \textbf{Tập thể sinh viên thực hiện (Nhóm 8)}\\[5mm]
-  \textbf{Phạm Duy Quang} \\[1mm]
-  \textbf{Trần Văn Nhật} \\[1mm]
-  \textbf{Phạm Văn Đạt}
-\end{flushright}
-
-\newpage
 % ==============================================================================
 % MỤC LỤC & DANH MỤC
 % ==============================================================================
@@ -188,15 +151,15 @@ Chúng em xin kính chúc Thầy luôn dồi dào sức khỏe, hạnh phúc và
 \newpage
 
 \listoffigures
-\addcontentsline{toc}{chapter}{DANH MỤC HÌNH VẼ}
+\addcontentsline{toc}{chapter}{Danh mục hình vẽ}
 \newpage
 
 \listoftables
-\addcontentsline{toc}{chapter}{DANH MỤC BẢNG BIỂU}
+\addcontentsline{toc}{chapter}{Danh mục bảng biểu}
 \newpage
 
-\chapter*{DANH MỤC CÁC CHỮ VIẾT TẮT}
-\addcontentsline{toc}{chapter}{DANH MỤC CÁC CHỮ VIẾT TẮT}
+\chapter*{Danh mục các chữ viết tắt}
+\addcontentsline{toc}{chapter}{Danh mục các chữ viết tắt}
 
 \begin{table}[ht]
   \centering\small
@@ -234,7 +197,7 @@ Chúng em xin kính chúc Thầy luôn dồi dào sức khỏe, hạnh phúc và
 % ==============================================================================
 % CHƯƠNG 1
 % ==============================================================================
-\chapter{TỔNG QUAN HỆ THỐNG ĐẶT XE TRỰC TUYẾN MIOTO.VN VÀ PHẠM VI ĐỀ TÀI}
+\chapter{Tổng quan hệ thống đặt xe trực tuyến Mioto.vn và phạm vi đề tài}
 
 \section{Bối cảnh thị trường cho thuê xe ô tô và mô hình kinh tế chia sẻ (P2P)}
 Trong thời đại chuyển đổi số và sự bùng nổ của nền kinh tế chia sẻ (Sharing Economy), xu hướng du lịch tự túc, các chuyến công tác linh hoạt và nhu cầu trải nghiệm lái xe ô tô cá nhân tại các đô thị lớn ở Việt Nam (Hà Nội, TP. Hồ Chí Minh, Đà Nẵng, Nha Trang, Đà Lạt, Phú Quốc,...) đang tăng trưởng vượt bậc. 
@@ -342,7 +305,7 @@ Hệ thống Mioto.vn vận hành xoay quanh 3 nhóm tác nhân chính:
 % ==============================================================================
 % CHƯƠNG 2
 % ==============================================================================
-\chapter{PHÂN TÍCH KIẾN TRÚC VÀ ĐẶC TẢ YÊU CẦU HỆ THỐNG}
+\chapter{Phân tích kiến trúc và đặc tả yêu cầu hệ thống}
 
 \section{Kiến trúc Hệ thống Vi dịch vụ (Microservices Architecture)}
 Hệ thống Mioto.vn được tổ chức theo kiến trúc phân tán hướng vi dịch vụ (Microservices), tách biệt hoàn toàn giữa các nghiệp vụ quản lý xe, giao dịch thanh toán, ví điện tử và giao tiếp thời gian thực. Sơ đồ kiến trúc tổng thể được biểu diễn chi tiết tại Hình~\ref{fig:arch_microservices}.
@@ -545,7 +508,7 @@ Vòng đời của một chuyến đi (Trip Lifecycle) trải qua 7 trạng thá
 % ==============================================================================
 % CHƯƠNG 3
 % ==============================================================================
-\chapter{KẾ HOẠCH KIỂM THỬ PHẦN MỀM THEO CHUẨN IEEE 829}
+\chapter{Kế hoạch kiểm thử phần mềm theo chuẩn IEEE 829}
 
 Kế hoạch kiểm thử chi tiết được định danh \texttt{TP-MIOTO-SQA-2026-V1.0} tuân thủ tiêu chuẩn quốc tế IEEE 829-2008.
 
@@ -629,7 +592,7 @@ Kế hoạch kiểm thử xác định ranh giới rõ ràng giữa các hạng 
 % ==============================================================================
 % CHƯƠNG 4
 % ==============================================================================
-\chapter{THIẾT KẾ BỘ CA KIỂM THỬ CHỨC NĂNG CHI TIẾT (FUNCTIONAL TEST CASES)}
+\chapter{Thiết kế bộ ca kiểm thử chức năng chi tiết}
 
 \section{Phân tích Phân vùng tương đương (EP) và Giá trị biên (BVA)}
 Các phân vùng kiểm thử được thiết lập chặt chẽ:
@@ -691,7 +654,7 @@ Các phân vùng kiểm thử được thiết lập chặt chẽ:
 % ==============================================================================
 % CHƯƠNG 5
 % ==============================================================================
-\chapter{KIỂM THỬ HỘP TRẮNG VÀ SƠ ĐỒ DÒNG ĐIỀU KHIỂN (CFG)}
+\chapter{Kiểm thử hộp trắng và sơ đồ dòng điều khiển (CFG)}
 
 \section{Hàm nghiệp vụ Tính toán Giá cước}
 Thuật toán tính giá cước và phụ phí \texttt{calculate\_rental\_price()} được triển khai như sau:
@@ -825,7 +788,7 @@ def calculate_rental_price(base_rate, days, is_weekend, is_holiday, delivery_dis
 % ==============================================================================
 % CHƯƠNG 6
 % ==============================================================================
-\chapter{ĐÁNH GIÁ CHẤT LƯỢNG PHẦN MỀM THEO TIÊU CHUẨN ISO/IEC 25010}
+\chapter{Đánh giá chất lượng phần mềm theo tiêu chuẩn ISO/IEC 25010}
 
 Hệ thống Mioto.vn được đánh giá định lượng toàn diện trên 8 đặc tính chất lượng của chuẩn ISO/IEC 25010:
 
@@ -844,7 +807,7 @@ Hệ thống Mioto.vn được đánh giá định lượng toàn diện trên 8
     7 & \textbf{Khả năng bảo trì} & 5\% & \textbf{8.5} & Kiến trúc Microservices phân tách độc lập; Tách nhỏ chunks JS. \\
     8 & \textbf{Tính khả chuyển} & 5\% & \textbf{8.5} & Đóng gói Container Docker/Kubernetes đa nền tảng Cloud. \\
     \midrule
-    \multicolumn{2}{l}{\textbf{TỔNG ĐIỂM CHẤT LƯỢNG TOÀN DIỆN}} & \textbf{100\%} & \textbf{9.00 / 10.0} & \textbf{XẾP LOẠI XUẤT SẮC (GRADE A)} \\
+    \multicolumn{2}{l}{Tổng điểm chất lượng toàn diện} & 100\% & 9.00 / 10.0 & Xếp loại Xuất sắc (Grade A) \\
     \bottomrule
   \end{tabularx}
   \caption{Bảng điểm đánh giá chất lượng toàn diện hệ thống Mioto.vn theo ISO/IEC 25010}
@@ -854,7 +817,7 @@ Hệ thống Mioto.vn được đánh giá định lượng toàn diện trên 8
 % ==============================================================================
 % CHƯƠNG 7
 % ==============================================================================
-\chapter{THIẾT KẾ KỊCH BẢN KIỂM THỬ TỰ ĐỘNG (AUTOMATION TESTING SUITE)}
+\chapter{Thiết kế kịch bản kiểm thử tự động}
 
 Để tối ưu hóa chu kỳ hồi quy (Regression Testing) và tích hợp vào quy trình CI/CD, Nhóm 8 đã xây dựng bộ kịch bản kiểm thử tự động toàn diện từ tầng RESTful API đến tầng giao diện người dùng E2E (End-to-End).
 
@@ -957,7 +920,7 @@ Bộ kịch bản Selenium đã chạy hoàn tất với 100\% ca kiểm thử �
 % ==============================================================================
 % CHƯƠNG 8
 % ==============================================================================
-\chapter{QUẢN LÝ LỖI VÀ MA TRẬN TRUY XUẤT NGUỒN GỐC (RTM)}
+\chapter{Quản lý lỗi và ma trận truy xuất nguồn gốc (RTM)}
 
 \section{Quy trình Vòng đời Lỗi Phần mềm (Defect Life Cycle)}
 Quy trình xử lý lỗi từ khi phát hiện đến khi đóng lỗi hoàn toàn được chuẩn hóa tại Hình~\ref{fig:defect_lifecycle}.
@@ -1007,42 +970,42 @@ Bảng~\ref{tab:rtm_full_table} trình bày chi tiết ma trận truy xuất ngu
 \section{Thống kê và Đo lường Kết quả Kiểm thử}
 Kết quả nghiệm thu kiểm thử toàn diện trên hệ thống Mioto.vn:
 \begin{itemize}
-  \item Tổng số Test Cases chính thức: \textbf{68 ca test chức năng \& 7 ca test hộp trắng}.
-  \item Tỷ lệ Pass: \textbf{73 / 75 ca (97.33\%)}.
-  \item Tỷ lệ Fail: \textbf{2 / 75 ca (2.67\%)} (Đã lập 2 bug report chi tiết).
-  \item Độ bao phủ yêu cầu SRS: \textbf{100\%} (21/21 mã yêu cầu SRS).
-  \item Độ bao phủ đường đi cơ sở (Basis Path Coverage): \textbf{100\%} (7/7 Basis Paths).
+  \item Tổng số Test Cases chính thức: 68 ca test chức năng và 7 ca test hộp trắng.
+  \item Tỷ lệ Pass: 73 / 75 ca (97.33%).
+  \item Tỷ lệ Fail: 2 / 75 ca (2.67%) (Đã lập 2 bug report chi tiết).
+  \item Độ bao phủ yêu cầu SRS: 100% (21/21 mã yêu cầu SRS).
+  \item Độ bao phủ đường đi cơ sở (Basis Path Coverage): 100% (7/7 Basis Paths).
 \end{itemize}
 
 % ==============================================================================
 % CHƯƠNG 9
 % ==============================================================================
-\chapter{KẾ LUẬN VÀ ĐỀ XUẤT CẢI TIẾN HỆ THỐNG}
+\chapter{Kết luận và đề xuất cải tiến hệ thống}
 
 \section{Tổng kết Kết quả Thực hiện Đề tài của Nhóm 8}
 Qua quá trình triển khai thực tế và nghiêm túc đề tài \textbf{"Đánh giá chất lượng và kiểm thử chức năng hệ thống đặt xe trực tuyến Mioto (Mioto.vn)"}, tập thể \textbf{Nhóm 8} đã vận dụng thành thạo và đầy đủ toàn bộ kiến thức nền tảng của môn học Đảm bảo Chất lượng và Kiểm thử Phần mềm, hoàn thành 100\% các mục tiêu đề ra ban đầu:
 \begin{enumerate}
-  \item \textbf{Khảo sát và bóc tách thực tế (Reverse-Engineering):} Đã phân tích thành công kiến trúc vi dịch vụ thực tế của nền tảng Mioto.vn (bao gồm các service phân tán: \texttt{m-car.mioto.vn}, \texttt{payment.mioto.vn}, \texttt{m-wallet.mioto.vn}, \texttt{m-rtc.mioto.vn}), phân định rõ ranh giới nghiệp vụ và các điểm nghẽn tích hợp tiềm ẩn.
-  \item \textbf{Lập tài liệu kiểm thử chuẩn hóa IEEE 829:} Hoàn thiện bộ Kế hoạch kiểm thử (Test Plan) chuẩn quốc tế, đặc tả chi tiết 21 yêu cầu chức năng nghiệp vụ (SRS), phạm vi trong và ngoài kiểm thử, chiến lược kiểm thử đa tầng, ma trận quản lý rủi ro và tiêu chuẩn chấp nhận nghiệm thu.
-  \item \textbf{Thiết kế và thực thi kiểm thử chức năng hộp đen đa phương pháp:} 
+  \item \textit{Khảo sát và bóc tách thực tế (Reverse-Engineering):} Đã phân tích thành công kiến trúc vi dịch vụ thực tế của nền tảng Mioto.vn (bao gồm các service phân tán: \texttt{m-car.mioto.vn}, \texttt{payment.mioto.vn}, \texttt{m-wallet.mioto.vn}, \texttt{m-rtc.mioto.vn}), phân định rõ ranh giới nghiệp vụ và các điểm nghẽn tích hợp tiềm ẩn.
+  \item \textit{Lập tài liệu kiểm thử chuẩn hóa IEEE 829:} Hoàn thiện bộ Kế hoạch kiểm thử (Test Plan) chuẩn quốc tế, đặc tả chi tiết 21 yêu cầu chức năng nghiệp vụ (SRS), phạm vi trong và ngoài kiểm thử, chiến lược kiểm thử đa tầng, ma trận quản lý rủi ro và tiêu chuẩn chấp nhận nghiệm thu.
+  \item \textit{Thiết kế và thực thi kiểm thử chức năng hộp đen đa phương pháp:} 
     \begin{itemize}
       \item Áp dụng kỹ thuật \textit{Phân vùng tương đương (Equivalence Partitioning)} và \textit{Phân tích giá trị biên (Boundary Value Analysis)} vào các trường nhập liệu nhạy cảm (Số điện thoại, OTP, Đơn giá thuê, Quãng đường giới hạn ODO).
       \item Xây dựng \textit{Bảng quyết định (Decision Table)} gồm 8 luật phức hợp nhằm kiểm thử trọn vẹn thuật toán tính đơn giá cước thuê xe cuối tuần, lễ Tết và các ngưỡng chiết khấu dài ngày.
       \item Xây dựng và thực thi bộ \textbf{68 ca kiểm thử chức năng (Functional Test Cases)} bao phủ 100\% các phân hệ cốt lõi: Xác thực tài khoản, Tìm kiếm \& Bộ lọc xe, Đặt cọc thanh toán Alepay, Quản lý chuyến xe (Check-in/Check-out) và Đánh giá sau chuyến.
     \end{itemize}
-  \item \textbf{Kiểm thử hộp trắng chuyên sâu (White-Box Testing):}
+  \item \textit{Kiểm thử hộp trắng chuyên sâu (White-Box Testing):}
     \begin{itemize}
       \item Lập Đồ thị dòng điều khiển (CFG) gồm 17 nút lệnh và 22 cung rẽ nhánh cho thuật toán xử lý trả cọc và phạt hủy chuyến.
       \item Tính toán chính xác độ phức tạp đồ thị McCabe $V(G) = e - n + 2p = 22 - 17 + 2(1) = 7$, từ đó xác định đầy đủ 7 đường đi độc lập cơ sở (Basis Paths).
       \item Thiết kế và thực thi kiểm thử bao phủ toàn bộ 7 đường đi cơ sở với mã nguồn Java JUnit, đạt độ bao phủ nhánh và câu lệnh 100\%.
     \end{itemize}
-  \item \textbf{Đánh giá chất lượng toàn diện theo tiêu chuẩn ISO/IEC 25010:} Thiết lập khung đánh giá 8 đặc tính chất lượng, chấm điểm định lượng hệ thống đạt \textbf{9.00 / 10 điểm (Hạng A -- Xuất sắc)}, khẳng định Mioto.vn là nền tảng chia sẻ xe có độ tin cậy và trải nghiệm người dùng hàng đầu tại Việt Nam.
-  \item \textbf{Tự động hóa kiểm thử (Test Automation):}
+  \item \textit{Đánh giá chất lượng toàn diện theo tiêu chuẩn ISO/IEC 25010:} Thiết lập khung đánh giá 8 đặc tính chất lượng, chấm điểm định lượng hệ thống đạt \textbf{9.00 / 10 điểm (Hạng A -- Xuất sắc)}, khẳng định Mioto.vn là nền tảng chia sẻ xe có độ tin cậy và trải nghiệm người dùng hàng đầu tại Việt Nam.
+  \item \textit{Tự động hóa kiểm thử (Test Automation):}
     \begin{itemize}
       \item Xây dựng Postman Collection kiểm thử tự động API microservices với các script kiểm tra mã trạng thái HTTP, thời gian phản hồi ($< 800\text{ms}$) và tính toàn vẹn của JSON Schema.
       \item Xây dựng kịch bản kiểm thử E2E tự động bằng Python Selenium WebDriver mô phỏng chính xác hành vi tìm kiếm và tương tác giao diện người dùng.
     \end{itemize}
-  \item \textbf{Ma trận truy xuất nguồn gốc RTM \& Báo cáo lỗi:} Đạt tỷ lệ bao phủ yêu cầu 100\% (21/21 mã SRS đều có test case tương ứng), phát hiện và báo cáo chi tiết 2 lỗi phần mềm điển hình (Lỗi làm tròn số chấm động hiển thị cước phí và Lỗi spam SMS OTP).
+  \item \textit{Ma trận truy xuất nguồn gốc RTM \& Báo cáo lỗi:} Đạt tỷ lệ bao phủ yêu cầu 100\% (21/21 mã SRS đều có test case tương ứng), phát hiện và báo cáo chi tiết 2 lỗi phần mềm điển hình (Lỗi làm tròn số chấm động hiển thị cước phí và Lỗi spam SMS OTP).
 \end{enumerate}
 
 \section{Đánh giá Đóng góp và Bài học Kinh nghiệm của Nhóm 8}
@@ -1069,7 +1032,7 @@ Dựa trên kết quả khảo sát và kiểm thử thực tế, Nhóm 8 trân 
 % TÀI LIỆU THAM KHẢO
 % ==============================================================================
 \begin{thebibliography}{99}
-\addcontentsline{toc}{chapter}{TÀI LIỆU THAM KHẢO}
+\addcontentsline{toc}{chapter}{Tài liệu tham khảo}
   \bibitem{iso25010} ISO/IEC 25010:2011, \textit{Systems and software engineering --- Systems and software Quality Requirements and Evaluation (SQuaRE) --- System and software quality models}, International Organization for Standardization.
   \bibitem{ieee829} IEEE Computer Society, \textit{IEEE Standard for Software and System Test Documentation (IEEE Std 829-2008)}, 2008.
   \bibitem{istqb} ISTQB, \textit{Certified Tester Foundation Level (CTFL) Syllabus v4.0}, International Software Testing Qualifications Board, 2023.

@@ -1,38 +1,36 @@
 \babel@toc {vietnamese}{}\relax 
-\contentsline {chapter}{LỜI CAM ĐOAN}{i}{chapter*.1}%
-\contentsline {chapter}{LỜI CẢM ƠN}{ii}{chapter*.2}%
-\contentsline {chapter}{DANH MỤC HÌNH VẼ}{v}{chapter*.4}%
-\contentsline {chapter}{DANH MỤC BẢNG BIỂU}{vi}{chapter*.5}%
-\contentsline {chapter}{DANH MỤC CÁC CHỮ VIẾT TẮT}{vii}{chapter*.6}%
-\contentsline {chapter}{\numberline {1}TỔNG QUAN HỆ THỐNG ĐẶT XE TRỰC TUYẾN MIOTO.VN VÀ PHẠM VI ĐỀ TÀI}{1}{chapter.1}%
+\contentsline {chapter}{Danh mục hình vẽ}{iii}{chapter*.2}%
+\contentsline {chapter}{Danh mục bảng biểu}{iv}{chapter*.3}%
+\contentsline {chapter}{Danh mục các chữ viết tắt}{v}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Tổng quan hệ thống đặt xe trực tuyến Mioto.vn và phạm vi đề tài}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Bối cảnh thị trường cho thuê xe ô tô và mô hình kinh tế chia sẻ (P2P)}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Giới thiệu Nền tảng Mioto (Mioto.vn)}{1}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Các đặc trưng cốt lõi của Mioto}{2}{subsection.1.2.1}%
 \contentsline {section}{\numberline {1.3}Mô hình hoạt động và Các tác nhân người dùng (Actors)}{2}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Phương pháp luận và Mô hình V-Model trong Kiểm thử Phần mềm}{3}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Tổ chức Nhân sự và Phân công Nhiệm vụ Nhóm 8}{3}{section.1.5}%
-\contentsline {chapter}{\numberline {2}PHÂN TÍCH KIẾN TRÚC VÀ ĐẶC TẢ YÊU CẦU HỆ THỐNG}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Phân tích kiến trúc và đặc tả yêu cầu hệ thống}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Kiến trúc Hệ thống Vi dịch vụ (Microservices Architecture)}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Đặc tả Yêu cầu Chức năng Hệ thống (SRS)}{5}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Sơ đồ Ca Sử Dụng Tổng Quát (Use Case Diagram)}{9}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Sơ đồ Máy Trạng thái Vòng đời Chuyến đi (State Machine Diagram)}{10}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Sơ đồ Tuần tự Luồng Nghiệp vụ Đặt cọc và Thanh toán (Sequence Diagram)}{10}{section.2.5}%
-\contentsline {chapter}{\numberline {3}KẾ HOẠCH KIỂM THỬ PHẦN MỀM THEO CHUẨN IEEE 829}{12}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Kế hoạch kiểm thử phần mềm theo chuẩn IEEE 829}{12}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Mô hình Kim Tự Tháp Kiểm Thử Tự Động (Testing Pyramid)}{12}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Phạm vi Kiểm thử (Test Scope)}{12}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Môi trường Kiểm thử và Công cụ Triển khai (Test Environment \& Tooling)}{13}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Tiêu chuẩn Bắt đầu và Kết thúc Kiểm thử (Entry \& Exit Criteria)}{14}{section.3.4}%
-\contentsline {chapter}{\numberline {4}THIẾT KẾ BỘ CA KIỂM THỬ CHỨC NĂNG CHI TIẾT (FUNCTIONAL TEST CASES)}{15}{chapter.4}%
+\contentsline {section}{\numberline {3.4}Tiêu chuẩn Bắt đầu và Kết thúc Kiểm thử (Entry \& Exit Criteria)}{13}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Thiết kế bộ ca kiểm thử chức năng chi tiết}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Phân tích Phân vùng tương đương (EP) và Giá trị biên (BVA)}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Bảng Quyết định (Decision Table) cho Thuật toán Tính Giá}{16}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Bảng Quyết định Chính sách Hủy Chuyến \& Bồi Cọc}{16}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Danh sách 68 Ca Kiểm thử Chức năng Chi tiết Toàn diện}{16}{section.4.4}%
-\contentsline {chapter}{\numberline {5}KIỂM THỬ HỘP TRẮNG VÀ SƠ ĐỒ DÒNG ĐIỀU KHIỂN (CFG)}{29}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Hàm nghiệp vụ Tính toán Giá cước}{29}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Sơ đồ Dòng Điều Khiển (CFG) và Tính toán Độ Phức Tạp $V(G)$}{30}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Tập 7 Đường đi Cơ sở Độc lập (Basis Paths) và Kết quả Thực thi}{30}{section.5.3}%
-\contentsline {chapter}{\numberline {6}ĐÁNH GIÁ CHẤT LƯỢNG PHẦN MỀM THEO TIÊU CHUẨN ISO/IEC 25010}{32}{chapter.6}%
-\contentsline {chapter}{\numberline {7}THIẾT KẾ KỊCH BẢN KIỂM THỬ TỰ ĐỘNG (AUTOMATION TESTING SUITE)}{34}{chapter.7}%
+\contentsline {section}{\numberline {4.2}Bảng Quyết định (Decision Table) cho Thuật toán Tính Giá}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Bảng Quyết định Chính sách Hủy Chuyến \& Bồi Cọc}{15}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Danh sách 68 Ca Kiểm thử Chức năng Chi tiết Toàn diện}{15}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Kiểm thử hộp trắng và sơ đồ dòng điều khiển (CFG)}{30}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Hàm nghiệp vụ Tính toán Giá cước}{30}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Sơ đồ Dòng Điều Khiển (CFG) và Tính toán Độ Phức Tạp $V(G)$}{31}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Tập 7 Đường đi Cơ sở Độc lập (Basis Paths) và Kết quả Thực thi}{31}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Đánh giá chất lượng phần mềm theo tiêu chuẩn ISO/IEC 25010}{33}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Thiết kế kịch bản kiểm thử tự động}{34}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Kiểm thử RESTful API Tự động với Postman / Newman}{34}{section.7.1}%
 \contentsline {subsection}{\numberline {7.1.1}Các kịch bản kiểm thử API chính}{34}{subsection.7.1.1}%
 \contentsline {subsection}{\numberline {7.1.2}Kịch bản mã nguồn JavaScript Test Assertions trên Postman}{34}{subsection.7.1.2}%
@@ -40,13 +38,13 @@
 \contentsline {section}{\numberline {7.2}Kiểm thử Giao diện E2E Tự động với Python và Selenium WebDriver}{35}{section.7.2}%
 \contentsline {subsection}{\numberline {7.2.1}Mã nguồn kịch bản kiểm thử E2E (Selenium)}{35}{subsection.7.2.1}%
 \contentsline {subsection}{\numberline {7.2.2}Kết quả thực thi kiểm thử tự động}{37}{subsection.7.2.2}%
-\contentsline {chapter}{\numberline {8}QUẢN LÝ LỖI VÀ MA TRẬN TRUY XUẤT NGUỒN GỐC (RTM)}{38}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Quản lý lỗi và ma trận truy xuất nguồn gốc (RTM)}{38}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Quy trình Vòng đời Lỗi Phần mềm (Defect Life Cycle)}{38}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Báo cáo Lỗi Điển hình Phát hiện được (Defect Reports)}{38}{section.8.2}%
 \contentsline {section}{\numberline {8.3}Ma trận Truy xuất Nguồn gốc Yêu cầu (RTM) Toàn diện}{39}{section.8.3}%
 \contentsline {section}{\numberline {8.4}Thống kê và Đo lường Kết quả Kiểm thử}{40}{section.8.4}%
-\contentsline {chapter}{\numberline {9}KẾ LUẬN VÀ ĐỀ XUẤT CẢI TIẾN HỆ THỐNG}{42}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Kết luận và đề xuất cải tiến hệ thống}{42}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Tổng kết Kết quả Thực hiện Đề tài của Nhóm 8}{42}{section.9.1}%
 \contentsline {section}{\numberline {9.2}Đánh giá Đóng góp và Bài học Kinh nghiệm của Nhóm 8}{43}{section.9.2}%
 \contentsline {section}{\numberline {9.3}Khuyến nghị Cải tiến Nền tảng Mioto.vn}{44}{section.9.3}%
-\contentsline {chapter}{TÀI LIỆU THAM KHẢO}{45}{chapter*.7}%
+\contentsline {chapter}{Tài liệu tham khảo}{45}{chapter*.5}%
