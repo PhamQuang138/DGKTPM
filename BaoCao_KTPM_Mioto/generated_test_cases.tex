@@ -1,8 +1,9 @@
-\section{Danh sách Ca Kiểm thử Chức năng Chi tiết Toàn diện}
+\section{Danh sách 68 Ca Kiểm thử Chức năng Chi tiết Toàn diện}
 Dưới đây là bảng đặc tả chi tiết của toàn bộ các ca kiểm thử chức năng được thiết kế cho hệ sinh thái Mioto.vn, chuẩn hóa theo chuẩn quốc tế IEEE 829:
 
-\begin{longtable}{p{2.2cm}p{4cm}p{5.5cm}p{4cm}}
-\caption{Danh mục chi tiết các ca kiểm thử chức năng hệ thống Mioto.vn} \label{tab:full_test_cases} \\
+{\small
+\begin{longtable}{p{2.3cm}p{3.8cm}p{4.8cm}p{4.2cm}}
+\caption{Danh mục chi tiết 68 ca kiểm thử chức năng hệ thống Mioto.vn} \label{tab:full_test_cases} \\
 \toprule
 \textbf{Mã TC} & \textbf{Tên ca kiểm thử} & \textbf{Các bước \& Dữ liệu (Steps)} & \textbf{Kỳ vọng (Expected Result)} \\
 \midrule
@@ -14,7 +15,7 @@ Dưới đây là bảng đặc tả chi tiết của toàn bộ các ca kiểm 
 \midrule
 \endhead
 
-\midrule \multicolumn{4}{r}{{Còn tiếp ở trang sau...}} \\
+\midrule \multicolumn{4}{r}{{\slshape Còn tiếp ở trang sau...}} \\
 \endfoot
 
 \bottomrule
@@ -27,14 +28,14 @@ Dưới đây là bảng đặc tả chi tiết của toàn bộ các ca kiểm 
 \textbf{TC-AUTH-05} & Đăng ký với SĐT đã tồn tại trên hệ thống & 1. Nhập SĐT đã có tài khoản. 2. Bấm "Tiếp tục". & Thông báo lỗi: "Số điện thoại này đã được đăng ký. Vui lòng đăng nhập hoặc chọn Quên mật khẩu". \\ \midrule
 \textbf{TC-AUTH-06} & Nhập đúng mã OTP trong thời hạn hiệu lực & 1. Nhập chính xác 6 chữ số OTP. 2. Bấm "Xác nhận". & Hệ thống xác thực thành công, chuyển sang bước "Thiết lập mật khẩu". \\ \midrule
 \textbf{TC-AUTH-07} & Nhập sai mã OTP & 1. Nhập mã OTP không khớp. 2. Bấm "Xác nhận". & Báo lỗi: "Mã xác thực không chính xác. Vui lòng thử lại (Còn 4 lần thử)". \\ \midrule
-\textbf{TC-AUTH-08} & Nhập mã OTP khi đã hết hạn (>60 giây) & 1. Chờ đồng hồ về 00:00. 2. Nhập mã OTP. 3. Bấm "Xác nhận". & Báo lỗi: "Mã OTP đã hết hiệu lực. Vui lòng bấm 'Gửi lại mã'". \\ \midrule
+\textbf{TC-AUTH-08} & Nhập mã OTP khi đã hết hạn ($>$60 giây) & 1. Chờ đồng hồ về 00:00. 2. Nhập mã OTP. 3. Bấm "Xác nhận". & Báo lỗi: "Mã OTP đã hết hiệu lực. Vui lòng bấm 'Gửi lại mã'". \\ \midrule
 \textbf{TC-AUTH-09} & Nhập sai mã OTP liên tiếp 5 lần & 1. Nhập mã sai 5 lần liên tiếp. & Hệ thống khóa gửi/xác thực OTP trên SĐT này trong vòng 15 phút để chống Brute-force. \\ \midrule
 \textbf{TC-AUTH-10} & Thiết lập mật khẩu thỏa mãn chính sách bảo mật & 1. Nhập mật khẩu đủ 8 ký tự, có hoa, thường, số, ký tự đặc biệt. 2. Nhập lại mật khẩu khớp. 3. Bấm "Hoàn tất". & Hệ thống thông báo đăng ký thành công, tự động đăng nhập và chuyển về Trang chủ. \\ \midrule
-\textbf{TC-AUTH-11} & Thiết lập mật khẩu quá ngắn (< 8 ký tự) & 1. Nhập mật khẩu 5 ký tự. 2. Bấm "Hoàn tất". & Báo lỗi: "Mật khẩu phải chứa ít nhất 8 ký tự". Nút bấm bị vô hiệu hóa. \\ \midrule
+\textbf{TC-AUTH-11} & Thiết lập mật khẩu quá ngắn ($<$ 8 ký tự) & 1. Nhập mật khẩu 5 ký tự. 2. Bấm "Hoàn tất". & Báo lỗi: "Mật khẩu phải chứa ít nhất 8 ký tự". Nút bấm bị vô hiệu hóa. \\ \midrule
 \textbf{TC-AUTH-12} & Đăng nhập với SĐT và Mật khẩu chính xác & 1. Truy cập trang Đăng nhập. 2. Nhập SĐT và mật khẩu đúng. 3. Bấm "Đăng nhập". & Đăng nhập thành công, thanh tiêu đề hiển thị tên người dùng và ảnh đại diện, lưu JWT an toàn. \\ \midrule
 \textbf{TC-AUTH-13} & Đăng nhập sai mật khẩu liên tiếp 5 lần & 1. Nhập sai mật khẩu liên tiếp 5 lần. & Hệ thống tạm khóa tài khoản trong 30 phút hoặc yêu cầu giải mã CAPTCHA để chống tấn công từ điển. \\ \midrule
 \textbf{TC-AUTH-14} & Đăng nhập nhanh qua Google OAuth 2.0 & 1. Bấm nút "Đăng nhập với Google". 2. Chọn tài khoản Google trong popup. 3. Cho phép quyền truy cập cơ bản. & Đăng nhập thành công, hệ thống tự động liên kết email và chuyển về trang trước đó. \\ \midrule
-\textbf{TC-AUTH-15} & Tải lên ảnh GPLX hợp lệ và gửi duyệt KYC & 1. Vào mục "Hồ sơ của tôi" -> "Giấy phép lái xe". 2. Tải 2 ảnh GPLX chuẩn. 3. Nhập số và ngày cấp. 4. Bấm "Gửi duyệt". & Hệ thống báo: "Hồ sơ GPLX của bạn đã được gửi thành công và đang chờ xét duyệt trong vòng 24h". Trạng thái đổi thành "Chờ duyệt". \\ \midrule
+\textbf{TC-AUTH-15} & Tải lên ảnh GPLX hợp lệ và gửi duyệt KYC & 1. Vào mục "Hồ sơ của tôi" $\to$ "Giấy phép lái xe". 2. Tải 2 ảnh GPLX chuẩn. 3. Nhập số và ngày cấp. 4. Bấm "Gửi duyệt". & Hệ thống báo: "Hồ sơ GPLX của bạn đã được gửi thành công và đang chờ xét duyệt trong vòng 24h". Trạng thái đổi thành "Chờ duyệt". \\ \midrule
 \textbf{TC-AUTH-16} & Tải lên ảnh bằng lái xe máy (Hạng A1/A2) & 1. Tải ảnh bằng lái xe máy A1. 2. Chọn hạng A1. 3. Bấm "Gửi duyệt". & Báo lỗi: "Chỉ chấp nhận Giấy phép lái xe ô tô hạng B1, B2, C, D, E, FC. Bằng lái xe máy không đủ điều kiện thuê ô tô". \\ \midrule
 \textbf{TC-AUTH-17} & Nhập số GPLX đã hết hạn sử dụng & 1. Nhập thông tin bằng lái đã hết hạn. 2. Bấm "Gửi duyệt". & Báo lỗi: "Giấy phép lái xe đã hết hạn sử dụng. Vui lòng cập nhật GPLX còn hiệu lực để tiếp tục". \\ \midrule
 \textbf{TC-SRCH-01} & Tìm kiếm xe theo Tỉnh/Thành phố hợp lệ & 1. Nhập "Hồ Chí Minh" vào ô tìm kiếm. 2. Chọn gợi ý "Thành phố Hồ Chí Minh, Việt Nam" từ danh sách autocomplete. 3. Bấm "Tìm xe". & Chuyển đến trang danh sách xe `/city/hochiminh` hoặc `/find/filter`, hiển thị toàn bộ xe đang hoạt động tại khu vực TP.HCM. \\ \midrule
@@ -71,13 +72,13 @@ Dưới đây là bảng đặc tả chi tiết của toàn bộ các ca kiểm 
 \textbf{TC-BOOK-10} & Thanh toán cọc bằng Số dư Ví Mioto (Mioto Wallet) & 1. Chọn phương thức "Ví Mioto". 2. Nhập mã PIN ví. 3. Bấm "Thanh toán". & Khấu trừ 800.000đ trong ví Mioto, số dư mới còn 700.000đ. Đơn chuyển trạng thái "Đã đặt cọc" ngay lập tức mà không qua cổng trung gian. \\ \midrule
 \textbf{TC-BOOK-11} & Người dùng hủy ngang khi đang ở trang thanh toán cổng trung gian & 1. Bấm nút hủy trên cổng Alepay. & Hệ thống nhận callback mã hủy, hiển thị thông báo: "Giao dịch chưa hoàn tất. Bạn vẫn còn 45 phút để hoàn thành việc đặt cọc". \\ \midrule
 \textbf{TC-TRIP-01} & Thực hiện Check-in bàn giao xe thành công với đủ ảnh & 1. Hai bên gặp mặt, chủ xe/khách mở mục Check-in. 2. Chụp đủ 4 góc ngoại thất và đồng hồ xe. 3. Nhập số ODO ban đầu: 25000. 4. Chọn mức nhiên liệu: Đầy bình. 5. Hai bên ký xác nhận trên màn hình cảm ứng. & Hệ thống lưu trữ toàn bộ ảnh lên Cloud Storage, tạo biên bản bàn giao điện tử. Trạng thái chuyến đi đổi thành "Đang diễn ra" (In Progress). \\ \midrule
-\textbf{TC-TRIP-02} & Check-in thiếu ảnh ngoại thất bắt buộc (< 4 ảnh) & 1. Chụp 2 ảnh. 2. Cố gắng bấm nút "Ký xác nhận bàn giao". & Nút bấm bị mờ hoặc báo lỗi: "Vui lòng chụp đầy đủ ít nhất 4 góc xe (đầu, đuôi, sườn trái, sườn phải) để bảo vệ quyền lợi". \\ \midrule
+\textbf{TC-TRIP-02} & Check-in thiếu ảnh ngoại thất bắt buộc ($<$ 4 ảnh) & 1. Chụp 2 ảnh. 2. Cố gắng bấm nút "Ký xác nhận bàn giao". & Nút bấm bị mờ hoặc báo lỗi: "Vui lòng chụp đầy đủ ít nhất 4 góc xe (đầu, đuôi, sườn trái, sườn phải) để bảo vệ quyền lợi". \\ \midrule
 \textbf{TC-TRIP-03} & Check-out trả xe đúng giờ, không vượt km, xăng hoàn trả đủ & 1. Chụp ảnh xe lúc trả. 2. Nhập ODO kết thúc: 25500. 3. Xác nhận xăng đầy bình. 4. Bấm "Hoàn thành chuyến đi". & Hệ thống ghi nhận số km di chuyển là 500km ($\le 600$km). Phụ phí vượt km: 0đ. Phụ phí bù xăng: 0đ. Khách thanh toán 70\% tiền thuê còn lại. \\ \midrule
 \textbf{TC-TRIP-04} & Check-out có vượt hạn mức quãng đường (Over-mileage) & 1. Nhập ODO kết thúc: 20450. 2. Hệ thống tự động tính chênh lệch. & Hệ thống tính toán chính xác phần vượt: $(450 - 300) \times 3.000 = 450.000$đ. Tự động thêm dòng "Phụ phí vượt quãng đường: 450.000đ" vào hóa đơn quyết toán. \\ \midrule
 \textbf{TC-TRIP-05} & Check-out thiếu xăng so với mức ban đầu & 1. Chọn mức xăng khi trả: 4/8 vạch. 2. Xác nhận tình trạng. & Hệ thống tính phụ phí bù nhiên liệu: $25 \times 24.000 = 600.000$đ cộng vào hóa đơn thanh toán cuối cùng. \\ \midrule
 \textbf{TC-TRIP-06} & Check-out trả xe trễ hạn (Over-time surcharge) & 1. Bấm check-out lúc 20:30. 2. Hệ thống so sánh với giờ hẹn trên hợp đồng. & Hệ thống phát hiện trễ 2.5 giờ, tự động tính phụ phí quá giờ: $2.5 \times 100.000 = 250.000$đ và hiển thị trên bảng kê quyết toán. \\ \midrule
 \textbf{TC-TRIP-07} & Áp dụng phụ phí vệ sinh xe và phụ phí khử mùi thuốc lá & 1. Chủ xe chọn tích vào "Xe cần vệ sinh" và "Xe có mùi thuốc lá". 2. Tải ảnh minh chứng. 3. Gửi yêu cầu phụ phí. & Hệ thống cộng thêm 400.000đ vào chi phí phát sinh và yêu cầu khách xác nhận thanh toán. \\ \midrule
-\textbf{TC-CANC-01} & Khách hủy chuyến trước > 7 ngày (Quy tắc CR-01) & 1. Khách vào chi tiết chuyến đi. 2. Bấm "Hủy chuyến". 3. Chọn lý do hủy. 4. Xác nhận hủy. & - Trạng thái đổi thành "Đã hủy bởi khách". - Thông báo: "Bạn được hoàn lại 100\% tiền cọc (1.000.000đ)". - Tiền được hoàn về Ví Mioto hoặc thẻ gốc trong 3-5 ngày làm việc. - Mở lại lịch trống cho xe. \\ \midrule
+\textbf{TC-CANC-01} & Khách hủy chuyến trước $>$ 7 ngày (Quy tắc CR-01) & 1. Khách vào chi tiết chuyến đi. 2. Bấm "Hủy chuyến". 3. Chọn lý do hủy. 4. Xác nhận hủy. & - Trạng thái đổi thành "Đã hủy bởi khách". - Thông báo: "Bạn được hoàn lại 100\% tiền cọc (1.000.000đ)". - Tiền được hoàn về Ví Mioto hoặc thẻ gốc trong 3-5 ngày làm việc. - Mở lại lịch trống cho xe. \\ \midrule
 \textbf{TC-CANC-02} & Khách hủy chuyến cách giờ nhận xe 3 ngày (Quy tắc CR-02) & 1. Bấm "Hủy chuyến". 2. Xem chính sách bồi cọc hiển thị trên popup. 3. Bấm xác nhận hủy. & - Trạng thái đổi thành "Đã hủy bởi khách". - Khách được hoàn 50\% tiền cọc (500.000đ). - 500.000đ còn lại được chuyển vào ví chủ xe làm tiền bồi thường giữ lịch. \\ \midrule
 \textbf{TC-CANC-03} & Khách hủy chuyến gấp dưới 24 giờ trước giờ nhận xe (Quy tắc CR-03) & 1. Bấm "Hủy chuyến". 2. Xác nhận hủy gấp. & - Thông báo: "Theo chính sách, bạn sẽ mất 100\% tiền cọc (1.000.000đ) do hủy chuyến trong vòng 24 giờ". - Không hoàn tiền cọc. - Chuyển tiền đền bù cho chủ xe. \\ \midrule
 \textbf{TC-CANC-04} & Kiểm tra giá trị biên thời gian hủy: Đúng 24 giờ 00 phút & 1. Bấm hủy tại mốc đúng 24h00m. & Hệ thống áp dụng chính sách hoàn 50\% cọc (thuộc biên trên của khung 7 ngày - 24h). \\ \midrule
@@ -89,3 +90,4 @@ Dưới đây là bảng đặc tả chi tiết của toàn bộ các ca kiểm 
 \textbf{TC-RATE-05} & Nhập nội dung bình luận rỗng khi chỉ chấm sao & 1. Chọn 4 sao. 2. Không nhập text. 3. Bấm "Gửi đánh giá". & Hệ thống vẫn cho phép gửi thành công (nội dung văn bản là tùy chọn, điểm sao là bắt buộc). \\ \midrule
 \textbf{TC-RATE-06} & Tính toán cập nhật điểm sao trung bình của xe & 1. Gửi đánh giá 5 sao. 2. Tải lại trang chi tiết xe. & Điểm trung bình mới được tính chính xác: $(5 + 5 + 4 + 4 + 5) / 5 = 4.6$ sao. Số lượt đánh giá tăng lên 5 lượt. \\ \midrule
 \end{longtable}
+}

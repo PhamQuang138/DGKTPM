@@ -64,3 +64,4 @@ with open('BaoCao_KTPM_Mioto/generated_rtm_table.tex', 'w', encoding='utf-8') as
     out.writelines(latex)
 
 print(f"Generated {len(rtm_rows)} RTM rows to BaoCao_KTPM_Mioto/generated_rtm_table.tex")
+

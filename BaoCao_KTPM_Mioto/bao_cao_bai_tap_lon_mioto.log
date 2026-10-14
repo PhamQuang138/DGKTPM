@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 10:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1344,472 +1344,492 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 }] [3]
 Ch\uhorn \ohorn ng 2.
 (generated_srs_table.tex
-Overfull \hbox (74.22633pt too wide) in alignment at lines 1--6
+Overfull \hbox (40.0831pt too wide) in alignment at lines 2--7
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (74.22633pt too wide) in alignment at lines 6--12
+Overfull \hbox (40.0831pt too wide) in alignment at lines 7--13
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (74.22633pt too wide) in alignment at lines 12--15
+Overfull \hbox (40.0831pt too wide) in alignment at lines 13--16
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (74.22633pt too wide) in alignment at lines 15--18
+Overfull \hbox (40.0831pt too wide) in alignment at lines 16--19
  [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\T5/lmr/m/n/12 ^^^«ng kþ t i
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-\T5/lmr/m/n/12 kho£n b¬ng
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 20--20
-[]|\T5/lmr/m/n/12 Cho ph²p ng÷íi dòng
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 20--20
-\T5/lmr/m/n/12 nhªp S^^^T Vi»t Nam
- []
-
-
-Underfull \hbox (badness 1314) in paragraph at lines 20--20
-[]|\T5/lmr/m/n/12 - S^^^T hñp l» chu©n
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 20--20
-\T5/lmr/m/n/12 E.164 (10 chú sè). -
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 21--21
-[]|\T5/lmr/m/n/12 X¡c thüc OTP
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\T5/lmr/m/n/10.95 ^^^«ng kþ t i
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\T5/lmr/m/n/10.95 kho£n b¬ng
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 21--21
+[]|\T5/lmr/m/n/10.95 Cho ph²p ng÷íi dòng
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 21--21
+\T5/lmr/m/n/10.95 nhªp S^^^T Vi»t Nam
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 22--22
-[]|\T5/lmr/m/n/12 ^^^«ng nhªp t i
+Underfull \hbox (badness 1325) in paragraph at lines 22--22
+[]|\T5/lmr/m/n/10.95 X¡c thüc OTP
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 22--22
-[]|\T5/lmr/m/n/12 Cho ph²p ^^_«ng nhªp
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Underfull \hbox (badness 5245) in paragraph at lines 23--23
-[]|\T5/lmr/m/n/12 X¡c thüc /
+Underfull \hbox (badness 1087) in paragraph at lines 22--22
+\T5/lmr/m/n/10.95 chú th÷íng v  sè. -
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\T5/lmr/m/n/12 ^^^ành danh
+[]|\T5/lmr/bx/n/10.95 REQ-
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 23--23
+[]|\T5/lmr/m/n/10.95 ^^^«ng nhªp t i
+ []
+
+
+Underfull \hbox (badness 4254) in paragraph at lines 23--23
+[]|\T5/lmr/m/n/10.95 Cho ph²p ^^_«ng nhªp
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\T5/lmr/m/n/12 GPLX (B¬ng
+[]|\T5/lmr/m/n/10.95 - T¤o JWT to-ken
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 23--23
-\T5/lmr/m/n/12 l¡i xe h¤ng B1/B2/C
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\T5/lmr/m/n/10.95 l÷u trú b£o mªt
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 23--23
-[]|\T5/lmr/m/n/12 - H» thèng kiºm tra
- []
-
-
-Underfull \hbox (badness 2368) in paragraph at lines 23--23
-\T5/lmr/m/n/12 tròng l°p sè GPLX.
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 23--23
-\T5/lmr/m/n/12 ^^_ëng duy»t qua API
+Underfull \hbox (badness 1783) in paragraph at lines 23--23
+\T5/lmr/m/n/10.95 (HttpOnly cookie). -
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 24--24
+[]|\T5/lmr/m/n/10.95 X¡c thüc /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]|\T5/lmr/m/n/12 Ng÷íi dòng nhªp
+[]|\T5/lmr/m/n/10.95 ^^^ành danh
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\T5/lmr/m/n/12 t¶n T¿nh/Th nh phè,
+\T5/lmr/m/n/10.95 GPLX (B¬ng
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\T5/lmr/m/n/12 Quªn/Huy»n, t¶n ^^_àa
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 24--24
-\T5/lmr/m/n/12 danh ho°c chån và tr½
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]|\T5/lmr/m/n/12 - T½ch hñp Places
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\T5/lmr/m/n/12 Au-to-com-plete cõa
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\T5/lmr/m/n/12 Google/HERE Maps.
+Underfull \hbox (badness 1173) in paragraph at lines 24--24
+\T5/lmr/m/n/10.95 tròng l°p sè GPLX.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]|\T5/lmr/m/n/12 T¼m xe theo
+[]|\T5/lmr/m/n/10.95 Ng÷íi dòng nhªp
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 25--25
-[]|\T5/lmr/m/n/12 - Thíi gian nhªn xe
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\T5/lmr/m/n/10.95 t¶n T¿nh/Th nh phè,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\T5/lmr/m/n/10.95 Quªn/Huy»n, t¶n ^^_àa
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 25--25
+\T5/lmr/m/n/10.95 danh ho°c chån và tr½
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\T5/lmr/m/n/10.95 - T½ch hñp Places
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\T5/lmr/m/n/10.95 Au-to-com-plete cõa
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 25--25
+\T5/lmr/m/n/10.95 Google/HERE Maps.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T5/lmr/m/n/10.95 T¼m xe theo
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 26--26
+\T5/lmr/m/n/10.95 ph£i sau thíi ^^_iºm
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 27--27
-[]|\T5/lmr/m/n/12 Låc t½nh n«ng
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-[]|\T5/lmr/m/n/12 T½nh ^^_ìn gi¡
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 28--28
-[]|\T5/lmr/m/n/12 ^^^ìn gi¡ ni¶m y¸t cõa
+Underfull \hbox (badness 3815) in paragraph at lines 28--28
+[]|\T5/lmr/m/n/10.95 Låc t½nh n«ng
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\T5/lmr/m/n/12 Phö ph½ cuèi
+[]|\T5/lmr/m/n/10.95 T½nh ^^_ìn gi¡
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 29--29
+[]|\T5/lmr/m/n/10.95 ^^^ìn gi¡ ni¶m y¸t cõa
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Underfull \hbox (badness 7667) in paragraph at lines 30--30
-[]|\T5/lmr/m/n/12 Ph½ b£o hiºm
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 30--30
-[]|\T5/lmr/m/n/12 Tü ^^_ëng t½nh ph½ b£o
- []
-
-
-Underfull \hbox (badness 6944) in paragraph at lines 30--30
-\T5/lmr/m/n/12 t¡c MIC/VNI), thæng
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 30--30
-[]|\T5/lmr/m/n/12 - Kh¡ch thu¶ câ thº
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--30
-\T5/lmr/m/n/12 xem quy·n lñi bçi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-\T5/lmr/m/n/12 th÷íng: mùc kh§u
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-\T5/lmr/m/n/12 trø bçi th÷íng tèi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-\T5/lmr/m/n/12 ^^_a (thæng th÷íng
+[]|\T5/lmr/m/n/10.95 Phö ph½ cuèi
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 31--31
-\T5/lmr/m/n/12 kh¡ch: Mi¹n ph½ trong
+Underfull \hbox (badness 7851) in paragraph at lines 31--31
+[]|\T5/lmr/m/n/10.95 Ph½ b£o hiºm
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 31--31
-\T5/lmr/m/n/12 b¡n k½nh 0-5km; v÷ñt
+Underfull \hbox (badness 1067) in paragraph at lines 31--31
+[]|\T5/lmr/m/n/10.95 Tü ^^_ëng t½nh ph½ b£o
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 31--31
-\T5/lmr/m/n/12 qu¡ t½nh tø 10.000^^_ -
+Underfull \hbox (badness 7168) in paragraph at lines 31--31
+\T5/lmr/m/n/10.95 t¡c MIC/VNI), thæng
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 31--31
-[]|\T5/lmr/m/n/12 - Kho£ng c¡ch ^^_÷ñc
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 31--31
-\T5/lmr/m/n/12 t½nh to¡n ch½nh x¡c
+Underfull \hbox (badness 7064) in paragraph at lines 31--31
+\T5/lmr/m/n/10.95 xem quy·n lñi bçi
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\T5/lmr/m/n/12 theo API lë tr¼nh
+\T5/lmr/m/n/10.95 th÷íng: mùc kh§u
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 31--31
+\T5/lmr/m/n/10.95 trø bçi th÷íng tèi
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\T5/lmr/m/n/12 ^^_÷íng bë (Rout-ing
+\T5/lmr/m/n/10.95 ^^_a (thæng th÷íng
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 32--32
+\T5/lmr/m/n/10.95 kh¡ch: Mi¹n ph½ trong
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 32--32
+\T5/lmr/m/n/10.95 b¡n k½nh 0-5km; v÷ñt
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 32--32
+\T5/lmr/m/n/10.95 qu¡ t½nh tø 10.000^^_ -
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 32--32
+[]|\T5/lmr/m/n/10.95 - Kho£ng c¡ch ^^_÷ñc
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 32--32
+\T5/lmr/m/n/10.95 t½nh to¡n ch½nh x¡c
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\T5/lmr/m/n/12 p döng
+\T5/lmr/m/n/10.95 theo API lë tr¼nh
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\T5/lmr/m/n/12 M¢ gi£m gi¡
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\T5/lmr/m/n/12 Cho ph²p nhªp m¢
- []
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 32--32
-\T5/lmr/m/n/12 khuy¸n m¢i, h» thèng
+\T5/lmr/m/n/10.95 ^^_÷íng bë (Rout-ing
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 33--33
-[]|\T5/lmr/m/n/12 Kh¡ch chån ^^_iºm giao
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\T5/lmr/m/n/10.95 p döng
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T5/lmr/m/n/10.95 M¢ gi£m gi¡
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\T5/lmr/m/n/10.95 Cho ph²p nhªp m¢
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 33--33
+\T5/lmr/m/n/10.95 khuy¸n m¢i, h» thèng
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 34--34
-[]|\T5/lmr/m/n/12 Ph¶ duy»t y¶u
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 34--34
-\T5/lmr/m/n/12 qua App/SMS/Web v 
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 34--34
-[]|\T5/lmr/m/n/12 - N¸u qu¡ 60 phót
- []
-
-
-Underfull \hbox (badness 4303) in paragraph at lines 34--34
-\T5/lmr/m/n/12 khæng ph£n hçi, h»
- []
-
-
-Underfull \hbox (badness 6428) in paragraph at lines 34--34
-\T5/lmr/m/n/12 thèng tü ^^_ëng hõy
+Underfull \hbox (badness 1348) in paragraph at lines 34--34
+[]|\T5/lmr/m/n/10.95 Kh¡ch chån ^^_iºm giao
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Overfull \hbox (11.59444pt too wide) in paragraph at lines 35--35
-\T5/lmr/m/n/12 cåc"(Booked/Confirmed).| 
+Underfull \hbox (badness 2564) in paragraph at lines 35--35
+[]|\T5/lmr/m/n/10.95 Ph¶ duy»t y¶u
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 35--35
+\T5/lmr/m/n/10.95 qua App/SMS/Web v 
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 35--35
+[]|\T5/lmr/m/n/10.95 - N¸u qu¡ 60 phót
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 35--35
+\T5/lmr/m/n/10.95 khæng ph£n hçi, h»
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 35--35
+\T5/lmr/m/n/10.95 thèng tü ^^_ëng hõy
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 36--36
+[]|\T5/lmr/m/n/10.95 - Hé trñ Th´ Quèc
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\T5/lmr/m/n/12 Qu£n lþ
- []
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 36--36
-[]|\T5/lmr/m/n/12 - Kþ hñp ^^_çng thu¶
- []
-
-
-Underfull \hbox (badness 1648) in paragraph at lines 36--36
-\T5/lmr/m/n/12 xe ^^_i»n tû tr¶n ùng
+\T5/lmr/m/n/10.95 t¸, Th´ ATM, V½
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--36
-\T5/lmr/m/n/12 chuy¸n: "^^^ang di¹n
+\T5/lmr/m/n/10.95 MoMo, VN-Pay, V½
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 36--36
+\T5/lmr/m/n/10.95 Mioto. - ^^^êi tr¤ng
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 36--36
+\T5/lmr/m/n/10.95 th¡i sang "^^^¢ ^^_°t
+ []
+
+
+Overfull \hbox (14.17073pt too wide) in paragraph at lines 36--36
+\T5/lmr/m/n/10.95 cåc"(Booked/Confirmed).| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]|\T5/lmr/m/n/12 Qu£n lþ
+[]|\T5/lmr/m/n/10.95 Qu£n lþ
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 37--37
-[]|\T5/lmr/m/n/12 Hai b¶n ^^_èi so¡t t¼nh
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 37--37
-\T5/lmr/m/n/12 tr¤ng xe khi k¸t thóc
+Underfull \hbox (badness 7415) in paragraph at lines 37--37
+\T5/lmr/m/n/10.95 chuy¸n: "^^^ang di¹n
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
-[]|\T5/lmr/m/n/12 Kh¡ch hõy
+[]|\T5/lmr/m/n/10.95 Qu£n lþ
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 38--38
+[]|\T5/lmr/m/n/10.95 Hai b¶n ^^_èi so¡t t¼nh
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 38--38
+\T5/lmr/m/n/10.95 tr¤ng xe khi k¸t thóc
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
-\T5/lmr/m/n/12 chuy¸n theo
+[]|\T5/lmr/m/n/10.95 - T½nh phö ph½
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 38--38
-\T5/lmr/m/n/12 quy ^^_ành trong ch½nh
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\T5/lmr/m/n/10.95 v÷ñt km (v½ dö
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 38--38
-\T5/lmr/m/n/12 d÷îi 24h: M§t 100%
+Underfull \hbox (badness 2573) in paragraph at lines 38--38
+\T5/lmr/m/n/10.95 3.000^^_/km n¸u v÷ñt
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 38--38
+\T5/lmr/m/n/10.95 qu¡ 300km/ng y). -
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 38--38
+\T5/lmr/m/n/10.95 n¸u mùc x«ng th§p
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\T5/lmr/m/n/12 Chõ xe hõy
+[]|\T5/lmr/m/n/10.95 Kh¡ch hõy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\T5/lmr/m/n/10.95 chuy¸n theo
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 39--39
+\T5/lmr/m/n/10.95 quy ^^_ành trong ch½nh
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 40--40
-\T5/lmr/m/n/12 nhªt v o ^^_iºm trung
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\T5/lmr/m/n/10.95 Chõ xe hõy
  []
 
 
-Overfull \hbox (74.22633pt too wide) in alignment at lines 18--41
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]|\T5/lmr/bx/n/10.95 REQ-
+ []
+
+
+Overfull \hbox (40.0831pt too wide) in alignment at lines 19--42
  [] [] [] [] [] 
  []
 
@@ -1835,8 +1855,83 @@ Overfull \hbox (3.09459pt too wide) in paragraph at lines 506--506
  []
 
 
-Overfull \hbox (167.20226pt too wide) in alignment at lines 523--523
-[][][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]|\T5/lmr/bx/n/10 ^^^i·u
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\T5/lmr/bx/n/10 ki»n /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\T5/lmr/bx/n/10 H nh
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]|\T5/lmr/bx/n/10 C1:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\T5/lmr/bx/n/10 Lo¤i
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\T5/lmr/bx/n/10 ng y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]|\T5/lmr/bx/n/10 C2:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\T5/lmr/bx/n/10 Kho£ng
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]|\T5/lmr/bx/n/10 A1:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\T5/lmr/bx/n/10 hiºm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]|\T5/lmr/bx/n/10 A4:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\T5/lmr/bx/n/10 Mùc
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\T5/lmr/bx/n/10 gi£m
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]|\T5/lmr/bx/n/10 A5:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\T5/lmr/bx/n/10 Ti·n
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 523--523
+\T5/lmr/bx/n/10 ^^_°t cåc
  []
 
 
@@ -1845,1136 +1940,1037 @@ Underfull \hbox (badness 1960) in paragraph at lines 540--540
  []
 
 (generated_test_cases.tex
-Underfull \hbox (badness 7851) in paragraph at lines 7--7
-[]|\T5/lmr/bx/n/12 C¡c b÷îc & Dú li»u
+Underfull \hbox (badness 2903) in paragraph at lines 8--8
+[]|\T5/lmr/bx/n/10.95 C¡c b÷îc & Dú li»u
  []
 
 
-Overfull \hbox (39.46404pt too wide) in alignment at lines 4--9
+Underfull \hbox (badness 2644) in paragraph at lines 8--9
+[]|\T5/lmr/bx/n/10.95 Ký vång (Ex-pected
+ []
+
+
+Overfull \hbox (22.39264pt too wide) in alignment at lines 5--10
  [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 13--13
-[]|\T5/lmr/bx/n/12 C¡c b÷îc & Dú li»u
+Underfull \hbox (badness 2903) in paragraph at lines 14--14
+[]|\T5/lmr/bx/n/10.95 C¡c b÷îc & Dú li»u
  []
 
 
-Overfull \hbox (39.46404pt too wide) in alignment at lines 9--15
+Underfull \hbox (badness 2644) in paragraph at lines 14--15
+[]|\T5/lmr/bx/n/10.95 Ký vång (Ex-pected
+ []
+
+
+Overfull \hbox (22.39264pt too wide) in alignment at lines 10--16
  [] [] [] [] 
  []
 
 
-Overfull \hbox (39.46404pt too wide) in alignment at lines 15--18
+Overfull \hbox (22.39264pt too wide) in alignment at lines 16--19
  [] [] [] [] 
  []
 
 
-Overfull \hbox (39.46404pt too wide) in alignment at lines 18--21
+Overfull \hbox (22.39264pt too wide) in alignment at lines 19--22
  [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 23--23
-\T5/lmr/m/n/12 gûi m¢ OTP th nh
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\T5/lmr/m/n/12 cæng, chuyºn sang
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 24--24
+\T5/lmr/m/n/10.95 m¢ OTP th nh cæng,
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 24--24
+\T5/lmr/m/n/10.95 chuyºn sang m n h¼nh
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 6316) in paragraph at lines 25--25
-[]|\T5/lmr/m/n/12 ^^^«ng kþ vîi S^^^T
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 25--25
-\T5/lmr/m/n/12 ph£i bao gçm ^^_óng
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 2922) in paragraph at lines 27--27
-[]|\T5/lmr/m/n/12 Thæng b¡o léi: "Sè
- []
-
-
-Underfull \hbox (badness 6268) in paragraph at lines 27--27
-\T5/lmr/m/n/12 ^^_«ng kþ. Vui láng
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 28--28
-[]|\T5/lmr/m/n/12 H» thèng x¡c thüc
+Underfull \hbox (badness 2556) in paragraph at lines 28--28
+[]|\T5/lmr/m/n/10.95 1. Nhªp S^^^T ^^_¢ câ t i
  []
 
 
-Underfull \hbox (badness 4492) in paragraph at lines 28--28
-\T5/lmr/m/n/12 th nh cæng, chuyºn
+Underfull \hbox (badness 4899) in paragraph at lines 28--28
+\T5/lmr/m/n/10.95 ho°c chån Qu¶n mªt
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 30--30
+[]|\T5/lmr/m/n/10.95 1. Nhªp m¢ OTP khæng
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 30--30
+\T5/lmr/m/n/10.95 khæng ch½nh x¡c. Vui
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]|\T5/lmr/m/n/12 H» thèng khâa
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\T5/lmr/m/n/12 gûi/x¡c thüc OTP
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 32--32
-[]|\T5/lmr/m/n/12 Thi¸t lªp mªt kh©u
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 33--33
-[]|\T5/lmr/m/n/12 Thi¸t lªp mªt kh©u
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 33--33
-[]|\T5/lmr/m/n/12 B¡o léi: "Mªt kh©u
+Underfull \hbox (badness 1715) in paragraph at lines 33--33
+[]|\T5/lmr/m/n/10.95 Thi¸t lªp mªt kh©u
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]|\T5/lmr/m/n/12 ^^^«ng nhªp th nh
- []
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 34--34
-\T5/lmr/m/n/12 cæng, thanh ti¶u ^^_·
- []
-
-
-Underfull \hbox (badness 5077) in paragraph at lines 34--34
-\T5/lmr/m/n/12 hiºn thà t¶n ng÷íi
+Underfull \hbox (badness 1715) in paragraph at lines 34--34
+[]|\T5/lmr/m/n/10.95 Thi¸t lªp mªt kh©u
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 35--35
-[]|\T5/lmr/m/n/12 ^^^«ng nhªp sai mªt
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\T5/lmr/bx/n/12 TC-
+Underfull \hbox (badness 3068) in paragraph at lines 35--35
+[]|\T5/lmr/m/n/10.95 1. Truy cªp trang ^^^«ng
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\T5/lmr/m/n/12 ^^^«ng nhªp th nh
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
-Underfull \hbox (badness 6047) in paragraph at lines 36--36
-\T5/lmr/m/n/12 cæng, h» thèng tü
+Underfull \hbox (badness 2662) in paragraph at lines 36--36
+[]|\T5/lmr/m/n/10.95 ^^^«ng nhªp sai mªt
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 36--36
+\T5/lmr/m/n/10.95 kho£n trong 30 phót
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 36--36
+\T5/lmr/m/n/10.95 ho°c y¶u c¦u gi£i m¢
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 2922) in paragraph at lines 37--37
-[]|\T5/lmr/m/n/12 H» thèng b¡o: "Hç
- []
-
-
-Underfull \hbox (badness 4995) in paragraph at lines 37--37
-\T5/lmr/m/n/12 sì GPLX cõa b¤n
- []
-
-
-Underfull \hbox (badness 3646) in paragraph at lines 37--37
-\T5/lmr/m/n/12 ^^_¢ ^^_÷ñc gûi th nh
- []
-
-
-Underfull \hbox (badness 7722) in paragraph at lines 37--37
-\T5/lmr/m/n/12 cæng v  ^^_ang chí
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
-Underfull \hbox (badness 3884) in paragraph at lines 38--38
-[]|\T5/lmr/m/n/12 B¡o léi: "Ch¿ ch§p
+Underfull \hbox (badness 1210) in paragraph at lines 38--38
+[]|\T5/lmr/m/n/10.95 H» thèng b¡o: "Hç sì
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 38--38
+\T5/lmr/m/n/10.95 24h". Tr¤ng th¡i ^^_êi
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 39--39
-[]|\T5/lmr/m/n/12 B¡o léi: "Gi§y ph²p
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 39--39
-\T5/lmr/m/n/12 döng. Vui láng cªp
+Underfull \hbox (badness 2065) in paragraph at lines 39--39
+\T5/lmr/m/n/10.95 FC. B¬ng l¡i xe m¡y
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 5548) in paragraph at lines 40--40
-[]|\T5/lmr/m/n/12 T¼m ki¸m xe theo
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 40--40
-[]|\T5/lmr/m/n/12 1. Nhªp "Hç Ch½ Minh"v o
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T5/lmr/m/n/12 Chuyºn ^^_¸n trang
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T5/lmr/m/n/12 danh s¡ch xe
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T5/lmr/m/n/12 `/city/hochiminh`
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T5/lmr/m/n/12 ho°c `/find/filter`,
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 40--40
-\T5/lmr/m/n/12 ^^_ang ho¤t ^^_ëng t¤i
+[]|\T5/lmr/bx/n/10.95 TC-AUTH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--41
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
+ []
+
+
+Underfull \hbox (badness 7362) in paragraph at lines 41--41
+[]|\T5/lmr/m/n/10.95 T¼m ki¸m xe theo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]|\T5/lmr/m/n/10.95 Chuyºn ^^_¸n trang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\T5/lmr/m/n/10.95 danh s¡ch xe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\T5/lmr/m/n/10.95 `/city/hochiminh` ho°c
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\T5/lmr/m/n/10.95 `/find/filter`, hiºn
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 41--41
+\T5/lmr/m/n/10.95 thà to n bë xe ^^_ang
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--43
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 44--44
+\T5/lmr/m/n/10.95 Chån khung gií 10:30. 3.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 46--46
-\T5/lmr/m/n/12 sè: Tü ^^_ëng (Au-to-
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 47--47
-\T5/lmr/m/n/12 Fast (VF e34, VF8,
+Underfull \hbox (badness 2165) in paragraph at lines 47--47
+\T5/lmr/m/n/10.95 sè: Tü ^^_ëng (Au-to-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 48--48
-[]|\T5/lmr/m/n/12 Låc xe theo kho£ng
- []
-
-
-Underfull \hbox (badness 6526) in paragraph at lines 48--48
-[]|\T5/lmr/m/n/12 T§t c£ xe tr£ v·
+Underfull \hbox (badness 2065) in paragraph at lines 47--47
+[]|\T5/lmr/m/n/10.95 100% c¡c xe hiºn thà
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
-\T5/lmr/m/n/12 nghi¶m ng°t trong
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 48--48
-\T5/lmr/m/n/12 kho£ng tø 800.000^^_
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]|\T5/lmr/bx/n/12 TC-
+Underfull \hbox (badness 2181) in paragraph at lines 48--48
+[]|\T5/lmr/m/n/10.95 Danh s¡ch ch¿ tr£ v·
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]|\T5/lmr/m/n/12 Låc xe câ t½nh
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\T5/lmr/m/n/12 n«ng "^^^°t xe
+[]|\T5/lmr/m/n/10.95 T§t c£ xe tr£ v·
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 49--49
+\T5/lmr/m/n/10.95 ^^_·u câ ^^_ìn gi¡ n¬m
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+\T5/lmr/m/n/10.95 nghi¶m ng°t trong
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 50--50
-[]|\T5/lmr/m/n/12 Låc xe câ ti»n ½ch
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]|\T5/lmr/m/n/10.95 Låc xe câ t½nh
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+\T5/lmr/m/n/10.95 n«ng "^^^°t xe
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 51--51
-\T5/lmr/m/n/12 ^^_ç HERE Maps vîi
+Underfull \hbox (badness 3168) in paragraph at lines 51--51
+[]|\T5/lmr/m/n/10.95 Låc xe câ ti»n ½ch
  []
 
 
 Underfull \hbox (badness 1460) in paragraph at lines 51--51
-\T5/lmr/m/n/12 tr½ v  gi¡ thu¶ cõa
+\T5/lmr/m/n/10.95 "Mi¹n th¸ ch§p ti·n
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 51--51
-\T5/lmr/m/n/12 tøng xe t¤i tåa ^^_ë
+Underfull \hbox (badness 1681) in paragraph at lines 51--51
+[]|\T5/lmr/m/n/10.95 1. Bªt bë låc "Mi¹n th¸
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 51--51
-\T5/lmr/m/n/12 t÷ìng ùng. Khi di
- []
-
-
-Underfull \hbox (badness 1237) in paragraph at lines 51--51
-\T5/lmr/m/n/12 hiºn thà popup tâm
+Underfull \hbox (badness 2460) in paragraph at lines 51--51
+\T5/lmr/m/n/10.95 nhªn CCCD g­n chip
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T5/lmr/bx/n/12 TC-PRIC-
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 52--52
-\T5/lmr/m/n/12 nhªn t¤i b¢i, khæng
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T5/lmr/m/n/12 - Ti·n thu¶ gèc:
+[]|\T5/lmr/bx/n/10.95 TC-SRCH-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--53
-[]|\T5/lmr/bx/n/12 TC-PRIC-
+[]|\T5/lmr/bx/n/10.95 TC-PRIC-
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 53--53
-[]|\T5/lmr/m/n/12 T½nh gi¡ ng y cuèi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-[]|\T5/lmr/m/n/12 - Ti·n thu¶:
+Underfull \hbox (badness 1715) in paragraph at lines 53--53
+\T5/lmr/m/n/10.95 nhªn t¤i b¢i, khæng
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--53
-\OT1/lmr/m/n/12 2 \OMS/lmsy/m/n/12 ^^B \OT1/lmr/m/n/12 1\OML/lmm/m/it/12 :\OT1/
-lmr/m/n/12 150\OML/lmm/m/it/12 :\OT1/lmr/m/n/12 000 =
+[]|\T5/lmr/m/n/10.95 - Ti·n thu¶ gèc:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-\T5/lmr/m/n/12 - Ti·n cåc 30%:
+Underfull \hbox (badness 3386) in paragraph at lines 53--53
+\T5/lmr/m/n/10.95 2.000.000^^_. - Ph½ b£o
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 53--53
+\T5/lmr/m/n/10.95 hiºm chuy¸n ^^_i (10%):
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 53--53
+\T5/lmr/m/n/10.95 200.000^^_. - Ph½ giao
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 53--53
+\T5/lmr/m/n/10.95 xe: 0^^_. - Têng cëng:
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 53--53
+\T5/lmr/m/n/10.95 2.200.000^^_. - Ti·n cåc
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\T5/lmr/bx/n/12 TC-PRIC-
+[]|\T5/lmr/bx/n/10.95 TC-PRIC-
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 54--54
-\T5/lmr/m/n/12 mèc 5km (Quy t­c
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\T5/lmr/m/n/12 Ph½ giao xe
+Underfull \hbox (badness 3601) in paragraph at lines 54--54
+[]|\T5/lmr/m/n/10.95 T½nh gi¡ ng y cuèi
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T5/lmr/m/n/12 t½nh chu©n:
+[]|\T5/lmr/m/n/10.95 - Ti·n thu¶: $\OT1/lmr/m/n/10.95 2 \OMS/lmsy/m/n/10.95 ^^B
+
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 54--54
-\T5/lmr/m/n/12 1.000.000^^_ (thu¶) +
+Underfull \hbox (badness 8189) in paragraph at lines 54--54
+\T5/lmr/m/n/10.95 230.000^^_. - Ph½ giao
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 54--54
-\T5/lmr/m/n/12 100.000^^_ (b£o hiºm)
+Underfull \hbox (badness 1354) in paragraph at lines 54--54
+\OMS/lmsy/m/n/10.95 ^^T \OT1/lmr/m/n/10.95 5$\T5/lmr/m/n/10.95 km). - Têng ti·n
+:
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 54--54
+\T5/lmr/m/n/10.95 2.530.000^^_. - Ti·n cåc
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 55--55
-[]|\T5/lmr/bx/n/12 TC-PRIC-
+[]|\T5/lmr/bx/n/10.95 TC-PRIC-
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 55--55
-\T5/lmr/m/n/12 thà: 0^^_ (Mi¹n ph½
+Underfull \hbox (badness 3471) in paragraph at lines 55--55
+\OT1/lmr/m/n/10.95 (12 \OMS/lmsy/m/n/10.95 ^^@ \OT1/lmr/m/n/10.95 5) \OMS/lmsy/
+m/n/10.95 ^^B \OT1/lmr/m/n/10.95 15\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 000 
+=
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 55--55
+\OT1/lmr/m/n/10.95 105\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 000$\T5/lmr/m/n/1
+0.95 ^^_. Têng ti·n =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+\T5/lmr/m/n/10.95 1.000.000^^_ (thu¶) +
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 55--55
+\T5/lmr/m/n/10.95 105.000^^_ (giao xe) =
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--56
-[]|\T5/lmr/bx/n/12 TC-PRIC-
- []
-
-
-Underfull \hbox (badness 2951) in paragraph at lines 56--56
-\T5/lmr/m/n/12 block 1km tòy c§u
+[]|\T5/lmr/bx/n/10.95 TC-PRIC-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]|\T5/lmr/bx/n/12 TC-PRIC-
- []
-
-
-Underfull \hbox (badness 4429) in paragraph at lines 57--57
-[]|\T5/lmr/m/n/12 p döng m¢ gi£m
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 57--57
-[]|\T5/lmr/m/n/12 Hiºn thà thæng b¡o
- []
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 57--57
-\T5/lmr/m/n/12 cæng". Dáng khuy¸n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-\T5/lmr/m/n/12 m¢i ghi nhªn: -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-\T5/lmr/m/n/12 200.000^^_ (10% cõa
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-\T5/lmr/m/n/12 2tr). Têng ti·n
- []
-
-
-Underfull \hbox (badness 2229) in paragraph at lines 57--57
-\T5/lmr/m/n/12 gi£m trø ch½nh x¡c
+[]|\T5/lmr/bx/n/10.95 TC-PRIC-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T5/lmr/bx/n/12 TC-PRIC-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 58--58
-[]|\T5/lmr/m/n/12 Gi£m trø trüc ti¸p
+[]|\T5/lmr/bx/n/10.95 TC-PRIC-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T5/lmr/m/n/12 100.000^^_ v o têng
+[]|\T5/lmr/m/n/10.95 1. Nhªp m¢ `MIOTO-
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 58--58
+\T5/lmr/m/n/10.95 döng m¢ th nh cæng".
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 58--58
+\T5/lmr/m/n/10.95 Dáng khuy¸n m¢i ghi
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 58--58
+\T5/lmr/m/n/10.95 nhªn: -200.000^^_ (10%
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--59
-[]|\T5/lmr/bx/n/12 TC-PRIC-
+[]|\T5/lmr/bx/n/10.95 TC-PRIC-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\T5/lmr/m/n/10.95 Gi£m trø trüc ti¸p
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]|\T5/lmr/bx/n/12 TC-PRIC-
- []
-
-
-Underfull \hbox (badness 1953) in paragraph at lines 60--60
-[]|\T5/lmr/m/n/12 B¡o léi: "^^^ìn h ng
+[]|\T5/lmr/bx/n/10.95 TC-PRIC-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[]|\T5/lmr/bx/n/12 TC-PRIC-
+[]|\T5/lmr/bx/n/10.95 TC-PRIC-
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 61--61
-\T5/lmr/m/n/12 "Méi chuy¸n ^^_i ch¿
+Underfull \hbox (badness 4713) in paragraph at lines 61--61
+\T5/lmr/m/n/10.95 ^^_¤t gi¡ trà tèi thiºu
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 61--61
+\T5/lmr/m/n/10.95 1.500.000^^_ ^^_º sû döng
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-PRIC-
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 62--62
-[]|\T5/lmr/m/n/12 - T¤o th nh cæng
+Underfull \hbox (badness 5359) in paragraph at lines 62--62
+[]|\T5/lmr/m/n/10.95 H» thèng thæng b¡o:
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 62--62
+\T5/lmr/m/n/10.95 ¡p döng tèi ^^_a 1 m¢
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-BOOK-
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 63--63
-\T5/lmr/m/n/12 c£nh b¡o: "B¤n c¦n
+Underfull \hbox (badness 1102) in paragraph at lines 63--63
+[]|\T5/lmr/m/n/10.95 T¤o y¶u c¦u ^^_°t xe
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 63--63
-\T5/lmr/m/n/12 ho n t§t x¡c thüc
+Underfull \hbox (badness 1009) in paragraph at lines 63--63
+[]|\T5/lmr/m/n/10.95 - T¤o th nh cæng b£n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 4634) in paragraph at lines 64--64
-\T5/lmr/m/n/12 c¦u trong váng 60
+Underfull \hbox (badness 1762) in paragraph at lines 63--63
+\T5/lmr/m/n/10.95 ng÷ñc 60 phót. - Gûi
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--64
-[]|\T5/lmr/m/n/12 ^^^ìn chuyºn sang
+[]|\T5/lmr/bx/n/10.95 TC-BOOK-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-\T5/lmr/m/n/12 Kh¡ch thu¶ nhªn
- []
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 64--64
-\T5/lmr/m/n/12 thæng b¡o v  link
+Underfull \hbox (badness 1102) in paragraph at lines 64--64
+[]|\T5/lmr/m/n/10.95 T¤o y¶u c¦u ^^_°t xe
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-BOOK-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]|\T5/lmr/m/n/12 ^^^ìn chuyºn tr¤ng
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 65--65
-\T5/lmr/m/n/12 thu¶ k±m gñi þ c¡c
+Underfull \hbox (badness 1552) in paragraph at lines 65--65
+\T5/lmr/m/n/10.95 th¡i "^^^¢ duy»t - Chí
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 66--66
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-\T5/lmr/m/n/12 ground job chuyºn
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-\T5/lmr/m/n/12 "H¸t h¤n ph£n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-\T5/lmr/m/n/12 hçi"(Expired). Gûi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-\T5/lmr/m/n/12 thæng b¡o xin léi
+[]|\T5/lmr/bx/n/10.95 TC-BOOK-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-BOOK-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[]|\T5/lmr/m/n/12 Luçng "^^^°t xe
- []
-
-
-Underfull \hbox (badness 2495) in paragraph at lines 67--67
-[]|\T5/lmr/m/n/12 1. Chån xe câ nh¢n "^^^°t
- []
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 67--67
-\T5/lmr/m/n/12 chí chõ xe duy»t,
+Underfull \hbox (badness 5592) in paragraph at lines 67--67
+[]|\T5/lmr/m/n/10.95 H» thèng ch¤y back-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--68
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 2846) in paragraph at lines 68--68
-\T5/lmr/m/n/12 t¸ (Visa/MasterCard
+[]|\T5/lmr/bx/n/10.95 TC-BOOK-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--68
-\T5/lmr/m/n/12 cæng. ^^^ìn chuyºn
+[]|\T5/lmr/m/n/10.95 Luçng "^^^°t xe
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 68--68
-\T5/lmr/m/n/12 tr¤ng th¡i "^^^¢ ^^_°t
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-\T5/lmr/m/n/12 cåc"(Booked). Khâa
+Underfull \hbox (badness 6625) in paragraph at lines 68--68
+\T5/lmr/m/n/10.95 th¯ng ^^_¸n m n h¼nh
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-BOOK-
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 69--69
-\T5/lmr/m/n/12 th´ khæng ^^_õ". H»
+Underfull \hbox (badness 3417) in paragraph at lines 69--69
+\T5/lmr/m/n/10.95 "^^^¢ ^^_°t cåc"(Booked).
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 69--69
+\T5/lmr/m/n/10.95 Khâa làch xe tr¶n h»
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 70--70
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-BOOK-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-[]|\T5/lmr/m/n/12 1. Chån thanh to¡n "V½
- []
-
-
-Underfull \hbox (badness 6708) in paragraph at lines 70--70
-\T5/lmr/m/n/12 MoMo". 2. Qu²t m¢ QR
- []
-
-
-Underfull \hbox (badness 4217) in paragraph at lines 70--70
-\T5/lmr/m/n/12 gûi t½n hi»u thanh
+Underfull \hbox (badness 1337) in paragraph at lines 70--70
+\T5/lmr/m/n/10.95 ti·n, giú nguy¶n tr¤ng
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 71--71
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-BOOK-
  []
 
 
-Underfull \hbox (badness 4156) in paragraph at lines 71--71
-[]|\T5/lmr/m/n/12 1. Chån ph÷ìng thùc "V½
+Underfull \hbox (badness 3219) in paragraph at lines 71--71
+[]|\T5/lmr/m/n/10.95 1. Chån thanh to¡n "V½
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
-[]|\T5/lmr/m/n/12 Kh§u trø 800.000^^_
- []
-
-
-Underfull \hbox (badness 4595) in paragraph at lines 71--71
-\T5/lmr/m/n/12 trong v½ Mioto, sè
+Underfull \hbox (badness 2158) in paragraph at lines 71--71
+\T5/lmr/m/n/10.95 MoMo". 2. Qu²t m¢ QR
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 71--71
-\T5/lmr/m/n/12 ^^^ìn chuyºn tr¤ng
+[]|\T5/lmr/m/n/10.95 Webhook MoMo IPN
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 71--71
+\T5/lmr/m/n/10.95 th nh cæng. M n h¼nh
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-BOOK-
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 72--72
+[]|\T5/lmr/m/n/10.95 1. Chån ph÷ìng thùc "V½
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]|\T5/lmr/m/n/12 Ng÷íi dòng hõy
+[]|\T5/lmr/m/n/10.95 Kh§u trø 800.000^^_
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 72--72
-\T5/lmr/m/n/12 ngang khi ^^_ang ð
+Underfull \hbox (badness 1308) in paragraph at lines 72--72
+\T5/lmr/m/n/10.95 trong v½ Mioto, sè d÷
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 72--72
-\T5/lmr/m/n/12 ch÷a ho n t§t. B¤n
+Underfull \hbox (badness 1442) in paragraph at lines 72--72
+\T5/lmr/m/n/10.95 chuyºn tr¤ng th¡i "^^^¢
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\T5/lmr/bx/n/12 TC-TRIP-
- []
-
-
-Underfull \hbox (badness 3343) in paragraph at lines 73--73
-[]|\T5/lmr/m/n/12 Thüc hi»n Check-in
- []
-
-
-Underfull \hbox (badness 4416) in paragraph at lines 73--73
-\T5/lmr/m/n/12 b n giao xe th nh
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 73--73
-[]|\T5/lmr/m/n/12 1. Hai b¶n g°p m°t, chõ
- []
-
-
-Underfull \hbox (badness 7415) in paragraph at lines 73--73
-\T5/lmr/m/n/12 bë £nh l¶n Cloud
+Underfull \hbox (badness 1748) in paragraph at lines 72--72
+\T5/lmr/m/n/10.95 khæng qua cêng trung
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 73--73
-\T5/lmr/m/n/12 b n giao ^^_i»n tû.
+[]|\T5/lmr/bx/n/10.95 TC-BOOK-
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 73--73
+\T5/lmr/m/n/10.95 b¡o: "Giao dàch ch÷a
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 74--74
-[]|\T5/lmr/bx/n/12 TC-TRIP-
+[]|\T5/lmr/bx/n/10.95 TC-TRIP-
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 74--74
-[]|\T5/lmr/m/n/12 Check-in thi¸u £nh
+Underfull \hbox (badness 5431) in paragraph at lines 74--74
+[]|\T5/lmr/m/n/10.95 Thüc hi»n Check-in
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 74--74
+[]|\T5/lmr/m/n/10.95 1. Hai b¶n g°p m°t, chõ
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 74--74
+\T5/lmr/m/n/10.95 xe/kh¡ch mð möc Check-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\T5/lmr/m/n/10.95 giao ^^_i»n tû. Tr¤ng
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\T5/lmr/m/n/10.95 th¡i chuy¸n ^^_i ^^_êi
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\T5/lmr/bx/n/12 TC-TRIP-
+[]|\T5/lmr/bx/n/10.95 TC-TRIP-
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 75--75
-[]|\T5/lmr/m/n/12 H» thèng ghi nhªn
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T5/lmr/m/n/10.95 Check-in thi¸u £nh
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 75--75
-\T5/lmr/m/n/12 sè km di chuyºn l 
+Underfull \hbox (badness 1308) in paragraph at lines 75--75
+\T5/lmr/m/n/10.95 ngo¤i th§t b­t buëc
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 75--75
-\T5/lmr/m/n/12 500km ($\OMS/lmsy/m/n/12 ^^T \OT1/lmr/m/n/12 600$\T5/lmr/m/n/12 
-km).
+Underfull \hbox (badness 2065) in paragraph at lines 75--75
+[]|\T5/lmr/m/n/10.95 Nót b§m bà mí ho°c
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 75--75
-\T5/lmr/m/n/12 Phö ph½ v÷ñt km:
+Underfull \hbox (badness 1259) in paragraph at lines 75--75
+\T5/lmr/m/n/10.95 ^^_¦y ^^_õ ½t nh§t 4 gâc
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T5/lmr/bx/n/12 TC-TRIP-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T5/lmr/m/n/12 Check-out câ v÷ñt
- []
-
-
-Underfull \hbox (badness 1635) in paragraph at lines 76--76
-[]|\T5/lmr/m/n/12 H» thèng t½nh to¡n
+Underfull \hbox (badness 1953) in paragraph at lines 75--75
+\T5/lmr/m/n/10.95 s÷ín ph£i) ^^_º b£o v»
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--76
-\OT1/lmr/m/n/12 450\OML/lmm/m/it/12 :\OT1/lmr/m/n/12 000$\T5/lmr/m/n/12 ^^_. Tü
- ^^_ëng
+[]|\T5/lmr/bx/n/10.95 TC-TRIP-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-\T5/lmr/m/n/12 v÷ñt qu¢ng ^^_÷íng:
+Underfull \hbox (badness 1117) in paragraph at lines 76--76
+[]|\T5/lmr/m/n/10.95 H» thèng ghi nhªn sè
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 76--76
+\T5/lmr/m/n/10.95 0^^_. Kh¡ch thanh to¡n
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 77--77
-[]|\T5/lmr/bx/n/12 TC-TRIP-
+[]|\T5/lmr/bx/n/10.95 TC-TRIP-
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 77--77
-\T5/lmr/m/n/12 bò nhi¶n li»u: $\OT1/lmr/m/n/12 25 \OMS/lmsy/m/n/12 ^^B
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\T5/lmr/m/n/10.95 Check-out câ v÷ñt
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 77--77
-\OT1/lmr/m/n/12 24\OML/lmm/m/it/12 :\OT1/lmr/m/n/12 000 = 600\OML/lmm/m/it/12 :
-\OT1/lmr/m/n/12 000$\T5/lmr/m/n/12 ^^_
+Underfull \hbox (badness 3343) in paragraph at lines 77--77
+[]|\T5/lmr/m/n/10.95 1. Nhªp ODO k¸t thóc:
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 77--77
-\T5/lmr/m/n/12 cëng v o hâa ^^_ìn
+Underfull \hbox (badness 7415) in paragraph at lines 77--77
+\T5/lmr/m/n/10.95 450.000^^_"v o hâa ^^_ìn
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 78--78
-[]|\T5/lmr/bx/n/12 TC-TRIP-
+[]|\T5/lmr/bx/n/10.95 TC-TRIP-
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 78--78
-\T5/lmr/m/n/12 h¤n (Over-time sur-
+Underfull \hbox (badness 6625) in paragraph at lines 78--78
+\T5/lmr/m/n/10.95 ^^_ìn thanh to¡n cuèi
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 79--79
-[]|\T5/lmr/bx/n/12 TC-TRIP-
+[]|\T5/lmr/bx/n/10.95 TC-TRIP-
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 79--79
+\T5/lmr/m/n/10.95 h¤n (Over-time sur-
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 79--79
+\T5/lmr/m/n/10.95 2.5 gií, tü ^^_ëng t½nh
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 79--79
+\T5/lmr/m/n/10.95 hiºn thà tr¶n b£ng k¶
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--80
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-TRIP-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-[]|\T5/lmr/m/n/12 Kh¡ch hõy chuy¸n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
-[]|\T5/lmr/bx/n/12 TC-
+Underfull \hbox (badness 6364) in paragraph at lines 80--80
+[]|\T5/lmr/m/n/10.95 H» thèng cëng th¶m
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 81--81
-[]|\T5/lmr/m/n/12 Kh¡ch hõy chuy¸n
+[]|\T5/lmr/bx/n/10.95 TC-CANC-
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 81--81
-\T5/lmr/m/n/12 c¡ch gií nhªn xe 3
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]|\T5/lmr/m/n/10.95 Kh¡ch hõy chuy¸n
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\T5/lmr/m/n/10.95 (1.000.000^^_)". - Ti·n
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-CANC-
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 82--82
-[]|\T5/lmr/m/n/12 - Thæng b¡o: "Theo
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T5/lmr/m/n/10.95 Kh¡ch hõy chuy¸n
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 82--82
-\T5/lmr/m/n/12 ch½nh s¡ch, b¤n s³
+Underfull \hbox (badness 1675) in paragraph at lines 82--82
+\T5/lmr/m/n/10.95 c¡ch gií nhªn xe 3
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 82--82
-\T5/lmr/m/n/12 m§t 100% ti·n cåc
+Underfull \hbox (badness 1590) in paragraph at lines 82--82
+[]|\T5/lmr/m/n/10.95 1. B§m "Hõy chuy¸n". 2.
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 82--82
-\T5/lmr/m/n/12 (1.000.000^^_) do hõy
+Underfull \hbox (badness 1005) in paragraph at lines 82--82
+\T5/lmr/m/n/10.95 Kh¡ch ^^_÷ñc ho n 50%
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 82--82
-\T5/lmr/m/n/12 gií". - Khæng ho n
+Underfull \hbox (badness 3302) in paragraph at lines 82--82
+\T5/lmr/m/n/10.95 ti·n cåc (500.000^^_). -
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 82--82
+\T5/lmr/m/n/10.95 500.000^^_ cán l¤i ^^_÷ñc
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\T5/lmr/bx/n/12 TC-
- []
-
-
-Underfull \hbox (badness 1552) in paragraph at lines 83--83
-[]|\T5/lmr/m/n/12 1. B§m hõy t¤i mèc ^^_óng
- []
-
-
-Underfull \hbox (badness 4429) in paragraph at lines 83--83
-[]|\T5/lmr/m/n/12 H» thèng ¡p döng
+[]|\T5/lmr/bx/n/10.95 TC-CANC-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--84
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-CANC-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--84
-[]|\T5/lmr/m/n/12 Chõ xe b§m hõy
+\T5/lmr/m/n/10.95 s¡ch ho n 50% cåc
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T5/lmr/m/n/12 ^^_¢ cåc (Quy t­c
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 84--84
-[]|\T5/lmr/m/n/12 - Kh¡ch ^^_÷ñc ho n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T5/lmr/m/n/12 l¤i 100% ti·n cåc
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T5/lmr/m/n/12 ^^_÷ñc t°ng th¶m
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T5/lmr/m/n/12 voucher ^^_·n bò
- []
-
-
-Underfull \hbox (badness 1838) in paragraph at lines 84--84
-\T5/lmr/m/n/12 300.000^^_ (30% cåc).
- []
-
-
-Underfull \hbox (badness 4699) in paragraph at lines 84--84
-\T5/lmr/m/n/12 - Chõ xe bà ph¤t
+Underfull \hbox (badness 6063) in paragraph at lines 84--84
+\T5/lmr/m/n/10.95 (thuëc bi¶n tr¶n cõa
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 85--85
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-CANC-
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 85--85
-[]|\T5/lmr/m/n/12 1. V o làch sû chuy¸n ^^_i,
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]|\T5/lmr/m/n/10.95 Chõ xe b§m hõy
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 85--85
-[]|\T5/lmr/m/n/12 ^^^¡nh gi¡ ^^_÷ñc l÷u
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T5/lmr/m/n/10.95 ^^_¢ cåc (Quy t­c
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 85--85
-\T5/lmr/m/n/12 sao trung b¼nh cõa
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]|\T5/lmr/m/n/10.95 - Kh¡ch ^^_÷ñc ho n
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T5/lmr/m/n/10.95 l¤i 100% ti·n cåc
+ []
+
+
+Underfull \hbox (badness 8000) in paragraph at lines 85--85
+\T5/lmr/m/n/10.95 (1.000.000^^_). - Kh¡ch
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 85--85
+\T5/lmr/m/n/10.95 ^^_·n bò 300.000^^_ (30%
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 85--85
+\T5/lmr/m/n/10.95 300.000^^_ kh§u trø v o
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 86--86
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-RATE-
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 86--86
-\T5/lmr/m/n/12 khi chuy¸n ^^_i ch÷a
- []
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 86--86
-\T5/lmr/m/n/12 hi»u hâa k±m chó
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\T5/lmr/m/n/12 th½ch: "Chùc n«ng
+Underfull \hbox (badness 1337) in paragraph at lines 86--86
+[]|\T5/lmr/m/n/10.95 Gûi ^^_¡nh gi¡ 5 sao
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 87--87
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-RATE-
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 87--87
-\T5/lmr/m/n/12 hai cho còng mët
+Underfull \hbox (badness 3601) in paragraph at lines 87--87
+\T5/lmr/m/n/10.95 khi chuy¸n ^^_i ch÷a
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 87--87
-\T5/lmr/m/n/12 khæng cho ph²p gûi
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]|\T5/lmr/m/n/10.95 Nót "^^^¡nh gi¡"khæng
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 87--87
-\T5/lmr/m/n/12 th¶m l÷ñt ^^_¡nh gi¡
+Underfull \hbox (badness 2460) in paragraph at lines 87--87
+\T5/lmr/m/n/10.95 xu§t hi»n ho°c bà væ
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-RATE-
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 88--88
-\T5/lmr/m/n/12 ^^_¡nh gi¡ vîi thæng
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\T5/lmr/m/n/10.95 hai cho còng mët
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 88--88
-\T5/lmr/m/n/12 b¡o: "Thíi h¤n gûi
+Underfull \hbox (badness 4467) in paragraph at lines 88--88
+[]|\T5/lmr/m/n/10.95 Nót ^^_¡nh gi¡ chuyºn
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 88--88
+\T5/lmr/m/n/10.95 l÷ñt ^^_¡nh gi¡ thù hai
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 88--88
+\T5/lmr/m/n/10.95 (méi chuy¸n ch¿ ^^_÷ñc
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 89--89
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-RATE-
  []
 
 
-Underfull \hbox (badness 6316) in paragraph at lines 89--89
-[]|\T5/lmr/m/n/12 H» thèng v¨n cho
+Underfull \hbox (badness 1708) in paragraph at lines 89--89
+\T5/lmr/m/n/10.95 h¤n gûi ^^_¡nh gi¡ cho
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]|\T5/lmr/bx/n/12 TC-
+[]|\T5/lmr/bx/n/10.95 TC-RATE-
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 90--90
-[]|\T5/lmr/m/n/12 T½nh to¡n cªp nhªt
+Underfull \hbox (badness 2261) in paragraph at lines 90--90
+\T5/lmr/m/n/10.95 v«n b£n l  tòy chån,
  []
 
 
-Overfull \hbox (39.46404pt too wide) in alignment at lines 21--91
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|\T5/lmr/bx/n/10.95 TC-RATE-
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 91--91
+[]|\T5/lmr/m/n/10.95 T½nh to¡n cªp nhªt
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 91--91
+[]|\T5/lmr/m/n/10.95 ^^^iºm trung b¼nh mîi
+ []
+
+
+Overfull \hbox (22.39264pt too wide) in alignment at lines 22--92
  [] [] [] [] 
  []
 
@@ -2992,15 +2988,12 @@ ignored error: Infinite glue shrinkage found in box being split [19]
 ignored error: Infinite glue shrinkage found in box being split [20]
 ignored error: Infinite glue shrinkage found in box being split [21]
 ignored error: Infinite glue shrinkage found in box being split [22]
-ignored error: Infinite glue shrinkage found in box being split [23]
-ignored error: Infinite glue shrinkage found in box being split [24]
-ignored error: Infinite glue shrinkage found in box being split [25]
-ignored error: Infinite glue shrinkage found in box being split [26]) [27]
+ignored error: Infinite glue shrinkage found in box being split [23]) [24]
 Ch\uhorn \ohorn ng 5.
 (C:\Users\duyqu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
-[28
+[25
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -3015,962 +3008,335 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 592.
 
 
-LaTeX Warning: Float too large for page by 104.17517pt on input line 652.
-
-
-Package tabularx Warning: X Columns too narrow (table too wide)
-(tabularx)                 on input line 676.
-
-
-Overfull \hbox (3.05685pt too wide) in paragraph at lines 676--676
-[]|\T5/lmr/bx/n/10.95 Tê
- []
-
-
-Overfull \hbox (9.33652pt too wide) in paragraph at lines 676--676
-\T5/lmr/bx/n/10.95 hñp
- []
-
-
-Overfull \hbox (12.31161pt too wide) in paragraph at lines 676--676
-\T5/lmr/bx/n/10.95 ^^_i·u
- []
-
-
-Overfull \hbox (11.96176pt too wide) in paragraph at lines 676--676
-\T5/lmr/bx/n/10.95 ki»n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 676--676
-\T5/lmr/bx/n/10.95 &
- []
-
-
-Overfull \hbox (12.39609pt too wide) in paragraph at lines 676--676
-\T5/lmr/bx/n/10.95 Test
- []
-
-
-Overfull \hbox (16.08418pt too wide) in paragraph at lines 676--676
-\T5/lmr/bx/n/10.95 Data| 
- []
-
-
-Overfull \hbox (3.80211pt too wide) in paragraph at lines 676--676
-[]|\T5/lmr/m/n/10.95 L¹,
- []
-
-
-Overfull \hbox (6.30783pt too wide) in paragraph at lines 676--676
-\OML/lmm/m/it/10.95 d \OT1/lmr/m/n/10.95 =
- []
-
-
-Overfull \hbox (14.904pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 10$\T5/lmr/m/n/10.95 km
- []
-
-
-Overfull \hbox (1.82515pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 ($\OML/lmm/m/it/10.95 >
- []
-
-
-Overfull \hbox (1.82509pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 5$\T5/lmr/m/n/10.95 ),
- []
-
-
-Overfull \hbox (27.7095pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 Voucher
- []
-
-
-Overfull \hbox (9.1246pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 10%
- []
-
-
-Overfull \hbox (15.9689pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 (Rate
- []
-
-
-Overfull \hbox (6.11383pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 1tr,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 2
- []
-
-
-Overfull \hbox (15.81691pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 ng y)| 
- []
-
-
-Overfull \hbox (11.55797pt too wide) in paragraph at lines 676--676
-[]|\T5/lmr/m/n/10.95 Cuèi
- []
-
-
-Overfull \hbox (13.9916pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 tu¦n,
- []
-
-
-Overfull \hbox (6.30783pt too wide) in paragraph at lines 676--676
-\OML/lmm/m/it/10.95 d \OT1/lmr/m/n/10.95 =
- []
-
-
-Overfull \hbox (9.42902pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 4$\T5/lmr/m/n/10.95 km
- []
-
-
-Overfull \hbox (1.82515pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 ($\OMS/lmsy/m/n/10.95 ^^T
- []
-
-
-Overfull \hbox (1.82509pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 5$\T5/lmr/m/n/10.95 ),
- []
-
-
-Overfull \hbox (4.8664pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 VC
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 cè
- []
-
-
-Overfull \hbox (10.3414pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 ^^_ành
- []
-
-
-Overfull \hbox (11.25438pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 100k| 
- []
-
-
-Overfull \hbox (13.6877pt too wide) in paragraph at lines 676--676
-[]|\T5/lmr/m/n/10.95 Ng y
- []
-
-
-Overfull \hbox (25.54984pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 th÷íng,
- []
-
-
-Overfull \hbox (6.30783pt too wide) in paragraph at lines 676--676
-\OML/lmm/m/it/10.95 d \OT1/lmr/m/n/10.95 =
- []
-
-
-Overfull \hbox (12.47066pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 0$\T5/lmr/m/n/10.95 km,
- []
-
-
-Overfull \hbox (20.68338pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 Khæng
- []
-
-
-Overfull \hbox (0.60825pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 ¡p
- []
-
-
-Overfull \hbox (12.77475pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 döng
- []
-
-
-Overfull \hbox (27.7095pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 Voucher| 
+Underfull \hbox (badness 1314) in paragraph at lines 676--676
+[]|\T5/lmr/m/n/10 Ng y th÷íng, $\OML/lmm/m/it/10 d \OT1/lmr/m/n/10 = 2$\T5/lmr/
+m/n/10 km, Voucher
  []
-
-
-Overfull \hbox (13.6877pt too wide) in paragraph at lines 676--676
-[]|\T5/lmr/m/n/10.95 Ng y
- []
-
-
-Overfull \hbox (25.54984pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 th÷íng,
- []
-
-
-Overfull \hbox (6.30783pt too wide) in paragraph at lines 676--676
-\OML/lmm/m/it/10.95 d \OT1/lmr/m/n/10.95 =
- []
-
-
-Overfull \hbox (12.47066pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 6$\T5/lmr/m/n/10.95 km,
- []
-
-
-Overfull \hbox (4.8664pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 VC
- []
-
-
-Overfull \hbox (14.5996pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 200%
- []
-
-
-Overfull \hbox (2.88979pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 Fi-
- []
-
-
-Overfull \hbox (3.64989pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 nal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 676--676
-\OML/lmm/m/it/10.95 <
- []
-
-
-Overfull \hbox (8.51663pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 0 \OMS/lmsy/m/n/10.95 !
- []
-
-
-Overfull \hbox (0.60825pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 0$\T5/lmr/m/n/10.95 ^^_| 
- []
-
-
-Overfull \hbox (11.55797pt too wide) in paragraph at lines 676--676
-[]|\T5/lmr/m/n/10.95 Cuèi
- []
-
-
-Overfull \hbox (13.9916pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 tu¦n,
- []
-
-
-Overfull \hbox (6.30783pt too wide) in paragraph at lines 676--676
-\OML/lmm/m/it/10.95 d \OT1/lmr/m/n/10.95 =
- []
-
-
-Overfull \hbox (12.47066pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 8$\T5/lmr/m/n/10.95 km,
- []
-
-
-Overfull \hbox (4.56285pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 M¢
- []
-
-
-Overfull \hbox (27.7095pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 Voucher
- []
-
-
-Overfull \hbox (17.94589pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 khæng
- []
-
-
-Overfull \hbox (6.6915pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 hñp
- []
-
-
-Overfull \hbox (3.80211pt too wide) in paragraph at lines 676--676
-[]|\T5/lmr/m/n/10.95 L¹,
- []
-
-
-Overfull \hbox (6.30783pt too wide) in paragraph at lines 676--676
-\OML/lmm/m/it/10.95 d \OT1/lmr/m/n/10.95 =
- []
-
-
-Overfull \hbox (9.42902pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 5$\T5/lmr/m/n/10.95 km
- []
-
-
-Overfull \hbox (22.35605pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 (Bi¶n),
- []
-
-
-Overfull \hbox (27.7095pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 Voucher
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 cè
- []
-
-
-Overfull \hbox (10.3414pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 ^^_ành
- []
-
-
-Overfull \hbox (11.25438pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 500k| 
- []
-
-
-Overfull \hbox (13.6877pt too wide) in paragraph at lines 676--676
-[]|\T5/lmr/m/n/10.95 Ng y
- []
-
-
-Overfull \hbox (25.54984pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 th÷íng,
- []
-
-
-Overfull \hbox (6.30783pt too wide) in paragraph at lines 676--676
-\OML/lmm/m/it/10.95 d \OT1/lmr/m/n/10.95 =
- []
-
-
-Overfull \hbox (12.47066pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 2$\T5/lmr/m/n/10.95 km,
- []
-
-
-Overfull \hbox (27.7095pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 Voucher
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 1
- []
-
-
-Overfull \hbox (11.58882pt too wide) in paragraph at lines 676--676
-\T5/lmr/m/n/10.95 tri»u
- []
-
-
-Overfull \hbox (0.60825pt too wide) in paragraph at lines 676--676
-\OT1/lmr/m/n/10.95 0$\T5/lmr/m/n/10.95 ^^_| 
- []
-
-
-Overfull \hbox (72.73384pt too wide) in alignment at lines 676--676
-[][][][][] 
- []
-
-
-LaTeX Warning: Float too large for page by 340.49554pt on input line 679.
 
-[29] [30] [31]
+[26] [27]
 Ch\uhorn \ohorn ng 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-[]|\T5/lmr/m/n/10.95 ^^^¦y ^^_õ
+Underfull \hbox (badness 3601) in paragraph at lines 705--705
+[]|\T5/lmr/bx/n/10 ^^^°c t½nh ch§t l÷ñng
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 100%
+[]|\T5/lmr/m/n/10 ^^^¦y ^^_õ 100%
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 to¡n c÷îc
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 & KYC
- []
-
-
-Underfull \hbox (badness 5077) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 LCP 2.2s
+Underfull \hbox (badness 7486) in paragraph at lines 705--705
+\T5/lmr/m/n/10 nghi»p vö P2P;
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 (Google
+[]|\T5/lmr/m/n/10 FCP 1.4s, LCP
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 705--705
+\T5/lmr/m/n/10 Vi-tals); API la-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 Web Vi-
+[]|\T5/lmr/m/n/10 Ch¤y ho n h£o
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 705--705
+\T5/lmr/m/n/10 quan; Minh b¤ch
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 la-tency
+[]|\T5/lmr/m/n/10 HTTPS/TLS
+ []
+
+
+Underfull \hbox (badness 7722) in paragraph at lines 705--705
+\T5/lmr/m/n/10 1.3, To-k-eniza-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 h£o tr¶n
+\T5/lmr/m/n/10 th´ PCI-DSS,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 Chrome,
+\T5/lmr/m/n/10 Pre-signed URL
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 Sa-fari,
+[]|\T5/lmr/m/n/10 Ki¸n tróc Mi-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 Edge,
+\T5/lmr/m/n/10 croser-vices ph¥n
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 Fire-fox,
+[]|\T5/lmr/m/n/10 ^^^âng gâi
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-[]|\T5/lmr/m/n/10.95 ^^^°t xe
+\T5/lmr/m/n/10 Con-tainer
+ []
+
+
+Overfull \hbox (3.41908pt too wide) in paragraph at lines 705--705
+\T5/lmr/m/n/10 Docker/Kubernetes
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 3 b÷îc
+[]|\T5/lmr/bx/n/10 X˜P LO„I
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 chi ph½;
+\T5/lmr/bx/n/10 XU‡T SC
  []
 
+[28
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 B£n ^^_ç
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 sè Map
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-[]|\T5/lmr/m/n/10.95 SLA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 99.9%;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 Chàu léi
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 ph¥n t¡n;
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 L÷u nh¡p
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 ^^_ìn khi
- []
-
-
-Overfull \hbox (12.95631pt too wide) in paragraph at lines 705--705
-[]|\T5/lmr/m/n/10.95 HTTPS/TLS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 1.3, To-k-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 eniza-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 th´ PCI-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 DSS,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 Pre-signed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 URL
- []
-
-
-Underfull \hbox (badness 2393) in paragraph at lines 705--705
-[]|\T5/lmr/m/n/10.95 Ki¸n tróc
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 Mi-croser-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 vices
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 ^^_ëc lªp;
- []
-
-
-Underfull \hbox (badness 4531) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 T¡ch nhä
- []
-
-
-Underfull \hbox (badness 8038) in paragraph at lines 705--705
-[]|\T5/lmr/m/n/10.95 ^^^âng gâi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 Con-tainer
- []
-
-
-Overfull \hbox (42.43184pt too wide) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 Docker/Kubernetes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 ^^_a n·n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/m/n/10.95 t£ng
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-[]|\T5/lmr/bx/n/10.95 X˜P
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/bx/n/10.95 LO„I
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/bx/n/10.95 XU‡T
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
-\T5/lmr/bx/n/10.95 SC
- []
-
-
-Overfull \hbox (0.77449pt too wide) in paragraph at lines 705--705
-\T5/lmr/bx/n/10.95 (GRADE
- []
-
-
-LaTeX Warning: Float too large for page by 254.52333pt on input line 708.
-
-[32
-
-] [33]
+] [29]
 Ch\uhorn \ohorn ng 7.
-[34
+[30
 
 ]
 Ch\uhorn \ohorn ng 8.
 (generated_rtm_table.tex
-Overfull \hbox (77.07178pt too wide) in alignment at lines 1--6
+Overfull \hbox (34.39264pt too wide) in alignment at lines 2--7
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (77.07178pt too wide) in alignment at lines 6--12
+Overfull \hbox (34.39264pt too wide) in alignment at lines 7--13
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (77.07178pt too wide) in alignment at lines 12--15
+Overfull \hbox (34.39264pt too wide) in alignment at lines 13--16
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (77.07178pt too wide) in alignment at lines 15--18
+Overfull \hbox (34.39264pt too wide) in alignment at lines 16--19
  [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 20--20
-[]|\T5/lmr/m/n/12 ^^^«ng kþ t i kho£n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\T5/lmr/m/n/12 TC-AUTH-01, TC-AUTH-02,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-\T5/lmr/m/n/12 TC-AUTH-03, TC-AUTH-04,
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 20--20
-[]|\T5/lmr/bx/n/12 PASSED| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]|\T5/lmr/m/n/12 TC-AUTH-06, TC-AUTH-07,
+[]|\T5/lmr/m/n/10.95 TC-AUTH-01, TC-AUTH-02,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\T5/lmr/m/n/12 TC-AUTH-08, TC-AUTH-09,
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 21--21
-[]|\T5/lmr/bx/n/12 PASSED| 
+\T5/lmr/m/n/10.95 TC-AUTH-03, TC-AUTH-04,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 22--22
-[]|\T5/lmr/bx/n/12 PASSED| 
+Underfull \hbox (badness 2680) in paragraph at lines 22--22
+[]|\T5/lmr/m/n/10.95 X¡c thüc OTP &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\T5/lmr/m/n/10.95 TC-AUTH-06, TC-AUTH-07,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\T5/lmr/m/n/10.95 TC-AUTH-08, TC-AUTH-09,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\T5/lmr/m/n/12 ^^^ành danh KYC
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 23--23
-[]|\T5/lmr/bx/n/12 PASSED| 
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 24--24
-[]|\T5/lmr/m/n/12 T¼m ki¸m theo ^^_àa
- []
-
-
-Underfull \hbox (badness 3078) in paragraph at lines 24--24
-[]|\T5/lmr/m/n/12 TC-SRCH-01, TC-SRCH-02, TC-
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 24--24
-[]|\T5/lmr/bx/n/12 PASSED| 
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\T5/lmr/m/n/10.95 ^^^ành danh KYC
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Underfull \hbox (badness 1242) in paragraph at lines 25--25
-[]|\T5/lmr/m/n/12 T¼m ki¸m theo thíi
- []
-
-
-Underfull \hbox (badness 3078) in paragraph at lines 25--25
-[]|\T5/lmr/m/n/12 TC-SRCH-03, TC-SRCH-04, TC-
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 25--25
-[]|\T5/lmr/bx/n/12 PASSED| 
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Underfull \hbox (badness 3078) in paragraph at lines 26--26
-[]|\T5/lmr/m/n/12 TC-SRCH-07, TC-SRCH-08, TC-
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 26--26
-[]|\T5/lmr/bx/n/12 PASSED| 
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Underfull \hbox (badness 3078) in paragraph at lines 27--27
-[]|\T5/lmr/m/n/12 TC-SRCH-10, TC-SRCH-11, TC-
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 27--27
-[]|\T5/lmr/bx/n/12 PASSED| 
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 28--28
-[]|\T5/lmr/bx/n/12 PASSED| 
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 29--29
-[]|\T5/lmr/bx/n/12 PASSED| 
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]|\T5/lmr/m/n/12 TC-PRIC-01, TC-PRIC-02, TC-
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 30--30
-[]|\T5/lmr/bx/n/12 PASSED| 
+[]|\T5/lmr/m/n/10.95 TC-PRIC-02, TC-WB-01, TC-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]|\T5/lmr/m/n/12 TC-PRIC-03, TC-PRIC-04, TC-
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 31--31
-[]|\T5/lmr/bx/n/12 PASSED| 
+Underfull \hbox (badness 1642) in paragraph at lines 31--31
+[]|\T5/lmr/m/n/10.95 TC-PRIC-01, TC-PRIC-02, TC-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\T5/lmr/m/n/12 TC-PRIC-06, TC-PRIC-07, TC-
+Underfull \hbox (badness 3679) in paragraph at lines 32--32
+[]|\T5/lmr/m/n/10.95 Ph½ giao nhªn xe
  []
 
 
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 32--32
-[]|\T5/lmr/bx/n/12 PASSED| 
+Underfull \hbox (badness 1642) in paragraph at lines 32--32
+[]|\T5/lmr/m/n/10.95 TC-PRIC-03, TC-PRIC-04, TC-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 33--33
-[]|\T5/lmr/bx/n/12 PASSED| 
+Underfull \hbox (badness 1642) in paragraph at lines 33--33
+[]|\T5/lmr/m/n/10.95 TC-PRIC-06, TC-PRIC-07, TC-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 34--34
-[]|\T5/lmr/bx/n/12 PASSED| 
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]|\T5/lmr/m/n/12 TC-BOOK-07, TC-BOOK-08,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-\T5/lmr/m/n/12 TC-BOOK-09, TC-BOOK-10,
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 35--35
-[]|\T5/lmr/bx/n/12 PASSED| 
+[]|\T5/lmr/m/n/10.95 TC-BOOK-03, TC-BOOK-04,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 36--36
-[]|\T5/lmr/bx/n/12 PASSED| 
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\T5/lmr/m/n/10.95 TC-BOOK-07, TC-BOOK-08,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\T5/lmr/m/n/10.95 TC-BOOK-09, TC-BOOK-10,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]|\T5/lmr/m/n/12 TC-TRIP-03, TC-TRIP-04, TC-
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 37--37
-[]|\T5/lmr/bx/n/12 PASSED| 
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 38--38
-[]|\T5/lmr/bx/n/12 PASSED| 
+Underfull \hbox (badness 1642) in paragraph at lines 38--38
+[]|\T5/lmr/m/n/10.95 TC-TRIP-03, TC-TRIP-04, TC-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\T5/lmr/bx/n/12 REQ-
- []
-
-
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 39--39
-[]|\T5/lmr/bx/n/12 PASSED| 
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T5/lmr/bx/n/12 REQ-
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T5/lmr/m/n/12 TC-RATE-01, TC-RATE-02,
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]|\T5/lmr/bx/n/10.95 REQ-
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 40--40
-\T5/lmr/m/n/12 TC-RATE-03, TC-RATE-04, TC-
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]|\T5/lmr/m/n/10.95 TC-RATE-01, TC-RATE-02,
  []
 
 
-Overfull \hbox (1.28392pt too wide) in paragraph at lines 40--40
-[]|\T5/lmr/bx/n/12 PASSED| 
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\T5/lmr/m/n/10.95 TC-RATE-03, TC-RATE-04,
  []
 
 
-Overfull \hbox (77.07178pt too wide) in alignment at lines 18--41
+Overfull \hbox (34.39264pt too wide) in alignment at lines 19--42
  [] [] [] [] [] 
  []
 
-[35
+[31
 
 ]
-ignored error: Infinite glue shrinkage found in box being split [36]) [37]
-[38]
+ignored error: Infinite glue shrinkage found in box being split [32]) [33]
+[34]
 Ch\uhorn \ohorn ng 9.
-[39
+[35
 
-] [40
+] [36
 
 ] (bao_cao_bai_tap_lon_mioto.aux)
  ***********
@@ -3979,14 +3345,14 @@ L3 programming layer <2025-12-29>
  ***********
 Package rerunfilecheck Info: File `bao_cao_bai_tap_lon_mioto.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 8D8EAD871A6418778D871E65309BE765;13174.
+(rerunfilecheck)             Checksum: 6446E41C8CC32D55ABACDCC005A26DA2;13192.
  ) 
 Here is how much of TeX's memory you used:
- 29252 strings out of 467871
- 563893 string characters out of 5418376
- 1338249 words of memory out of 5000000
- 57439 multiletter control sequences out of 15000+600000
- 768788 words of font info for 107 fonts, out of 8000000 for 9000
+ 29269 strings out of 467871
+ 564080 string characters out of 5418376
+ 1338270 words of memory out of 5000000
+ 57451 multiletter control sequences out of 15000+600000
+ 794420 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,116p,783b,2166s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
@@ -4006,9 +3372,9 @@ rs/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/User
 s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/User
 s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/User
 s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on bao_cao_bai_tap_lon_mioto.pdf (48 pages, 669589 bytes).
+Output written on bao_cao_bai_tap_lon_mioto.pdf (44 pages, 667953 bytes).
 PDF statistics:
- 667 PDF objects out of 1000 (max. 8388607)
- 152 named destinations out of 1000 (max. 500000)
+ 650 PDF objects out of 1000 (max. 8388607)
+ 148 named destinations out of 1000 (max. 500000)
  434 words of extra memory for PDF output out of 10000 (max. 10000000)
 

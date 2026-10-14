@@ -64,3 +64,4 @@ with open('BaoCao_KTPM_Mioto/generated_srs_table.tex', 'w', encoding='utf-8') as
     out.writelines(latex)
 
 print(f"Generated {len(srs_rows)} SRS rows to BaoCao_KTPM_Mioto/generated_srs_table.tex")
+

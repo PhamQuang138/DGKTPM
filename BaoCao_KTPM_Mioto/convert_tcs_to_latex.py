@@ -76,3 +76,4 @@ with open('BaoCao_KTPM_Mioto/generated_test_cases.tex', 'w', encoding='utf-8') a
     out.writelines(latex_tables)
 
 print("Generated BaoCao_KTPM_Mioto/generated_test_cases.tex successfully!")
+

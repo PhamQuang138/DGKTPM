@@ -505,20 +505,20 @@ Các phân vùng kiểm thử được thiết lập chặt chẽ:
 
 \section{Bảng Quyết định (Decision Table) cho Thuật toán Tính Giá}
 \begin{table}[ht]
-  \centering\small
-  \begin{tabularx}{\textwidth}{lcccccc}
+  \centering\footnotesize
+  \begin{tabularx}{\textwidth}{Xcccccc}
     \toprule
     \textbf{Điều kiện / Hành động} & \textbf{R1} & \textbf{R2} & \textbf{R3} & \textbf{R4} & \textbf{R5} & \textbf{R6} \\
     \midrule
-    \textbf{C1: Ngày thuê} & Ngày thường & Cuối tuần & Ngày Lễ/Tết & Ngày thường & Cuối tuần & Ngày thường \\
-    \textbf{C2: Khoảng cách ($d$)} & Tại bãi ($d=0$) & $\le 5$km & $> 5$km & Tại bãi ($d=0$) & $> 5$km & $> 5$km \\
+    \textbf{C1: Loại ngày thuê} & Ngày thường & Cuối tuần & Lễ/Tết & Ngày thường & Cuối tuần & Ngày thường \\
+    \textbf{C2: Khoảng cách ($d$)} & Tại bãi & $\le 5$km & $> 5$km & Tại bãi & $> 5$km & $> 5$km \\
     \textbf{C3: Mã Voucher} & Không & Không & Không & Giảm 10\% & Giảm 100k & Hết hạn \\
     \midrule
     \textbf{A1: Phụ phí ngày} & 0đ & +15\% & +30\% & 0đ & +15\% & 0đ \\
-    \textbf{A2: Phí giao xe} & 0đ & 0đ & $(d-5)\times 15k$ & 0đ & $(d-5)\times 15k$ & $(d-5)\times 15k$ \\
-    \textbf{A3: Bảo hiểm MIC} & 10\% tiền thuê & 10\% tiền thuê & 10\% tiền thuê & 10\% tiền thuê & 10\% tiền thuê & 10\% tiền thuê \\
-    \textbf{A4: Giảm Voucher} & 0đ & 0đ & 0đ & -10\% giá gốc & -100.000đ & 0đ (Báo lỗi) \\
-    \textbf{A5: Tiền cọc 30\%} & $30\% \times \text{Tổng}$ & $30\% \times \text{Tổng}$ & $30\% \times \text{Tổng}$ & $30\% \times \text{Tổng}$ & $30\% \times \text{Tổng}$ & $30\% \times \text{Tổng}$ \\
+    \textbf{A2: Phí giao xe} & 0đ & 0đ & $(d-5)\times 15$k & 0đ & $(d-5)\times 15$k & $(d-5)\times 15$k \\
+    \textbf{A3: Bảo hiểm MIC} & 10\% thuê & 10\% thuê & 10\% thuê & 10\% thuê & 10\% thuê & 10\% thuê \\
+    \textbf{A4: Mức giảm Voucher} & 0đ & 0đ & 0đ & -10\% gốc & -100.000đ & 0đ \\
+    \textbf{A5: Tiền đặt cọc (30\%)} & $30\% \times \text{T}$ & $30\% \times \text{T}$ & $30\% \times \text{T}$ & $30\% \times \text{T}$ & $30\% \times \text{T}$ & $30\% \times \text{T}$ \\
     \bottomrule
   \end{tabularx}
   \caption{Bảng quyết định kiểm thử tính toán chi phí thuê xe Mioto}
@@ -593,8 +593,8 @@ def calculate_rental_price(base_rate, days, is_weekend, is_holiday, delivery_dis
 
 \begin{figure}[ht]
   \centering
-  \resizebox{0.48\textwidth}{!}{
-    \begin{tikzpicture}[>=Stealth, node distance=0.8cm,
+  \resizebox{0.36\textwidth}{!}{
+    \begin{tikzpicture}[>=Stealth, node distance=0.65cm,
       nstyle/.style={circle, draw=drawioblueborder, fill=drawioblue, thick, inner sep=1pt, minimum size=7.5mm, font=\scriptsize\bfseries},
       cond/.style={diamond, draw=drawioorangeborder, fill=drawioorange, thick, inner sep=0pt, minimum size=8.5mm, font=\scriptsize\bfseries}]
 
@@ -660,18 +660,18 @@ def calculate_rental_price(base_rate, days, is_weekend, is_holiday, delivery_dis
 
 \section{Tập 7 Đường đi Cơ sở Độc lập (Basis Paths) và Kết quả Thực thi}
 \begin{table}[ht]
-  \centering\small
-  \begin{tabularx}{\textwidth}{clXcc}
+  \centering\footnotesize
+  \begin{tabularx}{\textwidth}{p{0.8cm}p{4.2cm}Xcc}
     \toprule
-    \textbf{ID} & \textbf{Đường đi trên CFG} & \textbf{Tổ hợp điều kiện \& Test Data} & \textbf{Kỳ vọng} & \textbf{Kết quả} \\
+    \textbf{ID} & \textbf{Đường đi trên CFG} & \textbf{Tổ hợp điều kiện \& Dữ liệu kiểm thử} & \textbf{Kỳ vọng} & \textbf{Kết quả} \\
     \midrule
     \textbf{P1} & $1 \to 2 \to 5 \to 6 \to 7 \to 9 \to 10 \to 11 \to 14 \to 15 \to 17$ & Lễ, $d=10$km ($>5$), Voucher 10\% (Rate 1tr, 2 ngày) & 2.675.000đ & \textbf{PASS} \\
     \textbf{P2} & $1 \to 3 \to 4a \to 5 \to 6 \to 8 \to 9 \to 10 \to 12 \to 13a \to \dots$ & Cuối tuần, $d=4$km ($\le 5$), VC cố định 100k & 2.430.000đ & \textbf{PASS} \\
-    \textbf{P3} & $1 \to 3 \to 4b \to 5 \to 6 \to 8 \to 9 \to 10 \to 12 \to 13b \to \dots$ & Ngày thường, $d=0$km, Không áp dụng Voucher & 1.100.000đ & \textbf{PASS} \\
+    \textbf{P3} & $1 \to 3 \to 4b \to 5 \to 6 \to 8 \to 9 \to 10 \to 12 \to 13b \to \dots$ & Ngày thường, $d=0$km, Không dùng Voucher & 1.100.000đ & \textbf{PASS} \\
     \textbf{P4} & $1 \to 3 \to 4b \to 5 \to 6 \to 7 \to 9 \to 10 \to 11 \to 14 \to 15 \to 16 \to 17$ & Ngày thường, $d=6$km, VC 200\% $\to$ Final $<0 \to 0$đ & 0đ & \textbf{PASS} \\
     \textbf{P5} & $1 \to 3 \to 4a \to 5 \to 6 \to 7 \to 9 \to 10 \to 12 \to 13b \to \dots$ & Cuối tuần, $d=8$km, Mã Voucher không hợp lệ & 2.069.000đ & \textbf{PASS} \\
     \textbf{P6} & $1 \to 2 \to 5 \to 6 \to 8 \to 9 \to 10 \to 12 \to 13a \to \dots$ & Lễ, $d=5$km (Biên), Voucher cố định 500k & 5.935.000đ & \textbf{PASS} \\
-    \textbf{P7} & $1 \to 3 \to 4b \to 5 \to 6 \to 8 \to 9 \to 10 \to 12 \to 13a \to 14 \to 15 \to 16 \to 17$ & Ngày thường, $d=2$km, Voucher 1 triệu $\to 0$đ & 0đ & \textbf{PASS} \\
+    \textbf{P7} & $1 \to 3 \to 4b \to 5 \to 6 \to 8 \to 9 \to 10 \to 12 \to 13a \to 14 \to 15 \to 16 \to 17$ & Ngày thường, $d=2$km, Voucher 1.000.000đ $\to 0$đ & 0đ & \textbf{PASS} \\
     \bottomrule
   \end{tabularx}
   \caption{Tập ca kiểm thử bao phủ 100\% Basis Paths cho thuật toán tính giá}
@@ -686,10 +686,10 @@ def calculate_rental_price(base_rate, days, is_weekend, is_holiday, delivery_dis
 Hệ thống Mioto.vn được đánh giá định lượng toàn diện trên 8 đặc tính chất lượng của chuẩn ISO/IEC 25010:
 
 \begin{table}[ht]
-  \centering\small
-  \begin{tabularx}{\textwidth}{clccX}
+  \centering\footnotesize
+  \begin{tabularx}{\textwidth}{cp{4.2cm}ccX}
     \toprule
-    \textbf{STT} & \textbf{Đặc tính chất lượng} & \textbf{Trọng số} & \textbf{Điểm (/10)} & \textbf{Nhận xét đánh giá chi tiết} \\
+    \textbf{STT} & \textbf{Đặc tính chất lượng (ISO 25010)} & \textbf{Trọng số} & \textbf{Điểm (/10)} & \textbf{Nhận xét đánh giá chi tiết} \\
     \midrule
     1 & \textbf{Tính phù hợp chức năng} & 25\% & \textbf{9.3} & Đầy đủ 100\% nghiệp vụ P2P; Tính toán cước \& KYC chính xác. \\
     2 & \textbf{Hiệu năng \& Tối ưu tải} & 15\% & \textbf{8.5} & FCP 1.4s, LCP 2.2s (Google Web Vitals); API latency $\sim 450$ms. \\

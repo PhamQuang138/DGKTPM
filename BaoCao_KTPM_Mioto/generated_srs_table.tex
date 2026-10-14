@@ -1,4 +1,5 @@
-\begin{longtable}{p{2.3cm}p{2.5cm}p{3cm}p{4.5cm}p{4.2cm}}
+{\small
+\begin{longtable}{p{2.3cm}p{2.2cm}p{2.8cm}p{4.2cm}p{3.8cm}}
 \caption{Ma trận đặc tả 21 yêu cầu chức năng cốt lõi (SRS) hệ thống Mioto.vn} \label{tab:srs_full_table} \\
 \toprule
 \textbf{Mã YC} & \textbf{Phân hệ} & \textbf{Tên chức năng} & \textbf{Mô tả yêu cầu chi tiết} & \textbf{Tiêu chí nghiệm thu} \\
@@ -11,7 +12,7 @@
 \midrule
 \endhead
 
-\midrule \multicolumn{5}{r}{{Còn tiếp ở trang sau...}} \\
+\midrule \multicolumn{5}{r}{{\slshape Còn tiếp ở trang sau...}} \\
 \endfoot
 
 \bottomrule
@@ -35,7 +36,8 @@
 \textbf{REQ-BOOK-03} & Đặt cọc & Thanh toán tiền cọc (Deposit) & Khách thanh toán 30\% giá trị chuyến đi để hoàn tất giữ xe trong vòng 60 phút kể từ khi chủ xe duyệt. & - Hỗ trợ Thẻ Quốc tế, Thẻ ATM, Ví MoMo, VNPay, Ví Mioto. - Đổi trạng thái sang "Đã đặt cọc" (Booked/Confirmed). \\ \midrule
 \textbf{REQ-TRIP-01} & Quản lý chuyến & Thủ tục Check-in (Nhận xe) & Hai bên gặp mặt bàn giao chìa khóa: Khách \& Chủ xe chụp tối thiểu 4 ảnh góc xe, ảnh ODO, ảnh vạch xăng. & - Ký hợp đồng thuê xe điện tử trên ứng dụng. - Đổi trạng thái chuyến: "Đang diễn ra" (In Progress). \\ \midrule
 \textbf{REQ-TRIP-02} & Quản lý chuyến & Thủ tục Check-out (Trả xe) & Hai bên đối soát tình trạng xe khi kết thúc chuyến, ghi nhận ODO và mức xăng/pin hoàn trả. & - Tính phụ phí vượt km (ví dụ 3.000đ/km nếu vượt quá 300km/ngày). - Tính phụ phí bù xăng nếu mức xăng thấp hơn ban đầu. - Khách thanh toán 70\% tiền thuê còn lại + phụ phí trực tiếp cho chủ xe. \\ \midrule
-\textbf{REQ-CANC-01} & Hủy chuyến & Khách hủy chuyến theo chính sách & Khách hủy đơn đặt xe theo các mốc thời gian quy định trong chính sách Mioto. & - Hủy trước >7 ngày: Hoàn 100\% cọc. - Hủy từ 7 ngày đến >24h: Hoàn 50\% cọc. - Hủy dưới 24h: Mất 100\% cọc. \\ \midrule
+\textbf{REQ-CANC-01} & Hủy chuyến & Khách hủy chuyến theo chính sách & Khách hủy đơn đặt xe theo các mốc thời gian quy định trong chính sách Mioto. & - Hủy trước $>$7 ngày: Hoàn 100\% cọc. - Hủy từ 7 ngày đến $>$24h: Hoàn 50\% cọc. - Hủy dưới 24h: Mất 100\% cọc. \\ \midrule
 \textbf{REQ-CANC-02} & Hủy chuyến & Chủ xe hủy chuyến & Chủ xe bấm hủy chuyến đã được xác nhận. & - Hoàn 100\% cọc cho khách thuê. - Phạt chủ xe 30\% giá trị cọc và hạ điểm uy tín trên hệ thống. \\ \midrule
 \textbf{REQ-RATE-01} & Đánh giá & Đánh giá chuyến đi & Khách thuê và Chủ xe đánh giá lẫn nhau (từ 1 đến 5 sao kèm bình luận và hình ảnh minh chứng). & - Chỉ mở form đánh giá trong vòng 7 ngày kể từ khi kết thúc chuyến. - Điểm đánh giá cập nhật vào điểm trung bình của xe. \\ \midrule
 \end{longtable}
+}
