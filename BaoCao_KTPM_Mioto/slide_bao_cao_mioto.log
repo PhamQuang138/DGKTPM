@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1599,11 +1599,7 @@ LaTeX Font Info:    Font shape `T5/lmss/m/it' in size <10> not available
 
 ] [16
 
-]
-LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <9> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 520.
-
- [17
+] [17
 
 ] [18
 
@@ -1626,11 +1622,11 @@ Package rerunfilecheck Info: File `slide_bao_cao_mioto.out' has not changed.
 (rerunfilecheck)             Checksum: 6808CF6E2A28A55F0C97E4CFB56CAD2E;2431.
  ) 
 Here is how much of TeX's memory you used:
- 31186 strings out of 467871
- 636184 string characters out of 5418376
+ 31183 strings out of 467871
+ 636099 string characters out of 5418376
  1066700 words of memory out of 5000000
- 59377 multiletter control sequences out of 15000+600000
- 831076 words of font info for 136 fonts, out of 8000000 for 9000
+ 59374 multiletter control sequences out of 15000+600000
+ 828361 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,12n,123p,430b,1112s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pf
@@ -1655,9 +1651,9 @@ C:/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C
 Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/
 Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb><C:/U
 sers/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt9.pfb>
-Output written on slide_bao_cao_mioto.pdf (18 pages, 494828 bytes).
+Output written on slide_bao_cao_mioto.pdf (18 pages, 492848 bytes).
 PDF statistics:
- 505 PDF objects out of 1000 (max. 8388607)
+ 503 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 500000)
- 737 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 731 words of extra memory for PDF output out of 10000 (max. 10000000)
 

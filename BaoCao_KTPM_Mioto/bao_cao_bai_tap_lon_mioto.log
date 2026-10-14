@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 11:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1230,7 +1230,7 @@ Package hyperref Info: Link coloring ON on input line 95.
 \openout4 = `bao_cao_bai_tap_lon_mioto.out'.
 
 \c@lstlisting=\count361
-<phenikaa_logo.png, id=222, 272.01625pt x 186.6975pt>
+<phenikaa_logo.png, id=218, 272.01625pt x 186.6975pt>
 File: phenikaa_logo.png Graphic file (type png)
 <use phenikaa_logo.png>
 Package pdftex.def Info: phenikaa_logo.png  used on input line 118.
@@ -3278,13 +3278,13 @@ L3 programming layer <2025-12-29>
  ***********
 Package rerunfilecheck Info: File `bao_cao_bai_tap_lon_mioto.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 00B3577591922405FE526ADCC8F6A956;16422.
+(rerunfilecheck)             Checksum: 523F584D24CEBE3B8B851BEE8C8B5724;16043.
  ) 
 Here is how much of TeX's memory you used:
- 29608 strings out of 467871
- 568912 string characters out of 5418376
+ 29606 strings out of 467871
+ 568888 string characters out of 5418376
  1469324 words of memory out of 5000000
- 57686 multiletter control sequences out of 15000+600000
+ 57685 multiletter control sequences out of 15000+600000
  789752 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,104p,756b,2166s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3306,9 +3306,9 @@ rs/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Use
 rs/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Use
 rs/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Use
 rs/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on bao_cao_bai_tap_lon_mioto.pdf (50 pages, 740703 bytes).
+Output written on bao_cao_bai_tap_lon_mioto.pdf (50 pages, 738763 bytes).
 PDF statistics:
- 825 PDF objects out of 1000 (max. 8388607)
- 245 named destinations out of 1000 (max. 500000)
- 498 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 820 PDF objects out of 1000 (max. 8388607)
+ 244 named destinations out of 1000 (max. 500000)
+ 490 words of extra memory for PDF output out of 10000 (max. 10000000)
 
