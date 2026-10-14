@@ -1,18 +1,18 @@
 \babel@toc {vietnamese}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Mô hình V-Model áp dụng trong quy trình kiểm thử hệ thống Mioto.vn}}{3}{figure.1.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Mô hình chữ V (V-Model) trong quy trình kiểm thử và đánh giá hệ thống Mioto.vn}}{3}{figure.1.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Sơ đồ kiến trúc vi dịch vụ và tích hợp đối tác của Mioto.vn (Draw.io style)}}{5}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Sơ đồ Ca sử dụng tổng quát (Use Case Diagram) hệ thống Mioto.vn}}{10}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Sơ đồ Máy trạng thái vòng đời chuyến đi (Trip State Machine Diagram)}}{10}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Sơ đồ Tuần tự (Sequence Diagram) luồng đặt cọc và thanh toán trực tuyến qua Alepay}}{11}{figure.2.4}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Sơ đồ kiến trúc vi dịch vụ và tích hợp đối tác của Mioto.vn (Draw.io style)}}{4}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Sơ đồ Ca sử dụng tổng quát (Use Case Diagram) hệ thống Mioto.vn}}{9}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Sơ đồ Máy trạng thái vòng đời chuyến đi (Trip State Machine Diagram)}}{9}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Sơ đồ Tuần tự (Sequence Diagram) luồng đặt cọc và thanh toán trực tuyến qua Alepay}}{10}{figure.2.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Mô hình Kim tự tháp kiểm thử tự động áp dụng cho hệ thống Mioto.vn}}{12}{figure.3.1}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Đồ thị dòng điều khiển (CFG) hàm tính cước Mioto ($N=18, E=23$)}}{32}{figure.5.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Mô hình Kim tự tháp kiểm thử tự động áp dụng cho hệ thống Mioto.vn}}{11}{figure.3.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Đồ thị dòng điều khiển (CFG) hàm tính cước Mioto ($N=18, E=23$)}}{31}{figure.5.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Sơ đồ quy trình quản lý vòng đời lỗi phần mềm (Defect Life Cycle)}}{38}{figure.8.1}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Sơ đồ quy trình quản lý vòng đời lỗi phần mềm (Defect Life Cycle)}}{37}{figure.8.1}%
 \addvspace {10\p@ }

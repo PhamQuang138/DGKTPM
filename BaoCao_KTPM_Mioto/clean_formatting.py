@@ -22,3 +22,4 @@ text = text.replace(r'\textbf{Ma trận truy xuất nguồn gốc RTM \& Báo c�
 with open('bao_cao_bai_tap_lon_mioto.tex', 'w', encoding='utf-8') as f:
     f.write(text)
 print('Successfully cleaned excessive bolding and casing!')
+

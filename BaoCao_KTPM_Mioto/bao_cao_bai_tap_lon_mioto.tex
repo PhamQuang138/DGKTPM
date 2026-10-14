@@ -225,82 +225,48 @@ Hệ thống Mioto.vn vận hành xoay quanh 3 nhóm tác nhân chính:
   \item \textbf{Quản trị viên hệ thống (Admin \& CSKH):} Kiểm duyệt hồ sơ xe, phê duyệt GPLX, cấu hình khuyến mãi, giải quyết tranh chấp bồi thường cọc và giám sát vận hành hệ thống.
 \end{enumerate}
 
-\section{Phương pháp luận và Mô hình V-Model trong Kiểm thử Phần mềm}
-Để đảm bảo tính toàn diện và khoa học, quá trình kiểm thử hệ thống Mioto.vn được thiết kế và thực thi dựa trên mô hình chữ V (V-Model). Hình~\ref{fig:v_model} mô tả sự đối ứng mật thiết giữa các pha phát triển và các cấp độ kiểm thử.
+\section{Phương pháp luận và mô hình V-Model trong kiểm thử phần mềm}
+Để đảm bảo tính toàn diện và khoa học, quá trình kiểm định và đánh giá chất lượng hệ thống Mioto.vn được thiết kế và thực thi dựa trên mô hình chữ V (V-Model). Hình~\ref{fig:v_model} mô tả sự đối ứng mật thiết giữa các giai đoạn phân tích thiết kế phát triển và các cấp độ kiểm thử tương ứng.
 
-\begin{figure}[ht]
+\begin{figure}[htbp]
   \centering
-  \resizebox{0.92\textwidth}{!}{
-    \begin{tikzpicture}[>=Stealth, node distance=1.5cm and 2.5cm,
-      devnode/.style={rectangle, draw=drawioblueborder, fill=drawioblue, thick, rounded corners=3pt, minimum width=4cm, minimum height=0.9cm, align=center, font=\small\bfseries},
-      testnode/.style={rectangle, draw=drawiogreenborder, fill=drawiogreen, thick, rounded corners=3pt, minimum width=4cm, minimum height=0.9cm, align=center, font=\small\bfseries},
-      codenode/.style={rectangle, draw=drawioorangeborder, fill=drawioorange, thick, rounded corners=3pt, minimum width=3.5cm, minimum height=0.9cm, align=center, font=\small\bfseries}]
+  \resizebox{0.98\textwidth}{!}{
+    \begin{tikzpicture}[>=Stealth,
+      devnode/.style={rectangle, draw=drawioblueborder, fill=drawioblue, very thick, rounded corners=5pt, minimum width=4.6cm, minimum height=1.15cm, align=center, font=\normalsize\bfseries},
+      testnode/.style={rectangle, draw=drawiogreenborder, fill=drawiogreen, very thick, rounded corners=5pt, minimum width=4.6cm, minimum height=1.15cm, align=center, font=\normalsize\bfseries},
+      codenode/.style={rectangle, draw=drawioorangeborder, fill=drawioorange, very thick, rounded corners=5pt, minimum width=4.6cm, minimum height=1.15cm, align=center, font=\normalsize\bfseries}]
 
-      % Nhánh trái: Phát triển
-      \node[devnode] (req) {1. Đặc tả yêu cầu (SRS)};
-      \node[devnode, below right=1cm and 0.8cm of req] (arch) {2. Kiến trúc hệ thống};
-      \node[devnode, below right=1cm and 0.8cm of arch] (mod) {3. Thiết kế module};
+      % Nhánh trái: Phát triển hệ thống (Development Phase)
+      \node[devnode] (req) at (0, 7.5) {1. Đặc tả yêu cầu\\(Yêu cầu chức năng SRS)};
+      \node[devnode] (arch) at (1.8, 5.0) {2. Kiến trúc hệ thống\\(Microservices)};
+      \node[devnode] (mod) at (3.6, 2.5) {3. Thiết kế module\\(Các hàm nghiệp vụ)};
       
-      % Đáy V: Lập trình
-      \node[codenode, below right=1cm and 0.8cm of mod] (code) {4. Triển khai Mã nguồn\\(ReactJS / Microservices)};
+      % Đáy V: Lập trình mã nguồn
+      \node[codenode] (code) at (5.8, 0) {4. Triển khai mã nguồn\\(ReactJS / Vi dịch vụ)};
 
-      % Nhánh phải: Kiểm thử
-      \node[testnode, above right=1cm and 0.8cm of code] (unit) {5. Kiểm thử Đơn vị\\(Unit / White-Box)};
-      \node[testnode, above right=1cm and 0.8cm of unit] (integ) {6. Kiểm thử Tích hợp API\\(Integration / Postman)};
-      \node[testnode, above right=1cm and 0.8cm of integ] (sys) {7. Kiểm thử Hệ thống\\(System Testing / ISO 25010)};
-      \node[testnode, above right=1cm and 0.8cm of sys] (uat) {8. Kiểm thử Chấp nhận\\(UAT / E2E Selenium)};
+      % Nhánh phải: Kiểm thử phần mềm (Testing Phase)
+      \node[testnode] (unit) at (8.0, 2.5) {5. Kiểm thử đơn vị\\(Unit / Hộp trắng)};
+      \node[testnode] (integ) at (9.8, 5.0) {6. Kiểm thử tích hợp\\(Integration / REST API)};
+      \node[testnode] (uat) at (11.6, 7.5) {7. Kiểm thử hệ thống \& UAT\\(System / E2E Selenium)};
 
-      % Mũi tên luồng phát triển
-      \draw[->, thick, draw=blue!70!black] (req) -- (arch);
-      \draw[->, thick, draw=blue!70!black] (arch) -- (mod);
-      \draw[->, thick, draw=blue!70!black] (mod) -- (code);
-      \draw[->, thick, draw=green!60!black] (code) -- (unit);
-      \draw[->, thick, draw=green!60!black] (unit) -- (integ);
-      \draw[->, thick, draw=green!60!black] (integ) -- (sys);
-      \draw[->, thick, draw=green!60!black] (sys) -- (uat);
+      % Mũi tên luồng thực thi (Thực hiện phát triển và kiểm thử)
+      \draw[->, line width=1.5pt, draw=blue!80!black] (req.south) -- (arch.north west);
+      \draw[->, line width=1.5pt, draw=blue!80!black] (arch.south) -- (mod.north west);
+      \draw[->, line width=1.5pt, draw=blue!80!black] (mod.south) -- (code.north west);
+      \draw[->, line width=1.5pt, draw=green!60!black] (code.north east) -- (unit.south);
+      \draw[->, line width=1.5pt, draw=green!60!black] (unit.north east) -- (integ.south);
+      \draw[->, line width=1.5pt, draw=green!60!black] (integ.north east) -- (uat.south);
 
-      % Đường đối ứng kiểm chứng (Verification & Validation)
-      \draw[<->, dashed, thick, draw=purple] (req) -- node[above, font=\scriptsize\slshape]{Nghiệm thu nghiệp vụ} (uat);
-      \draw[<->, dashed, thick, draw=purple] (arch) -- node[above, font=\scriptsize\slshape]{Xác nhận luồng tích hợp} (sys);
-      \draw[<->, dashed, thick, draw=purple] (mod) -- node[above, font=\scriptsize\slshape]{Kiểm thử giao tiếp API} (integ);
-      \draw[<->, dashed, thick, draw=purple] (code) -- node[above, font=\scriptsize\slshape]{Độ bao phủ CFG Basis Path} (unit);
+      % Đường đối ứng kiểm chứng & xác nhận (Verification & Validation)
+      \draw[<->, dashed, line width=1.3pt, draw=purple!80!black] (req) -- node[above, font=\small\slshape]{Nghiệm thu yêu cầu nghiệp vụ} (uat);
+      \draw[<->, dashed, line width=1.3pt, draw=purple!80!black] (arch) -- node[above, font=\small\slshape]{Kiểm thử tích hợp các dịch vụ} (integ);
+      \draw[<->, dashed, line width=1.3pt, draw=purple!80!black] (mod) -- node[above, font=\small\slshape]{Bao phủ nhánh logic \& Basis Path} (unit);
+
     \end{tikzpicture}
   }
-  \caption{Mô hình V-Model áp dụng trong quy trình kiểm thử hệ thống Mioto.vn}
+  \caption{Mô hình chữ V (V-Model) trong quy trình kiểm thử và đánh giá hệ thống Mioto.vn}
   \label{fig:v_model}
 \end{figure}
-
-\section{Tổ chức Nhân sự và Phân công Nhiệm vụ Nhóm 8}
-Để thực hiện toàn diện đề tài đánh giá chất lượng và kiểm thử phần mềm cho hệ thống thực tế Mioto.vn, đề tài được thực hiện bởi tập thể \textbf{Nhóm 8} gồm 3 thành viên với bảng phân công vai trò, nhiệm vụ và trách nhiệm cụ thể như trong Bảng~\ref{tab:team_assignment}.
-
-\begin{table}[ht]
-  \centering\small
-  \caption{Danh sách thành viên và bảng phân công nhiệm vụ chi tiết Nhóm 8}
-  \label{tab:team_assignment}
-  \begin{tabularx}{\textwidth}{|p{1.2cm}|p{3.2cm}|p{2.0cm}|p{4.2cm}|p{3.4cm}|}
-    \hline
-    \textbf{STT} & \textbf{Họ và tên} & \textbf{MSSV} & \textbf{Vai trò \& Trách nhiệm} & \textbf{Nội dung thực hiện chính} \\
-    \hline
-    1 & \textbf{Phạm Duy Quang} & 23017167 & \textbf{Nhóm trưởng} \newline (Test Lead / SQA Engineer) & 
-    - Lập Kế hoạch kiểm thử (Test Plan IEEE 829). \newline
-    - Bóc tách kiến trúc vi dịch vụ \& Reverse-engineering Mioto.vn. \newline
-    - Thiết kế đồ thị CFG \& Kiểm thử hộp trắng (Basis Paths). \newline
-    - Tổng hợp báo cáo, slide và kiểm tra RTM. \\
-    \hline
-    2 & \textbf{Trần Văn Nhật} & 23010625 & \textbf{Thành viên} \newline (Functional Tester) & 
-    - Khảo sát đặc tả yêu cầu người dùng (SRS). \newline
-    - Thiết kế bộ ca kiểm thử chức năng hộp đen (EP, BVA, Decision Table). \newline
-    - Thực thi 68 Test Cases trên Web Mioto.vn. \newline
-    - Ghi nhận và lập báo cáo Defect Reports. \\
-    \hline
-    3 & \textbf{Phạm Văn Đạt} & 23017150 & \textbf{Thành viên} \newline (Automation \& Quality Tester) & 
-    - Xây dựng kịch bản kiểm thử API tự động (Postman Collection). \newline
-    - Xây dựng kịch bản kiểm thử E2E UI tự động với Selenium WebDriver. \newline
-    - Đo lường và đánh giá chất lượng hệ thống theo tiêu chuẩn ISO/IEC 25010. \newline
-    - Thống kê Test Metrics \& Nghiệm thu kết quả. \\
-    \hline
-  \end{tabularx}
-\end{table}
 
 % ==============================================================================
 % CHƯƠNG 2
