@@ -143,3 +143,4 @@ with open('BaoCao_KTPM_Mioto/bao_cao_bai_tap_lon_mioto.tex', 'w', encoding='utf-
     f.write(text)
 
 print("Replaced all 3 wide tables successfully!")
+

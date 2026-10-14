@@ -128,11 +128,13 @@
     \vfill
 
     % Thông tin sinh viên & Giảng viên hướng dẫn
-    \begin{minipage}{0.75\textwidth}
+    \begin{minipage}{0.85\textwidth}
       \large
       \begin{tabular}{ll}
-        \textbf{Sinh viên thực hiện:} & Phạm Duy Quang \\[2mm]
-        \textbf{Mã sinh viên (MSSV):} & 23017167 \\[2mm]
+        \textbf{Nhóm thực hiện:} & \textbf{Nhóm 8} \\[2mm]
+        \textbf{Sinh viên thực hiện:} & 1. Phạm Duy Quang -- MSSV: 23017167 (Nhóm trưởng) \\[1.5mm]
+                                     & 2. Trần Văn Nhật -- MSSV: 23010625 \\[1.5mm]
+                                     & 3. Phạm Văn Đạt -- MSSV: 23017150 \\[2mm]
         \textbf{Lớp:} & K17 - Công nghệ Thông tin \\[2mm]
         \textbf{Giảng viên hướng dẫn:} & TS. Trịnh Thành \\[2mm]
       \end{tabular}
@@ -150,14 +152,14 @@
 \chapter*{LỜI CAM ĐOAN}
 \addcontentsline{toc}{chapter}{LỜI CAM ĐOAN}
 
-Tôi xin cam đoan rằng toàn bộ nội dung trong bản Báo cáo bài tập lớn môn \textbf{Đảm bảo Chất lượng và Kiểm thử Phần mềm} với đề tài \textbf{"Đánh giá chất lượng và kiểm thử chức năng hệ thống đặt xe trực tuyến Mioto (Mioto.vn)"} là công trình nghiên cứu, khảo sát thực tế và thực nghiệm độc lập của bản thân tôi dưới sự hướng dẫn khoa học của Thầy giáo hướng dẫn.
+Chúng em xin cam đoan rằng toàn bộ nội dung trong bản Báo cáo bài tập lớn môn \textbf{Đảm bảo Chất lượng và Kiểm thử Phần mềm} với đề tài \textbf{"Đánh giá chất lượng và kiểm thử chức năng hệ thống đặt xe trực tuyến Mioto (Mioto.vn)"} là công trình nghiên cứu, khảo sát thực tế và thực nghiệm độc lập của tập thể \textbf{Nhóm 8} dưới sự hướng dẫn khoa học của Thầy giáo hướng dẫn.
 
 Các số liệu khảo sát, quy trình bóc tách mã nguồn hệ thống, sơ đồ kiến trúc vi dịch vụ, sơ đồ Use Case, sơ đồ máy trạng thái, đồ thị dòng điều khiển (CFG), các bộ ca kiểm thử chức năng (Functional Test Cases), ma trận truy xuất nguồn gốc (RTM), kịch bản kiểm thử tự động API (Postman Collection) và kiểm thử giao diện E2E (Selenium WebDriver Python) đều được thực hiện nghiêm túc, trung thực và chưa từng được công bố trong bất kỳ công trình nào khác. Mọi thông tin tham khảo trích dẫn trong tài liệu này đều được ghi rõ nguồn gốc rõ ràng tại Danh mục tài liệu tham khảo.
 
 \vspace{15mm}
 \begin{flushright}
   \textit{Hà Nội, ngày 14 tháng 10 năm 2026}\\[5mm]
-  \textbf{Sinh viên thực hiện}\\[15mm]
+  \textbf{Đại diện Nhóm 8 -- Nhóm trưởng}\\[15mm]
   \textbf{Phạm Duy Quang}
 \end{flushright}
 
@@ -165,18 +167,20 @@ Các số liệu khảo sát, quy trình bóc tách mã nguồn hệ thống, s�
 \chapter*{LỜI CẢM ƠN}
 \addcontentsline{toc}{chapter}{LỜI CẢM ƠN}
 
-Lời đầu tiên, em xin trân trọng gửi lời cảm ơn sâu sắc nhất tới Ban Giám hiệu, Khoa Công nghệ Thông tin - Trường Đại học Phenikaa đã tạo điều kiện học tập và nghiên cứu tốt nhất cho chúng em trong suốt quá trình học tập.
+Lời đầu tiên, tập thể Nhóm 8 chúng em xin trân trọng gửi lời cảm ơn sâu sắc nhất tới Ban Giám hiệu, Khoa Công nghệ Thông tin -- Trường Đại học Phenikaa đã tạo điều kiện học tập và nghiên cứu tốt nhất cho chúng em trong suốt quá trình học tập.
 
-Đặc biệt, em xin bày tỏ lòng biết ơn chân thành và sâu sắc nhất tới \textbf{TS. Trịnh Thành}, giảng viên phụ trách môn học Đảm bảo Chất lượng và Kiểm thử Phần mềm. Thầy đã tận tình truyền đạt những kiến thức nền tảng quý báu về quy trình kiểm thử phần mềm (STLC), các kỹ thuật thiết kế ca kiểm thử hộp đen, hộp trắng, kiểm thử tự động hóa và các tiêu chuẩn quốc tế (IEEE 829, ISO/IEC 25010), đồng thời luôn định hướng, động viên em trong quá trình triển khai bài tập lớn này.
+Đặc biệt, chúng em xin bày tỏ lòng biết ơn chân thành và sâu sắc nhất tới \textbf{TS. Trịnh Thành}, giảng viên phụ trách môn học Đảm bảo Chất lượng và Kiểm thử Phần mềm. Thầy đã tận tình truyền đạt những kiến thức nền tảng quý báu về quy trình kiểm thử phần mềm (STLC), các kỹ thuật thiết kế ca kiểm thử hộp đen, hộp trắng, kiểm thử tự động hóa và các tiêu chuẩn quốc tế (IEEE 829, ISO/IEC 25010), đồng thời luôn định hướng, động viên chúng em trong quá trình triển khai bài tập lớn này.
 
-Mặc dù em đã dành nhiều tâm huyết và nỗ lực nghiên cứu để hoàn thiện bản báo cáo một cách đầy đủ và chi tiết nhất, song do hạn chế về mặt thời gian và kinh nghiệm thực tế, bản báo cáo khó tránh khỏi những thiếu sót nhất định. Em rất mong nhận được những lời nhận xét, góp ý quý báu của Thầy để bài báo cáo của em được hoàn thiện hơn nữa.
+Mặc dù nhóm chúng em đã dành nhiều tâm huyết và nỗ lực nghiên cứu để hoàn thiện bản báo cáo một cách đầy đủ và chi tiết nhất, song do hạn chế về mặt thời gian và kinh nghiệm thực tế, bản báo cáo khó tránh khỏi những thiếu sót nhất định. Chúng em rất mong nhận được những lời nhận xét, góp ý quý báu của Thầy để bài báo cáo của nhóm được hoàn thiện hơn nữa.
 
-Em xin kính chúc Thầy luôn dồi dào sức khỏe, hạnh phúc và gặt hái được nhiều thành công hơn nữa trong sự nghiệp giảng dạy và nghiên cứu khoa học!
+Chúng em xin kính chúc Thầy luôn dồi dào sức khỏe, hạnh phúc và gặt hái được nhiều thành công hơn nữa trong sự nghiệp giảng dạy và nghiên cứu khoa học!
 
 \vspace{15mm}
 \begin{flushright}
-  \textbf{Sinh viên thực hiện}\\[15mm]
-  \textbf{Phạm Duy Quang}
+  \textbf{Tập thể sinh viên thực hiện (Nhóm 8)}\\[5mm]
+  \textbf{Phạm Duy Quang} \\[1mm]
+  \textbf{Trần Văn Nhật} \\[1mm]
+  \textbf{Phạm Văn Đạt}
 \end{flushright}
 
 \newpage
@@ -305,6 +309,38 @@ Hệ thống Mioto.vn vận hành xoay quanh 3 nhóm tác nhân chính:
   \caption{Mô hình V-Model áp dụng trong quy trình kiểm thử hệ thống Mioto.vn}
   \label{fig:v_model}
 \end{figure}
+
+\section{Tổ chức Nhân sự và Phân công Nhiệm vụ Nhóm 8}
+Để thực hiện toàn diện đề tài đánh giá chất lượng và kiểm thử phần mềm cho hệ thống thực tế Mioto.vn, đề tài được thực hiện bởi tập thể \textbf{Nhóm 8} gồm 3 thành viên với bảng phân công vai trò, nhiệm vụ và trách nhiệm cụ thể như trong Bảng~\ref{tab:team_assignment}.
+
+\begin{table}[ht]
+  \centering\small
+  \caption{Danh sách thành viên và bảng phân công nhiệm vụ chi tiết Nhóm 8}
+  \label{tab:team_assignment}
+  \begin{tabularx}{\textwidth}{|p{1.2cm}|p{3.2cm}|p{2.0cm}|p{4.2cm}|p{3.4cm}|}
+    \hline
+    \textbf{STT} & \textbf{Họ và tên} & \textbf{MSSV} & \textbf{Vai trò \& Trách nhiệm} & \textbf{Nội dung thực hiện chính} \\
+    \hline
+    1 & \textbf{Phạm Duy Quang} & 23017167 & \textbf{Nhóm trưởng} \newline (Test Lead / SQA Engineer) & 
+    - Lập Kế hoạch kiểm thử (Test Plan IEEE 829). \newline
+    - Bóc tách kiến trúc vi dịch vụ \& Reverse-engineering Mioto.vn. \newline
+    - Thiết kế đồ thị CFG \& Kiểm thử hộp trắng (Basis Paths). \newline
+    - Tổng hợp báo cáo, slide và kiểm tra RTM. \\
+    \hline
+    2 & \textbf{Trần Văn Nhật} & 23010625 & \textbf{Thành viên} \newline (Functional Tester) & 
+    - Khảo sát đặc tả yêu cầu người dùng (SRS). \newline
+    - Thiết kế bộ ca kiểm thử chức năng hộp đen (EP, BVA, Decision Table). \newline
+    - Thực thi 68 Test Cases trên Web Mioto.vn. \newline
+    - Ghi nhận và lập báo cáo Defect Reports. \\
+    \hline
+    3 & \textbf{Phạm Văn Đạt} & 23017150 & \textbf{Thành viên} \newline (Automation \& Quality Tester) & 
+    - Xây dựng kịch bản kiểm thử API tự động (Postman Collection). \newline
+    - Xây dựng kịch bản kiểm thử E2E UI tự động với Selenium WebDriver. \newline
+    - Đo lường và đánh giá chất lượng hệ thống theo tiêu chuẩn ISO/IEC 25010. \newline
+    - Thống kê Test Metrics \& Nghiệm thu kết quả. \\
+    \hline
+  \end{tabularx}
+\end{table}
 
 % ==============================================================================
 % CHƯƠNG 2
@@ -783,22 +819,50 @@ Kết quả nghiệm thu kiểm thử toàn diện trên hệ thống Mioto.vn:
 % ==============================================================================
 \chapter{KẾ LUẬN VÀ ĐỀ XUẤT CẢI TIẾN HỆ THỐNG}
 
-\section{Kết luận Đề tài}
-Bản báo cáo đã giải quyết trọn vẹn toàn bộ các mục tiêu đặt ra của môn học Đảm bảo Chất lượng và Kiểm thử Phần mềm:
+\section{Tổng kết Kết quả Thực hiện Đề tài của Nhóm 8}
+Qua quá trình triển khai thực tế và nghiêm túc đề tài \textbf{"Đánh giá chất lượng và kiểm thử chức năng hệ thống đặt xe trực tuyến Mioto (Mioto.vn)"}, tập thể \textbf{Nhóm 8} đã vận dụng thành thạo và đầy đủ toàn bộ kiến thức nền tảng của môn học Đảm bảo Chất lượng và Kiểm thử Phần mềm, hoàn thành 100\% các mục tiêu đề ra ban đầu:
+\begin{enumerate}
+  \item \textbf{Khảo sát và bóc tách thực tế (Reverse-Engineering):} Đã phân tích thành công kiến trúc vi dịch vụ thực tế của nền tảng Mioto.vn (bao gồm các service phân tán: \texttt{m-car.mioto.vn}, \texttt{payment.mioto.vn}, \texttt{m-wallet.mioto.vn}, \texttt{m-rtc.mioto.vn}), phân định rõ ranh giới nghiệp vụ và các điểm nghẽn tích hợp tiềm ẩn.
+  \item \textbf{Lập tài liệu kiểm thử chuẩn hóa IEEE 829:} Hoàn thiện bộ Kế hoạch kiểm thử (Test Plan) chuẩn quốc tế, đặc tả chi tiết 21 yêu cầu chức năng nghiệp vụ (SRS), phạm vi trong và ngoài kiểm thử, chiến lược kiểm thử đa tầng, ma trận quản lý rủi ro và tiêu chuẩn chấp nhận nghiệm thu.
+  \item \textbf{Thiết kế và thực thi kiểm thử chức năng hộp đen đa phương pháp:} 
+    \begin{itemize}
+      \item Áp dụng kỹ thuật \textit{Phân vùng tương đương (Equivalence Partitioning)} và \textit{Phân tích giá trị biên (Boundary Value Analysis)} vào các trường nhập liệu nhạy cảm (Số điện thoại, OTP, Đơn giá thuê, Quãng đường giới hạn ODO).
+      \item Xây dựng \textit{Bảng quyết định (Decision Table)} gồm 8 luật phức hợp nhằm kiểm thử trọn vẹn thuật toán tính đơn giá cước thuê xe cuối tuần, lễ Tết và các ngưỡng chiết khấu dài ngày.
+      \item Xây dựng và thực thi bộ \textbf{68 ca kiểm thử chức năng (Functional Test Cases)} bao phủ 100\% các phân hệ cốt lõi: Xác thực tài khoản, Tìm kiếm \& Bộ lọc xe, Đặt cọc thanh toán Alepay, Quản lý chuyến xe (Check-in/Check-out) và Đánh giá sau chuyến.
+    \end{itemize}
+  \item \textbf{Kiểm thử hộp trắng chuyên sâu (White-Box Testing):}
+    \begin{itemize}
+      \item Lập Đồ thị dòng điều khiển (CFG) gồm 17 nút lệnh và 22 cung rẽ nhánh cho thuật toán xử lý trả cọc và phạt hủy chuyến.
+      \item Tính toán chính xác độ phức tạp đồ thị McCabe $V(G) = e - n + 2p = 22 - 17 + 2(1) = 7$, từ đó xác định đầy đủ 7 đường đi độc lập cơ sở (Basis Paths).
+      \item Thiết kế và thực thi kiểm thử bao phủ toàn bộ 7 đường đi cơ sở với mã nguồn Java JUnit, đạt độ bao phủ nhánh và câu lệnh 100\%.
+    \end{itemize}
+  \item \textbf{Đánh giá chất lượng toàn diện theo tiêu chuẩn ISO/IEC 25010:} Thiết lập khung đánh giá 8 đặc tính chất lượng, chấm điểm định lượng hệ thống đạt \textbf{9.00 / 10 điểm (Hạng A -- Xuất sắc)}, khẳng định Mioto.vn là nền tảng chia sẻ xe có độ tin cậy và trải nghiệm người dùng hàng đầu tại Việt Nam.
+  \item \textbf{Tự động hóa kiểm thử (Test Automation):}
+    \begin{itemize}
+      \item Xây dựng Postman Collection kiểm thử tự động API microservices với các script kiểm tra mã trạng thái HTTP, thời gian phản hồi ($< 800\text{ms}$) và tính toàn vẹn của JSON Schema.
+      \item Xây dựng kịch bản kiểm thử E2E tự động bằng Python Selenium WebDriver mô phỏng chính xác hành vi tìm kiếm và tương tác giao diện người dùng.
+    \end{itemize}
+  \item \textbf{Ma trận truy xuất nguồn gốc RTM \& Báo cáo lỗi:} Đạt tỷ lệ bao phủ yêu cầu 100\% (21/21 mã SRS đều có test case tương ứng), phát hiện và báo cáo chi tiết 2 lỗi phần mềm điển hình (Lỗi làm tròn số chấm động hiển thị cước phí và Lỗi spam SMS OTP).
+\end{enumerate}
+
+\section{Đánh giá Đóng góp và Bài học Kinh nghiệm của Nhóm 8}
+Qua quá trình thực hiện bài tập lớn, từng thành viên trong Nhóm 8 đã tích lũy được nhiều kinh nghiệm thực tiễn quý giá:
 \begin{itemize}
-  \item Bóc tách kiến trúc vi dịch vụ thực tế của nền tảng Mioto.vn.
-  \item Xây dựng Kế hoạch kiểm thử chuẩn IEEE 829.
-  \item Thiết kế và thực thi kiểm thử chức năng hộp đen đa kỹ thuật (EP, BVA, Decision Table).
-  \item Xây dựng đồ thị dòng điều khiển CFG, chứng minh độ phức tạp $V(G)=7$ và bao phủ 100\% đường đi cơ sở.
-  \item Chấm điểm chất lượng đạt 9.00/10 (Hạng A - Xuất sắc) theo chuẩn ISO/IEC 25010.
-  \item Tự động hóa kiểm thử REST API và UI E2E.
+  \item \textbf{Phạm Duy Quang (Nhóm trưởng):} Nâng cao kỹ năng điều phối dự án, xây dựng khung tài liệu chuẩn quốc tế (IEEE 829, ISO 25010), tư duy bóc tách kiến trúc vi dịch vụ và phương pháp luận kiểm thử hộp trắng dòng điều khiển (CFG).
+  \item \textbf{Trần Văn Nhật:} Rèn luyện tư duy phản biện sắc bén của một Tester chuyên nghiệp khi áp dụng các kỹ thuật thiết kế test case hộp đen, phát hiện các trường hợp góc (edge cases) và phân tích các kịch bản ngoại lệ dễ gây lỗi người dùng.
+  \item \textbf{Phạm Văn Đạt:} Làm chủ các công cụ kiểm thử tự động hiện đại (Postman Newman, Selenium WebDriver Python), hiểu sâu sắc cơ chế CI/CD và quy trình lượng hóa độ tin cậy phần mềm theo các chỉ số chất lượng tiêu chuẩn.
 \end{itemize}
 
 \section{Khuyến nghị Cải tiến Nền tảng Mioto.vn}
+Dựa trên kết quả khảo sát và kiểm thử thực tế, Nhóm 8 trân trọng đề xuất các định hướng nâng cấp kỹ thuật cho đội ngũ phát triển nền tảng Mioto.vn:
 \begin{enumerate}
-  \item Tích hợp AI OCR nâng cao để tự động nắn thẳng và phê duyệt ảnh Giấy phép lái xe dưới 30 giây thay vì duyệt thủ công.
-  \item Bổ sung tính năng theo dõi vị trí GPS của xe thời gian thực trước giờ giao nhận xe tận nơi.
-  \item Khắc phục triệt để lỗi số chấm động và kiểm soát chống spam SMS OTP.
+  \item \textbf{Tích hợp AI OCR \& Face Matching tự động phê duyệt GPLX:} Hiện tại việc duyệt GPLX còn phụ thuộc vào đội ngũ CSKH thủ công (thời gian chờ có thể từ 15--60 phút). Việc áp dụng mô hình Computer Vision kết hợp so khớp khuôn mặt với CCCD gắn chip sẽ rút ngắn thời gian KYC xuống dưới 30 giây, gia tăng tỷ lệ chuyển đổi đặt xe tức thì.
+  \item \textbf{Theo dõi vị trí GPS thời gian thực (Realtime Vehicle Tracking):} Cung cấp tính năng bản đồ trực tiếp chia sẻ vị trí xe đang được chủ xe lái tới giao tận nơi cho khách, giúp khách thuê chủ động đón xe và minh bạch hành trình.
+  \item \textbf{Chuẩn hóa định dạng tiền tệ và Thắt chặt bảo mật API:}
+    \begin{itemize}
+      \item Khắc phục dứt điểm lỗi hiển thị số thực dấu chấm động JavaScript bằng cách sử dụng các hàm làm tròn tiền tệ chuẩn ở tầng hiển thị (\texttt{Intl.NumberFormat}).
+      \item Bổ sung cơ chế Rate Limiting nghiêm ngặt tại API Gateway đối với endpoint yêu cầu OTP (\texttt{POST /api/v2/auth/send-otp}) và vô hiệu hóa nút gửi lại trên giao diện người dùng để ngăn chặn triệt để hành vi lạm dụng SMS gateway gây thiệt hại tài chính.
+    \end{itemize}
 \end{enumerate}
 
 % ==============================================================================
