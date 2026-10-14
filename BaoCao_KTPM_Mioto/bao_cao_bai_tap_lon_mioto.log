@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 10:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 10:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,12 +1278,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 131.
 
-Underfull \hbox (badness 7030) in paragraph at lines 137--137
-[]|\T5/lmr/bx/n/14.4 Gi£ng vi¶n h÷îng
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\T5/lmr/bx/n/14.4 Sinh vi¶n thüc
  []
 
 
-Overfull \hbox (145.64558pt too wide) in paragraph at lines 131--139
+Overfull \hbox (143.37148pt too wide) in paragraph at lines 131--139
 [][] 
  []
 
@@ -3513,7 +3513,7 @@ s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/User
 s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/User
 s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/User
 s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on bao_cao_bai_tap_lon_mioto.pdf (53 pages, 787521 bytes).
+Output written on bao_cao_bai_tap_lon_mioto.pdf (53 pages, 787340 bytes).
 PDF statistics:
  864 PDF objects out of 1000 (max. 8388607)
  252 named destinations out of 1000 (max. 500000)
