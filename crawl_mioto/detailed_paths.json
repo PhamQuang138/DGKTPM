@@ -1,0 +1,31 @@
+{
+  "all_paths": [
+    "/alepay/get-list-card",
+    "/bigowner",
+    "/bookinghowto",
+    "/bookinghowto/mobile",
+    "/bookinghowto/momo",
+    "/career",
+    "/carregister/selfdrive",
+    "/carregister/withdriver",
+    "/carregistermode",
+    "/carsubscription/find/filter",
+    "/faqs/renter",
+    "/insurance",
+    "/insurance/register",
+    "/micarro/register",
+    "/mycars",
+    "/mycstrips",
+    "/mytrips",
+    "/mywallet",
+    "/owner/balance",
+    "/owner/get-request-withdraw",
+    "/owner/register",
+    "/ownerprivacy",
+    "/ownertax",
+    "/ownertax/mobile",
+    "/rentalguide",
+    "/renter",
+    "/tripmanagement"
+  ]
+}

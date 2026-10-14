@@ -1,0 +1,58 @@
+[
+  {
+    "method": "GET",
+    "url_expr": "Je,/blogs?page="
+  },
+  {
+    "method": "GET",
+    "url_expr": "Ns,/ws/request-ws"
+  },
+  {
+    "method": "GET",
+    "url_expr": "Cs,/thread/getThreads?pos="
+  },
+  {
+    "method": "GET",
+    "url_expr": "Cs,/message/getMessages?userId="
+  },
+  {
+    "method": "GET",
+    "url_expr": "Wi,/alepay/get-list-card"
+  },
+  {
+    "method": "POST",
+    "url_expr": "Wi,/alepay/req-add-card?callbackURL="
+  },
+  {
+    "method": "GET",
+    "url_expr": "Wi,/mipay/get-codes?tripId="
+  },
+  {
+    "method": "GET",
+    "url_expr": "ai,/api/get-info"
+  },
+  {
+    "method": "GET",
+    "url_expr": "qr,/owner/invoice?"
+  },
+  {
+    "method": "GET",
+    "url_expr": "qr,/owner/get-request-withdraw"
+  },
+  {
+    "method": "POST",
+    "url_expr": "qr,/owner/request-withdraw?"
+  },
+  {
+    "method": "GET",
+    "url_expr": "qr,/owner/tax-deductions/summary?"
+  },
+  {
+    "method": "GET",
+    "url_expr": "qr,/owner/balance"
+  },
+  {
+    "method": "GET",
+    "url_expr": "Je,/blog?blogId="
+  }
+]

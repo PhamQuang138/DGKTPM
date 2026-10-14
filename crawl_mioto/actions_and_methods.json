@@ -1,0 +1,22 @@
+{
+  "actions": [
+    "CREATE_BILL",
+    "DEFAULT_ACTION_BILL",
+    "GET_BILLS",
+    "GET_PHONE_INSURANCE",
+    "GET_PREPARE_TO_CREATE_BILL",
+    "GET_THREADS",
+    "GET_TRIP_DETAIL",
+    "GET_TRIP_PHOTO_FEED_INIT",
+    "GET_TRIP_PHOTO_FEED_ITEM",
+    "SEND_BILL_TO_CUSTOMER",
+    "SET_TRIP_BILL_TYPE",
+    "UPDATE_BILL"
+  ],
+  "calls": [
+    [
+      "get",
+      "autoInsuranceSD"
+    ]
+  ]
+}
