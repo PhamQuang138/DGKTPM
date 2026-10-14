@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,12 +1278,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 131.
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\T5/lmr/bx/n/14.4 Sinh vi∂n th¸c
- []
-
-
-Overfull \hbox (143.37148pt too wide) in paragraph at lines 131--139
+Overfull \hbox (42.10844pt too wide) in paragraph at lines 131--138
 [][] 
  []
 
@@ -1337,123 +1332,123 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.250 ...√°c ƒë·∫∑c tr∆∞ng c·ªët l√µi c·ªßa Mioto}
+l.249 ...√°c ƒë·∫∑c tr∆∞ng c·ªët l√µi c·ªßa Mioto}
                                                    [1
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-52.
+51.
 
 (C:\Users\duyqu\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [2{C:/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc
 }]
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 []|\T5/lmr/bx/n/10.95 Vai tr· & Tr°ch
  []
 
 
-Underfull \hbox (badness 6141) in paragraph at lines 340--340
+Underfull \hbox (badness 6141) in paragraph at lines 339--339
 []|\T5/lmr/bx/n/10.95 NÎi dung th¸c
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 []|\T5/lmr/bx/n/10.95 Ph§m Duy
  []
 
 
-Underfull \hbox (badness 7099) in paragraph at lines 340--340
+Underfull \hbox (badness 7099) in paragraph at lines 339--339
 []|\T5/lmr/m/n/10.95 - L™p K∏ ho§ch
  []
 
 
-Underfull \hbox (badness 7981) in paragraph at lines 340--340
+Underfull \hbox (badness 7981) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 - B‚c t°ch ki∏n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 Reverse-engineering
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 340--340
+Underfull \hbox (badness 1270) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 - Thi∏t k∏ ^^_Á th‡
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 340--340
+Underfull \hbox (badness 1038) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 CFG & Ki∫m th˚
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 hÎp tr≠ng (Ba-sis
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 340--340
+Underfull \hbox (badness 2961) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 slide v† ki∫m tra
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 340--340
+Underfull \hbox (badness 1983) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 - Thi∏t k∏ bÎ ca
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 Cases tr∂n Web
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 b°o c°o De-fect
  []
 
 
-Underfull \hbox (badness 4713) in paragraph at lines 340--340
+Underfull \hbox (badness 4713) in paragraph at lines 339--339
 []|\T5/lmr/m/n/10.95 - X•y d¸ng k‡ch
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 340--340
+Underfull \hbox (badness 1953) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 t¸ ^^_Îng (Post-man
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 340--340
+Underfull \hbox (badness 1565) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 ^^_Îng vÓi Se-le-nium
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 340--340
+Underfull \hbox (badness 1783) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 gi° chßt l˜Òng hª
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 thËng theo ti∂u
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 chu©n ISO/IEC
  []
 
 
-Underfull \hbox (badness 5105) in paragraph at lines 340--340
+Underfull \hbox (badness 5105) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 - ThËng k∂ Test
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 340--340
+Underfull \hbox (badness 1231) in paragraph at lines 339--339
 \T5/lmr/m/n/10.95 Met-rics & Nghiªm
  []
 
 
-Overfull \hbox (5.49396pt too wide) in alignment at lines 340--340
+Overfull \hbox (5.49396pt too wide) in alignment at lines 339--339
 [][][][][] 
  []
 
@@ -1955,12 +1950,12 @@ Overfull \hbox (40.0831pt too wide) in alignment at lines 19--42
 ignored error: Infinite glue shrinkage found in box being split [6]
 ignored error: Infinite glue shrinkage found in box being split [7]
 ignored error: Infinite glue shrinkage found in box being split [8]) [9]
-Overfull \hbox (2.59995pt too wide) in paragraph at lines 489--489
+Overfull \hbox (2.59995pt too wide) in paragraph at lines 488--488
 |[]\T5/lmr/bx/n/17.28 SÏ ^^_Á Tu¶n t¸ LuÁng Nghiªp vˆ ^^^∞t cÂc v† Thanh
  []
 
 LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 4
-90.
+89.
 (C:\Users\duyqu\AppData\Local\Programs\MiKTeX\tex/latex/lm\t5lmtt.fd
 File: t5lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [10]
@@ -1969,7 +1964,7 @@ Ch\uhorn \ohorn ng 3.
 [12
 
 ]
-Overfull \hbox (15.104pt too wide) in paragraph at lines 600--601
+Overfull \hbox (15.104pt too wide) in paragraph at lines 599--600
 []\T5/lmr/m/n/12 Trºnh duyªt Mo-bile gi£ l™p (Re-spon-sive View-port): iPhone 1
 4/15 Pro (393x852px),
  []
@@ -1977,92 +1972,92 @@ Overfull \hbox (15.104pt too wide) in paragraph at lines 600--601
 [13] [14]
 Ch\uhorn \ohorn ng 4.
 
-Overfull \hbox (3.09459pt too wide) in paragraph at lines 651--651
+Overfull \hbox (3.09459pt too wide) in paragraph at lines 650--650
 |[]\T5/lmr/bx/n/17.28 B£ng Quy∏t ^^_‡nh (De-ci-sion Ta-ble) cho Thu™t to°n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 []|\T5/lmr/bx/n/10 ^^^i∑u
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 \T5/lmr/bx/n/10 kiªn /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 \T5/lmr/bx/n/10 H†nh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 []|\T5/lmr/bx/n/10 C1:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 \T5/lmr/bx/n/10 Lo§i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 \T5/lmr/bx/n/10 ng†y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 []|\T5/lmr/bx/n/10 C2:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 \T5/lmr/bx/n/10 Kho£ng
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 []|\T5/lmr/bx/n/10 A1:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 \T5/lmr/bx/n/10 hi∫m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 []|\T5/lmr/bx/n/10 A4:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 \T5/lmr/bx/n/10 M˘c
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 \T5/lmr/bx/n/10 gi£m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 []|\T5/lmr/bx/n/10 A5:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 \T5/lmr/bx/n/10 Ti∑n
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 668--668
+Underfull \hbox (badness 1655) in paragraph at lines 667--667
 \T5/lmr/bx/n/10 ^^_∞t cÂc
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 685--685
+Underfull \hbox (badness 1960) in paragraph at lines 684--684
 []|\T5/lmr/m/n/10.95 Kh°ch mßt 100% cÂc (chuy∫n bÁi
  []
 
@@ -3124,18 +3119,18 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 737.
+(Font)              <17.28> on input line 736.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 737.
+(hyperref)                removing `math shift' on input line 736.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 737.
+(hyperref)                removing `math shift' on input line 736.
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 821--821
+Underfull \hbox (badness 1314) in paragraph at lines 820--820
 []|\T5/lmr/m/n/10 Ng†y th˜Ìng, $\OML/lmm/m/it/10 d \OT1/lmr/m/n/10 = 2$\T5/lmr/
 m/n/10 km, Voucher
  []
@@ -3143,92 +3138,92 @@ m/n/10 km, Voucher
 [30] [31]
 Ch\uhorn \ohorn ng 6.
 
-Underfull \hbox (badness 3601) in paragraph at lines 850--850
+Underfull \hbox (badness 3601) in paragraph at lines 849--849
 []|\T5/lmr/bx/n/10 ^^^∞c tΩnh chßt l˜Òng
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 []|\T5/lmr/m/n/10 ^^^¶y ^^_ı 100%
  []
 
 
-Underfull \hbox (badness 7486) in paragraph at lines 850--850
+Underfull \hbox (badness 7486) in paragraph at lines 849--849
 \T5/lmr/m/n/10 nghiªp vˆ P2P;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 []|\T5/lmr/m/n/10 FCP 1.4s, LCP
  []
 
 
-Underfull \hbox (badness 6741) in paragraph at lines 850--850
+Underfull \hbox (badness 6741) in paragraph at lines 849--849
 \T5/lmr/m/n/10 Vi-tals); API la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 []|\T5/lmr/m/n/10 Ch§y ho†n h£o
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 850--850
+Underfull \hbox (badness 1210) in paragraph at lines 849--849
 \T5/lmr/m/n/10 quan; Minh b§ch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 []|\T5/lmr/m/n/10 HTTPS/TLS
  []
 
 
-Underfull \hbox (badness 7722) in paragraph at lines 850--850
+Underfull \hbox (badness 7722) in paragraph at lines 849--849
 \T5/lmr/m/n/10 1.3, To-k-eniza-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 \T5/lmr/m/n/10 th¥ PCI-DSS,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 \T5/lmr/m/n/10 Pre-signed URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 []|\T5/lmr/m/n/10 Ki∏n trÛc Mi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 \T5/lmr/m/n/10 croser-vices ph•n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 []|\T5/lmr/m/n/10 ^^^‚ng g‚i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 \T5/lmr/m/n/10 Con-tainer
  []
 
 
-Overfull \hbox (3.41908pt too wide) in paragraph at lines 850--850
+Overfull \hbox (3.41908pt too wide) in paragraph at lines 849--849
 \T5/lmr/m/n/10 Docker/Kubernetes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 []|\T5/lmr/bx/n/10 XòP LOÑI
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
+Underfull \hbox (badness 10000) in paragraph at lines 849--849
 \T5/lmr/bx/n/10 XUáT SçC
  []
 
@@ -3237,7 +3232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 850--850
 ] [33]
 Ch\uhorn \ohorn ng 7.
 LaTeX Font Info:    Font shape `T5/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T5/lmtt/b/n' tried instead on input line 867.
+(Font)              Font shape `T5/lmtt/b/n' tried instead on input line 866.
 (C:\Users\duyqu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
@@ -3513,7 +3508,7 @@ s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/User
 s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/User
 s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/User
 s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on bao_cao_bai_tap_lon_mioto.pdf (53 pages, 787340 bytes).
+Output written on bao_cao_bai_tap_lon_mioto.pdf (53 pages, 787273 bytes).
 PDF statistics:
  864 PDF objects out of 1000 (max. 8388607)
  252 named destinations out of 1000 (max. 500000)
