@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 10:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.15)  14 OCT 2026 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1230,7 +1230,7 @@ Package hyperref Info: Link coloring ON on input line 95.
 \openout4 = `bao_cao_bai_tap_lon_mioto.out'.
 
 \c@lstlisting=\count361
-<phenikaa_logo.png, id=198, 272.01625pt x 186.6975pt>
+<phenikaa_logo.png, id=234, 272.01625pt x 186.6975pt>
 File: phenikaa_logo.png Graphic file (type png)
 <use phenikaa_logo.png>
 Package pdftex.def Info: phenikaa_logo.png  used on input line 118.
@@ -1293,24 +1293,29 @@ png>] [1
 ] (bao_cao_bai_tap_lon_mioto.toc [3
 
 ]
-Overfull \hbox (15.31693pt too wide) in paragraph at lines 30--30
+Overfull \hbox (15.31693pt too wide) in paragraph at lines 34--34
  [] [][][]\T5/lmr/bx/n/12 ^^^ÅNH GIÅ CHáT L◊—NG PHÜN MóM THEO TIñU CHUâN ISO/IE
 C 
  []
 
 
-Overfull \hbox (7.06908pt too wide) in paragraph at lines 31--31
+Overfull \hbox (7.06908pt too wide) in paragraph at lines 35--35
  [] [][][]\T5/lmr/bx/n/12 THIòT Kò K¿CH BÉN KIöM TH€ T‹ ^^^ÀNG (AU-TOMA-TION TE
 ST- 
  []
 
-)
+LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 4
+1.
+(C:\Users\duyqu\AppData\Local\Programs\MiKTeX\tex/latex/lm\t5lmtt.fd
+File: t5lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
 \tf@toc=\write5
 \openout5 = `bao_cao_bai_tap_lon_mioto.toc'.
 
  [4{C:/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.e
 nc}{C:/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
- (bao_cao_bai_tap_lon_mioto.lof)
+
+(bao_cao_bai_tap_lon_mioto.lof)
 \tf@lof=\write6
 \openout6 = `bao_cao_bai_tap_lon_mioto.lof'.
 
@@ -1950,103 +1955,109 @@ Overfull \hbox (40.0831pt too wide) in alignment at lines 19--42
 ignored error: Infinite glue shrinkage found in box being split [6]
 ignored error: Infinite glue shrinkage found in box being split [7]
 ignored error: Infinite glue shrinkage found in box being split [8]) [9]
-[10]
+Overfull \hbox (2.59995pt too wide) in paragraph at lines 491--491
+|[]\T5/lmr/bx/n/17.28 SÏ ^^_Á Tu¶n t¸ LuÁng Nghiªp vˆ ^^^∞t cÂc v† Thanh
+ []
+
+[10] [11]
 Ch\uhorn \ohorn ng 3.
-LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 4
-96.
-(C:\Users\duyqu\AppData\Local\Programs\MiKTeX\tex/latex/lm\t5lmtt.fd
-File: t5lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [11
+[12
 
 ]
+Overfull \hbox (15.104pt too wide) in paragraph at lines 602--603
+[]\T5/lmr/m/n/12 Trºnh duyªt Mo-bile gi£ l™p (Re-spon-sive View-port): iPhone 1
+4/15 Pro (393x852px),
+ []
+
+[13] [14]
 Ch\uhorn \ohorn ng 4.
 
-Overfull \hbox (3.09459pt too wide) in paragraph at lines 542--542
+Overfull \hbox (3.09459pt too wide) in paragraph at lines 653--653
 |[]\T5/lmr/bx/n/17.28 B£ng Quy∏t ^^_‡nh (De-ci-sion Ta-ble) cho Thu™t to°n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 []|\T5/lmr/bx/n/10 ^^^i∑u
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 \T5/lmr/bx/n/10 kiªn /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 \T5/lmr/bx/n/10 H†nh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 []|\T5/lmr/bx/n/10 C1:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 \T5/lmr/bx/n/10 Lo§i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 \T5/lmr/bx/n/10 ng†y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 []|\T5/lmr/bx/n/10 C2:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 \T5/lmr/bx/n/10 Kho£ng
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 []|\T5/lmr/bx/n/10 A1:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 \T5/lmr/bx/n/10 hi∫m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 []|\T5/lmr/bx/n/10 A4:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 \T5/lmr/bx/n/10 M˘c
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 \T5/lmr/bx/n/10 gi£m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 []|\T5/lmr/bx/n/10 A5:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 \T5/lmr/bx/n/10 Ti∑n
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 559--559
+Underfull \hbox (badness 1655) in paragraph at lines 670--670
 \T5/lmr/bx/n/10 ^^_∞t cÂc
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 576--576
+Underfull \hbox (badness 1960) in paragraph at lines 687--687
 []|\T5/lmr/m/n/10.95 Kh°ch mßt 100% cÂc (chuy∫n bÁi
  []
 
@@ -3085,13 +3096,10 @@ Overfull \hbox (22.39264pt too wide) in alignment at lines 22--92
  [] [] [] [] 
  []
 
-[12
+[15
 
 {C:/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
-] [13]
-ignored error: Infinite glue shrinkage found in box being split [14]
-ignored error: Infinite glue shrinkage found in box being split [15]
-ignored error: Infinite glue shrinkage found in box being split [16]
+] [16]
 ignored error: Infinite glue shrinkage found in box being split [17]
 ignored error: Infinite glue shrinkage found in box being split [18]
 ignored error: Infinite glue shrinkage found in box being split [19]
@@ -3099,130 +3107,145 @@ ignored error: Infinite glue shrinkage found in box being split [20]
 ignored error: Infinite glue shrinkage found in box being split [21]
 ignored error: Infinite glue shrinkage found in box being split [22]
 ignored error: Infinite glue shrinkage found in box being split [23]
-ignored error: Infinite glue shrinkage found in box being split [24]) [25]
+ignored error: Infinite glue shrinkage found in box being split [24]
+ignored error: Infinite glue shrinkage found in box being split [25]
+ignored error: Infinite glue shrinkage found in box being split [26]
+ignored error: Infinite glue shrinkage found in box being split [27]) [28]
 Ch\uhorn \ohorn ng 5.
 (C:\Users\duyqu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
-[26
+[29
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 628.
+(Font)              <17.28> on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 628.
+(hyperref)                removing `math shift' on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 628.
+(hyperref)                removing `math shift' on input line 739.
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 712--712
+Underfull \hbox (badness 1314) in paragraph at lines 823--823
 []|\T5/lmr/m/n/10 Ng†y th˜Ìng, $\OML/lmm/m/it/10 d \OT1/lmr/m/n/10 = 2$\T5/lmr/
 m/n/10 km, Voucher
  []
 
-[27] [28]
+[30] [31]
 Ch\uhorn \ohorn ng 6.
 
-Underfull \hbox (badness 3601) in paragraph at lines 741--741
+Underfull \hbox (badness 3601) in paragraph at lines 852--852
 []|\T5/lmr/bx/n/10 ^^^∞c tΩnh chßt l˜Òng
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 []|\T5/lmr/m/n/10 ^^^¶y ^^_ı 100%
  []
 
 
-Underfull \hbox (badness 7486) in paragraph at lines 741--741
+Underfull \hbox (badness 7486) in paragraph at lines 852--852
 \T5/lmr/m/n/10 nghiªp vˆ P2P;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 []|\T5/lmr/m/n/10 FCP 1.4s, LCP
  []
 
 
-Underfull \hbox (badness 6741) in paragraph at lines 741--741
+Underfull \hbox (badness 6741) in paragraph at lines 852--852
 \T5/lmr/m/n/10 Vi-tals); API la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 []|\T5/lmr/m/n/10 Ch§y ho†n h£o
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 741--741
+Underfull \hbox (badness 1210) in paragraph at lines 852--852
 \T5/lmr/m/n/10 quan; Minh b§ch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 []|\T5/lmr/m/n/10 HTTPS/TLS
  []
 
 
-Underfull \hbox (badness 7722) in paragraph at lines 741--741
+Underfull \hbox (badness 7722) in paragraph at lines 852--852
 \T5/lmr/m/n/10 1.3, To-k-eniza-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 \T5/lmr/m/n/10 th¥ PCI-DSS,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 \T5/lmr/m/n/10 Pre-signed URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 []|\T5/lmr/m/n/10 Ki∏n trÛc Mi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 \T5/lmr/m/n/10 croser-vices ph•n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 []|\T5/lmr/m/n/10 ^^^‚ng g‚i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 \T5/lmr/m/n/10 Con-tainer
  []
 
 
-Overfull \hbox (3.41908pt too wide) in paragraph at lines 741--741
+Overfull \hbox (3.41908pt too wide) in paragraph at lines 852--852
 \T5/lmr/m/n/10 Docker/Kubernetes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 []|\T5/lmr/bx/n/10 XòP LOÑI
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 \T5/lmr/bx/n/10 XUáT SçC
  []
 
-[29
+[32
 
-] [30]
+] [33]
 Ch\uhorn \ohorn ng 7.
-[31
+LaTeX Font Info:    Font shape `T5/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T5/lmtt/b/n' tried instead on input line 869.
+(C:\Users\duyqu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+[34
 
 ]
+(C:\Users\duyqu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+(C:\Users\duyqu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+[35] [36] [37]
 Ch\uhorn \ohorn ng 8.
 (generated_rtm_table.tex
 Overfull \hbox (34.39264pt too wide) in alignment at lines 2--7
@@ -3439,33 +3462,40 @@ Overfull \hbox (34.39264pt too wide) in alignment at lines 19--42
  [] [] [] [] [] 
  []
 
-[32
+[38
 
 ]
-ignored error: Infinite glue shrinkage found in box being split [33]) [34]
-[35]
+ignored error: Infinite glue shrinkage found in box being split [39]) [40]
+[41]
 Ch\uhorn \ohorn ng 9.
-[36
+[42
 
-] [37] [38] [39
+] [43] [44] [45
 
 ] (bao_cao_bai_tap_lon_mioto.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
  ***********
-Package rerunfilecheck Info: File `bao_cao_bai_tap_lon_mioto.out' has not chang
-ed.
-(rerunfilecheck)             Checksum: F4F35291C3FA1DE92D00CE10E2C85728;14090.
+
+
+Package rerunfilecheck Warning: File `bao_cao_bai_tap_lon_mioto.out' has change
+d.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `bao_cao_bai_tap_lon_mioto.out':
+(rerunfilecheck)             Before: FF1CA0C43C5A283C18F5802E1145EE7E;17368
+(rerunfilecheck)             After:  C6EE006AA95C4BD988A41A690AD654BD;17264.
  ) 
 Here is how much of TeX's memory you used:
- 29285 strings out of 467871
- 564228 string characters out of 5418376
- 1338379 words of memory out of 5000000
- 57454 multiletter control sequences out of 15000+600000
- 794420 words of font info for 117 fonts, out of 8000000 for 9000
+ 29614 strings out of 467871
+ 568925 string characters out of 5418376
+ 1468769 words of memory out of 5000000
+ 57684 multiletter control sequences out of 15000+600000
+ 795048 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,116p,783b,2166s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,116p,783b,2166s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb
@@ -3481,11 +3511,13 @@ rs/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Use
 rs/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Use
 rs/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/User
 s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/User
+s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/User
 s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/User
-s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on bao_cao_bai_tap_lon_mioto.pdf (47 pages, 682999 bytes).
+s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/User
+s/duyqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
+Output written on bao_cao_bai_tap_lon_mioto.pdf (53 pages, 787637 bytes).
 PDF statistics:
- 684 PDF objects out of 1000 (max. 8388607)
- 161 named destinations out of 1000 (max. 500000)
- 450 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 864 PDF objects out of 1000 (max. 8388607)
+ 252 named destinations out of 1000 (max. 500000)
+ 522 words of extra memory for PDF output out of 10000 (max. 10000000)
 
