@@ -14,7 +14,8 @@
   top=25mm,
   bottom=25mm,
   left=30mm,
-  right=20mm
+  right=20mm,
+  headheight=15pt
 }
 \usepackage{setspace}
 \onehalfspacing
@@ -27,10 +28,28 @@
   citecolor=blue!80!black,
   urlcolor=blue!80!black
 }
+
+% --- TikZ và các thư viện đồ họa (Draw.io style) ---
 \usepackage{tikz}
-\usetikzlibrary{shapes,arrows.meta,positioning,calc,fit}
+\usetikzlibrary{shapes,arrows.meta,positioning,calc,fit,shadows.blur,decorations.pathmorphing,backgrounds}
 \usepackage{listings}
 \usepackage{xcolor}
+
+% --- Bảng màu chuyên nghiệp mô phỏng Draw.io ---
+\definecolor{drawioblue}{RGB}{218, 232, 252}
+\definecolor{drawioblueborder}{RGB}{108, 142, 191}
+\definecolor{drawiogreen}{RGB}{213, 232, 212}
+\definecolor{drawiogreenborder}{RGB}{130, 179, 102}
+\definecolor{drawioorange}{RGB}{255, 230, 204}
+\definecolor{drawioorangeborder}{RGB}{215, 155, 0}
+\definecolor{drawiopurple}{RGB}{225, 213, 231}
+\definecolor{drawiopurpleborder}{RGB}{150, 115, 166}
+\definecolor{drawioyellow}{RGB}{255, 242, 204}
+\definecolor{drawioyellowborder}{RGB}{214, 182, 86}
+\definecolor{drawiored}{RGB}{248, 206, 204}
+\definecolor{drawioredborder}{RGB}{184, 90, 87}
+\definecolor{drawiogray}{RGB}{245, 245, 245}
+\definecolor{drawiograyborder}{RGB}{102, 102, 102}
 
 % --- Định dạng Code Listing ---
 \definecolor{codegreen}{rgb}{0,0.6,0}
@@ -79,7 +98,7 @@
 % ==============================================================================
 \begin{titlepage}
   \begin{tikzpicture}[remember picture, overlay]
-    % Khung đôi ngoài cùng
+    % Khung đôi ngoài cùng chuẩn trang bìa học thuật
     \draw[line width=1.8pt] 
       ($(current page.north west) + (25mm,-20mm)$) 
       rectangle 
@@ -93,22 +112,22 @@
   \begin{center}
     \vspace*{-5mm}
     {\large \textbf{BỘ GIÁO DỤC VÀ ĐÀO TẠO \quad ĐẠI HỌC PHENIKAA}}\\[3mm]
-    \rule{0.6\textwidth}{1.2pt}\\[12mm]
+    \rule{0.6\textwidth}{1.2pt}\\[10mm]
 
     % Logo Đại học Phenikaa
-    \includegraphics[width=6.5cm]{phenikaa_logo.png}\\[12mm]
+    \includegraphics[width=6.5cm]{phenikaa_logo.png}\\[10mm]
 
     {\Large \textbf{BÁO CÁO BÀI TẬP LỚN}}\\[3mm]
-    {\large \textbf{MÔN: ĐẢM BẢO CHẤT LƯỢNG VÀ KIỂM THỬ PHẦN MỀM}}\\[10mm]
+    {\large \textbf{MÔN: ĐẢM BẢO CHẤT LƯỢNG VÀ KIỂM THỬ PHẦN MỀM}}\\[8mm]
 
-    \begin{minipage}{0.9\textwidth}
+    \begin{minipage}{0.92\textwidth}
       \centering
-      {\Large \textbf{ĐÁNH GIÁ CHẤT LƯỢNG VÀ KIỂM THỬ CHỨC NĂNG HỆ THỐNG ĐẶT XE TRỰC TUYẾN MIOTO (MIOTO.VN)}}\\[5mm]
+      {\Large \textbf{ĐÁNH GIÁ CHẤT LƯỢNG VÀ KIỂM THỬ CHỨC NĂNG HỆ THỐNG ĐẶT XE TRỰC TUYẾN MIOTO (MIOTO.VN)}}\\[4mm]
     \end{minipage}
 
     \vfill
 
-    % Thông tin sinh viên & GVHD
+    % Thông tin sinh viên & Giảng viên hướng dẫn
     \begin{minipage}{0.75\textwidth}
       \large
       \begin{tabular}{ll}
@@ -133,7 +152,7 @@
 
 Tôi xin cam đoan rằng toàn bộ nội dung trong bản Báo cáo bài tập lớn môn \textbf{Đảm bảo Chất lượng và Kiểm thử Phần mềm} với đề tài \textbf{"Đánh giá chất lượng và kiểm thử chức năng hệ thống đặt xe trực tuyến Mioto (Mioto.vn)"} là công trình nghiên cứu, khảo sát thực tế và thực nghiệm độc lập của bản thân tôi dưới sự hướng dẫn khoa học của Thầy giáo hướng dẫn.
 
-Các số liệu khảo sát, quy trình bóc tách mã nguồn hệ thống, sơ đồ dòng điều khiển (CFG), các bộ ca kiểm thử chức năng (Functional Test Cases), ma trận truy xuất nguồn gốc (RTM), kịch bản kiểm thử tự động API (Postman Collection) và kiểm thử giao diện E2E (Selenium WebDriver Python) đều được thực hiện nghiêm túc, trung thực và chưa từng được công bố trong bất kỳ công trình nào khác. Mọi thông tin tham khảo trích dẫn trong tài liệu này đều được ghi rõ nguồn gốc rõ ràng tại Danh mục tài liệu tham khảo.
+Các số liệu khảo sát, quy trình bóc tách mã nguồn hệ thống, sơ đồ kiến trúc vi dịch vụ, sơ đồ Use Case, sơ đồ máy trạng thái, đồ thị dòng điều khiển (CFG), các bộ ca kiểm thử chức năng (Functional Test Cases), ma trận truy xuất nguồn gốc (RTM), kịch bản kiểm thử tự động API (Postman Collection) và kiểm thử giao diện E2E (Selenium WebDriver Python) đều được thực hiện nghiêm túc, trung thực và chưa từng được công bố trong bất kỳ công trình nào khác. Mọi thông tin tham khảo trích dẫn trong tài liệu này đều được ghi rõ nguồn gốc rõ ràng tại Danh mục tài liệu tham khảo.
 
 \vspace{15mm}
 \begin{flushright}
@@ -152,7 +171,7 @@ Lời đầu tiên, em xin trân trọng gửi lời cảm ơn sâu sắc nhất
 
 Mặc dù em đã dành nhiều tâm huyết và nỗ lực nghiên cứu để hoàn thiện bản báo cáo một cách đầy đủ và chi tiết nhất, song do hạn chế về mặt thời gian và kinh nghiệm thực tế, bản báo cáo khó tránh khỏi những thiếu sót nhất định. Em rất mong nhận được những lời nhận xét, góp ý quý báu của Thầy để bài báo cáo của em được hoàn thiện hơn nữa.
 
-Em xin kính chúc Thầy luôn dồi dào sức khỏe, hạnh phúc và gặt hái được nhiều thành công hơn nữa trong sự nghiệp trồng người cao quý!
+Em xin kính chúc Thầy luôn dồi dào sức khỏe, hạnh phúc và gặt hái được nhiều thành công hơn nữa trong sự nghiệp giảng dạy và nghiên cứu khoa học!
 
 \vspace{15mm}
 \begin{flushright}
@@ -165,6 +184,14 @@ Em xin kính chúc Thầy luôn dồi dào sức khỏe, hạnh phúc và gặt 
 % MỤC LỤC & DANH MỤC
 % ==============================================================================
 \tableofcontents
+\newpage
+
+\listoffigures
+\addcontentsline{toc}{chapter}{DANH MỤC HÌNH VẼ}
+\newpage
+
+\listoftables
+\addcontentsline{toc}{chapter}{DANH MỤC BẢNG BIỂU}
 \newpage
 
 \chapter*{DANH MỤC CÁC CHỮ VIẾT TẮT}
@@ -234,14 +261,50 @@ Hệ thống Mioto.vn vận hành xoay quanh 3 nhóm tác nhân chính:
   \item \textbf{Quản trị viên hệ thống (Admin \& CSKH):} Kiểm duyệt hồ sơ xe, phê duyệt GPLX, cấu hình khuyến mãi, giải quyết tranh chấp bồi thường cọc và giám sát vận hành hệ thống.
 \end{enumerate}
 
-\section{Mục tiêu và Ý nghĩa thực tiễn của Đề tài}
-\begin{itemize}
-  \item Áp dụng toàn diện các kiến thức, phương pháp luận chuẩn quốc tế về SQA vào một hệ thống thương mại điện tử thực tế.
-  \item Làm chủ các kỹ thuật thiết kế ca kiểm thử hộp đen: Phân vùng tương đương (EP), Phân tích giá trị biên (BVA), Bảng quyết định (Decision Table), Kiểm thử chuyển trạng thái (State Transition).
-  \item Làm chủ kỹ thuật kiểm thử hộp trắng: Xây dựng Đồ thị dòng điều khiển (CFG), tính độ phức tạp Cyclomatic $V(G)$ và bao phủ 100\% đường đi cơ sở (Basis Path Testing).
-  \item Xây dựng kịch bản kiểm thử tự động API (Postman Collection) và UI E2E (Selenium Python).
-  \item Đánh giá toàn diện chất lượng sản phẩm phần mềm dựa trên chuẩn ISO/IEC 25010.
-\end{itemize}
+\section{Phương pháp luận và Mô hình V-Model trong Kiểm thử Phần mềm}
+Để đảm bảo tính toàn diện và khoa học, quá trình kiểm thử hệ thống Mioto.vn được thiết kế và thực thi dựa trên mô hình chữ V (V-Model). Hình~\ref{fig:v_model} mô tả sự đối ứng mật thiết giữa các pha phát triển và các cấp độ kiểm thử.
+
+\begin{figure}[ht]
+  \centering
+  \resizebox{0.92\textwidth}{!}{
+    \begin{tikzpicture}[>=Stealth, node distance=1.5cm and 2.5cm,
+      devnode/.style={rectangle, draw=drawioblueborder, fill=drawioblue, thick, rounded corners=3pt, minimum width=4cm, minimum height=0.9cm, align=center, font=\small\bfseries},
+      testnode/.style={rectangle, draw=drawiogreenborder, fill=drawiogreen, thick, rounded corners=3pt, minimum width=4cm, minimum height=0.9cm, align=center, font=\small\bfseries},
+      codenode/.style={rectangle, draw=drawioorangeborder, fill=drawioorange, thick, rounded corners=3pt, minimum width=3.5cm, minimum height=0.9cm, align=center, font=\small\bfseries}]
+
+      % Nhánh trái: Phát triển
+      \node[devnode] (req) {1. Đặc tả yêu cầu (SRS)};
+      \node[devnode, below right=1cm and 0.8cm of req] (arch) {2. Kiến trúc hệ thống};
+      \node[devnode, below right=1cm and 0.8cm of arch] (mod) {3. Thiết kế module};
+      
+      % Đáy V: Lập trình
+      \node[codenode, below right=1cm and 0.8cm of mod] (code) {4. Triển khai Mã nguồn\\(ReactJS / Microservices)};
+
+      % Nhánh phải: Kiểm thử
+      \node[testnode, above right=1cm and 0.8cm of code] (unit) {5. Kiểm thử Đơn vị\\(Unit / White-Box)};
+      \node[testnode, above right=1cm and 0.8cm of unit] (integ) {6. Kiểm thử Tích hợp API\\(Integration / Postman)};
+      \node[testnode, above right=1cm and 0.8cm of integ] (sys) {7. Kiểm thử Hệ thống\\(System Testing / ISO 25010)};
+      \node[testnode, above right=1cm and 0.8cm of sys] (uat) {8. Kiểm thử Chấp nhận\\(UAT / E2E Selenium)};
+
+      % Mũi tên luồng phát triển
+      \draw[->, thick, draw=blue!70!black] (req) -- (arch);
+      \draw[->, thick, draw=blue!70!black] (arch) -- (mod);
+      \draw[->, thick, draw=blue!70!black] (mod) -- (code);
+      \draw[->, thick, draw=green!60!black] (code) -- (unit);
+      \draw[->, thick, draw=green!60!black] (unit) -- (integ);
+      \draw[->, thick, draw=green!60!black] (integ) -- (sys);
+      \draw[->, thick, draw=green!60!black] (sys) -- (uat);
+
+      % Đường đối ứng kiểm chứng (Verification & Validation)
+      \draw[<->, dashed, thick, draw=purple] (req) -- node[above, font=\scriptsize\slshape]{Nghiệm thu nghiệp vụ} (uat);
+      \draw[<->, dashed, thick, draw=purple] (arch) -- node[above, font=\scriptsize\slshape]{Xác nhận luồng tích hợp} (sys);
+      \draw[<->, dashed, thick, draw=purple] (mod) -- node[above, font=\scriptsize\slshape]{Kiểm thử giao tiếp API} (integ);
+      \draw[<->, dashed, thick, draw=purple] (code) -- node[above, font=\scriptsize\slshape]{Độ bao phủ CFG Basis Path} (unit);
+    \end{tikzpicture}
+  }
+  \caption{Mô hình V-Model áp dụng trong quy trình kiểm thử hệ thống Mioto.vn}
+  \label{fig:v_model}
+\end{figure}
 
 % ==============================================================================
 % CHƯƠNG 2
@@ -249,76 +312,177 @@ Hệ thống Mioto.vn vận hành xoay quanh 3 nhóm tác nhân chính:
 \chapter{PHÂN TÍCH KIẾN TRÚC VÀ ĐẶC TẢ YÊU CẦU HỆ THỐNG}
 
 \section{Kiến trúc Hệ thống Vi dịch vụ (Microservices Architecture)}
-Qua phân tích mã nguồn client-side ReactJS (các bundle chunk \texttt{main.bd284d10.chunk.js}, \texttt{2.68512f82.chunk.js}), hệ thống Mioto.vn được tổ chức theo kiến trúc phân tán hướng vi dịch vụ (Microservices):
+Hệ thống Mioto.vn được tổ chức theo kiến trúc phân tán hướng vi dịch vụ (Microservices), tách biệt hoàn toàn giữa các nghiệp vụ quản lý xe, giao dịch thanh toán, ví điện tử và giao tiếp thời gian thực. Sơ đồ kiến trúc tổng thể được biểu diễn chi tiết tại Hình~\ref{fig:arch_microservices}.
 
 \begin{figure}[ht]
   \centering
   \resizebox{0.95\textwidth}{!}{
     \begin{tikzpicture}[node distance=1.3cm and 1.6cm, >=Stealth, auto,
-      client/.style={rectangle, draw=blue!80, fill=blue!10, thick, rounded corners=4pt, minimum width=3cm, minimum height=1cm, align=center},
-      gateway/.style={rectangle, draw=orange!80, fill=orange!15, thick, rounded corners=4pt, minimum width=11cm, minimum height=1cm, align=center, font=\bfseries},
-      service/.style={rectangle, draw=teal!80, fill=teal!10, thick, rounded corners=4pt, minimum width=2.8cm, minimum height=1.1cm, align=center, font=\small},
-      third/.style={rectangle, draw=purple!80, fill=purple!10, thick, dashed, rounded corners=4pt, minimum width=2.6cm, minimum height=1cm, align=center, font=\scriptsize}]
+      client/.style={rectangle, draw=drawioblueborder, fill=drawioblue, thick, rounded corners=4pt, minimum width=3.2cm, minimum height=1cm, align=center, font=\small\bfseries},
+      gateway/.style={rectangle, draw=drawioorangeborder, fill=drawioorange, thick, rounded corners=4pt, minimum width=11.5cm, minimum height=1cm, align=center, font=\normalsize\bfseries},
+      service/.style={rectangle, draw=drawiogreenborder, fill=drawiogreen, thick, rounded corners=4pt, minimum width=2.6cm, minimum height=1.1cm, align=center, font=\scriptsize\bfseries},
+      third/.style={rectangle, draw=drawiopurpleborder, fill=drawiopurple, thick, dashed, rounded corners=4pt, minimum width=2.6cm, minimum height=1cm, align=center, font=\scriptsize}]
 
-      \node[client] (web) {Web Browser Client\\(ReactJS SPA)};
-      \node[client, right=3cm of web] (app) {Mobile App Client\\(iOS / Android Native)};
+      \node[client] (web) {Web Client\\(ReactJS SPA)};
+      \node[client, right=3.5cm of web] (app) {Mobile App Client\\(iOS / Android Native)};
 
-      \node[gateway, below=1.2cm of $(web)!0.5!(app)$] (gw) {API Gateway \& Reverse Proxy (Cloudflare / NGINX / Rate Limiting)};
+      \node[gateway, below=1.2cm of $(web)!0.5!(app)$] (gw) {API Gateway \& Reverse Proxy (Cloudflare / NGINX / Rate Limiter)};
 
-      \node[service, below left=1.4cm and 2.2cm of gw] (scar) {\textbf{m-car.mioto.vn}\\Xe \& Lịch bận};
-      \node[service, right=0.6cm of scar] (spay) {\textbf{payment.mioto.vn}\\Đặt cọc \& Alepay};
-      \node[service, right=0.6cm of spay] (swallet) {\textbf{m-wallet.mioto.vn}\\Ví \& Thuế TNCN};
-      \node[service, right=0.6cm of swallet] (srtc) {\textbf{m-rtc.mioto.vn}\\Chat \& WebSocket};
+      \node[service, below left=1.4cm and 2.4cm of gw] (scar) {\textbf{m-car.mioto.vn}\\Quản lý Xe \&\\Lịch bận};
+      \node[service, right=0.5cm of scar] (spay) {\textbf{payment.mioto.vn}\\Đặt cọc 30\% \&\\Alepay Webhook};
+      \node[service, right=0.5cm of spay] (swallet) {\textbf{m-wallet.mioto.vn}\\Ví Chủ xe \&\\Thuế TNCN};
+      \node[service, right=0.5cm of swallet] (srtc) {\textbf{m-rtc.mioto.vn}\\Chat Realtime \&\\WebSocket};
 
-      \node[third, below=1.2cm of scar] (maps) {HERE Maps /\\Google Maps API};
+      \node[third, below=1.2cm of scar] (maps) {Bản đồ số\\HERE / Google Maps};
       \node[third, below=1.2cm of spay] (alepay) {Cổng Thanh toán\\Alepay / MoMo / VNPay};
-      \node[third, below=1.2cm of swallet] (csgt) {Xác thực GPLX\\(Cục CSGT)};
+      \node[third, below=1.2cm of swallet] (csgt) {Xác thực GPLX\\(Cục CSGT / BCA)};
       \node[third, below=1.2cm of srtc] (insur) {Bảo hiểm Chuyến đi\\(MIC / VNI)};
 
-      \draw[->, thick] (web) -- (gw);
-      \draw[->, thick] (app) -- (gw);
-      \draw[->, thick] (gw) -- (scar);
-      \draw[->, thick] (gw) -- (spay);
-      \draw[->, thick] (gw) -- (swallet);
-      \draw[->, thick] (gw) -- (srtc);
-      \draw[->, thick, dashed] (scar) -- (maps);
-      \draw[->, thick, dashed] (spay) -- (alepay);
-      \draw[->, thick, dashed] (scar) -- (insur);
-      \draw[->, thick, dashed] (gw) -- (csgt);
+      \draw[->, thick, draw=blue!70!black] (web) -- (gw);
+      \draw[->, thick, draw=blue!70!black] (app) -- (gw);
+      \draw[->, thick, draw=green!60!black] (gw) -- (scar);
+      \draw[->, thick, draw=green!60!black] (gw) -- (spay);
+      \draw[->, thick, draw=green!60!black] (gw) -- (swallet);
+      \draw[->, thick, draw=green!60!black] (gw) -- (srtc);
+      \draw[->, thick, dashed, draw=purple] (scar) -- (maps);
+      \draw[->, thick, dashed, draw=purple] (spay) -- (alepay);
+      \draw[->, thick, dashed, draw=purple] (scar) -- (insur);
+      \draw[->, thick, dashed, draw=purple] (gw) -- (csgt);
     \end{tikzpicture}
   }
-  \caption{Sơ đồ kiến trúc vi dịch vụ và tích hợp đối tác của Mioto.vn}
+  \caption{Sơ đồ kiến trúc vi dịch vụ và tích hợp đối tác của Mioto.vn (Draw.io style)}
+  \label{fig:arch_microservices}
 \end{figure}
 
-\section{Đặc tả Yêu cầu Chức năng Hệ thống (SRS)}
-Hệ thống bao gồm 8 phân hệ nghiệp vụ chính với 21 mã yêu cầu chức năng (SRS) được chuẩn hóa:
-\begin{enumerate}
-  \item \textbf{Phân hệ Xác thực \& KYC:} Đăng ký bằng SĐT (\texttt{REQ-AUTH-01}), Xác thực OTP (\texttt{REQ-AUTH-02}), Đăng nhập (\texttt{REQ-AUTH-03}), Định danh GPLX B1/B2/C (\texttt{REQ-AUTH-04}).
-  \item \textbf{Phân hệ Tìm kiếm \& Bộ lọc xe:} Tìm theo địa điểm (\texttt{REQ-SRCH-01}), Tìm theo khung giờ (\texttt{REQ-SRCH-02}), Lọc xe nâng cao (\texttt{REQ-SRCH-03}), Lọc tính năng tiện ích (\texttt{REQ-SRCH-04}).
-  \item \textbf{Phân hệ Bảng giá cước \& Khuyến mãi:} Tính đơn giá ngày (\texttt{REQ-PRIC-01}), Phụ phí cuối tuần/lễ (\texttt{REQ-PRIC-02}), Phí bảo hiểm MIC (\texttt{REQ-PRIC-03}), Phí giao xe theo km (\texttt{REQ-PRIC-04}), Mã giảm giá Voucher (\texttt{REQ-PRIC-05}).
-  \item \textbf{Phân hệ Đặt xe \& Thanh toán cọc:} Tạo yêu cầu (\texttt{REQ-BOOK-01}), Chủ xe phê duyệt (\texttt{REQ-BOOK-02}), Thanh toán đặt cọc 30\% (\texttt{REQ-BOOK-03}).
-  \item \textbf{Phân hệ Quản lý Chuyến đi:} Check-in nhận xe chụp ảnh 4 góc và ODO (\texttt{REQ-TRIP-01}), Check-out trả xe đối soát xăng và km vượt (\texttt{REQ-TRIP-02}).
-  \item \textbf{Phân hệ Hủy chuyến \& Đánh giá:} Khách hủy chuyến (\texttt{REQ-CANC-01}), Chủ xe hủy chuyến (\texttt{REQ-CANC-02}), Đánh giá chấm sao 1--5 sao (\texttt{REQ-RATE-01}).
-\end{enumerate}
+\section{Sơ đồ Ca Sử Dụng Tổng Quát (Use Case Diagram)}
+Hệ thống kết nối 3 tác nhân chính thông qua các trường hợp sử dụng (Use Cases) được chuẩn hóa tại Hình~\ref{fig:use_case_diagram}.
+
+\begin{figure}[ht]
+  \centering
+  \resizebox{0.92\textwidth}{!}{
+    \begin{tikzpicture}[>=Stealth, auto,
+      actor/.style={rectangle, draw=drawioorangeborder, fill=drawioorange, thick, rounded corners=5pt, minimum width=2.4cm, minimum height=1cm, align=center, font=\small\bfseries},
+      uc/.style={ellipse, draw=drawioblueborder, fill=drawioblue, thick, minimum width=3.8cm, minimum height=0.75cm, align=center, font=\scriptsize\bfseries},
+      sysbox/.style={rectangle, draw=drawiograyborder, fill=drawiogray!30, thick, rounded corners=8pt, inner sep=12pt}]
+
+      % Hệ thống boundary
+      \node[uc] (uc1) at (0, 4) {1. Đăng ký / Xác thực KYC GPLX};
+      \node[uc] (uc2) at (0, 3) {2. Tìm kiếm \& Lọc xe thông minh};
+      \node[uc] (uc3) at (0, 2) {3. Xem bảng giá \& Áp dụng Voucher};
+      \node[uc] (uc4) at (0, 1) {4. Tạo yêu cầu \& Đặt cọc 30\%};
+      \node[uc] (uc5) at (0, 0) {5. Bàn giao nhận xe (Check-in/out)};
+      \node[uc] (uc6) at (0, -1) {6. Hủy chuyến \& Xử lý bồi cọc};
+      \node[uc] (uc7) at (0, -2) {7. Đánh giá \& Chấm điểm sao};
+      \node[uc] (uc8) at (0, -3) {8. Quản lý Lịch bận \& Bảng giá};
+      \node[uc] (uc9) at (0, -4) {9. Rút tiền doanh thu từ Ví};
+
+      \begin{scope}[on background layer]
+        \node[sysbox, fit=(uc1) (uc9), label={[font=\normalsize\bfseries, text=blue!70!black]above:HỆ THỐNG ĐẶT XE TRỰC TUYẾN MIOTO.VN}] (sys) {};
+      \end{scope}
+
+      % Actors
+      \node[actor, left=2.2cm of uc3] (renter) {Khách thuê xe\\(Renter)};
+      \node[actor, right=2.2cm of uc7] (owner) {Chủ sở hữu xe\\(Car Owner)};
+      \node[actor, right=2.2cm of uc1] (admin) {Quản trị viên\\(Admin / CSKH)};
+
+      % Connections
+      \draw[->, thick, draw=blue!70!black] (renter) -- (uc1);
+      \draw[->, thick, draw=blue!70!black] (renter) -- (uc2);
+      \draw[->, thick, draw=blue!70!black] (renter) -- (uc3);
+      \draw[->, thick, draw=blue!70!black] (renter) -- (uc4);
+      \draw[->, thick, draw=blue!70!black] (renter) -- (uc5);
+      \draw[->, thick, draw=blue!70!black] (renter) -- (uc6);
+      \draw[->, thick, draw=blue!70!black] (renter) -- (uc7);
+
+      \draw[->, thick, draw=orange!70!black] (owner) -- (uc1);
+      \draw[->, thick, draw=orange!70!black] (owner) -- (uc4);
+      \draw[->, thick, draw=orange!70!black] (owner) -- (uc5);
+      \draw[->, thick, draw=orange!70!black] (owner) -- (uc6);
+      \draw[->, thick, draw=orange!70!black] (owner) -- (uc7);
+      \draw[->, thick, draw=orange!70!black] (owner) -- (uc8);
+      \draw[->, thick, draw=orange!70!black] (owner) -- (uc9);
+
+      \draw[->, thick, draw=purple!80!black] (admin) -- (uc1);
+      \draw[->, thick, draw=purple!80!black] (admin) -- (uc6);
+    \end{tikzpicture}
+  }
+  \caption{Sơ đồ Ca sử dụng tổng quát (Use Case Diagram) hệ thống Mioto.vn}
+  \label{fig:use_case_diagram}
+\end{figure}
+
+\section{Sơ đồ Máy Trạng thái Vòng đời Chuyến đi (State Machine Diagram)}
+Vòng đời của một chuyến đi (Trip Lifecycle) trải qua 7 trạng thái chuyển đổi nghiêm ngặt, được minh họa tại Hình~\ref{fig:state_machine}.
+
+\begin{figure}[ht]
+  \centering
+  \resizebox{0.95\textwidth}{!}{
+    \begin{tikzpicture}[node distance=1.2cm and 1.8cm, >=Stealth, auto,
+      st/.style={rectangle, draw=drawioblueborder, fill=drawioblue, thick, rounded corners=5pt, minimum width=2.6cm, minimum height=0.85cm, align=center, font=\small\bfseries},
+      endst/.style={rectangle, draw=drawioredborder, fill=drawiored, thick, rounded corners=5pt, minimum width=2.4cm, minimum height=0.85cm, align=center, font=\small\bfseries},
+      finalst/.style={rectangle, draw=drawiogreenborder, fill=drawiogreen, thick, rounded corners=5pt, minimum width=2.6cm, minimum height=0.85cm, align=center, font=\small\bfseries}]
+
+      \node[st] (draft) {1. DRAFT\\(Khách chọn xe)};
+      \node[st, right=1.2cm of draft] (pending) {2. PENDING\\(Chờ chủ duyệt 60p)};
+      \node[st, right=1.2cm of pending] (approved) {3. APPROVED\\(Chờ cọc 60p)};
+      \node[st, right=1.2cm of approved] (booked) {4. BOOKED\\(Đã đặt cọc 30\%)};
+
+      \node[endst, below=1.2cm of pending] (rej) {REJECTED /\\EXPIRED};
+      \node[endst, below=1.2cm of approved] (timeout) {DEPOSIT\\TIMEOUT};
+
+      \node[st, below=1.3cm of booked] (inprog) {5. IN\_PROGRESS\\(Check-in nhận xe)};
+      \node[finalst, left=1.2cm of inprog] (comp) {6. COMPLETED\\(Check-out trả xe)};
+      \node[finalst, left=1.2cm of comp] (rev) {7. REVIEWED\\(Đánh giá 1--5 sao)};
+
+      \draw[->, thick] (draft) -- node[above, font=\scriptsize]{Gửi yêu cầu} (pending);
+      \draw[->, thick] (pending) -- node[above, font=\scriptsize]{Chủ xe duyệt} (approved);
+      \draw[->, thick] (approved) -- node[above, font=\scriptsize]{Cọc 30\%} (booked);
+      \draw[->, thick, draw=red!70!black] (pending) -- node[right, font=\scriptsize]{Từ chối / Hết giờ} (rej);
+      \draw[->, thick, draw=red!70!black] (approved) -- node[right, font=\scriptsize]{Quá 60p không cọc} (timeout);
+      \draw[->, thick] (booked) -- node[right, font=\scriptsize]{Ký biên bản 4 góc} (inprog);
+      \draw[->, thick] (inprog) -- node[above, font=\scriptsize]{Đối soát ODO \& xăng} (comp);
+      \draw[->, thick] (comp) -- node[above, font=\scriptsize]{Chấm sao hoàn tất} (rev);
+    \end{tikzpicture}
+  }
+  \caption{Sơ đồ Máy trạng thái vòng đời chuyến đi (Trip State Machine Diagram)}
+  \label{fig:state_machine}
+\end{figure}
 
 % ==============================================================================
 % CHƯƠNG 3
 % ==============================================================================
 \chapter{KẾ HOẠCH KIỂM THỬ PHẦN MỀM THEO CHUẨN IEEE 829}
 
-Kế hoạch kiểm thử chi tiết được định danh \texttt{TP-MIOTO-SQA-2026-V1.0} tuân thủ tiêu chuẩn quốc tế IEEE 829-2008:
-\begin{itemize}
-  \item \textbf{Mục tiêu chất lượng:} Xác nhận tính đúng đắn 100\% các yêu cầu SRS; 0 lỗi Blocker/Critical; Đạt 100\% độ bao phủ đường đi cơ sở (Basis Path Coverage) trên hàm tính giá.
-  \item \textbf{Chiến lược kiểm thử:} Mô hình kim tự tháp kết hợp: Kiểm thử chức năng hộp đen (EP, BVA, Decision Table) $\to$ Kiểm thử tự động API (Postman/Newman) $\to$ Kiểm thử tự động UI E2E (Selenium Python).
-  \item \textbf{Tiêu chí hoàn thành (Exit Criteria):} 100\% các ca kiểm thử được thực thi; Tỷ lệ Pass $\ge 95\%$; 100\% lỗi Blocker và Critical được khắc phục và retest thành công.
-\end{itemize}
+Kế hoạch kiểm thử chi tiết được định danh \texttt{TP-MIOTO-SQA-2026-V1.0} tuân thủ tiêu chuẩn quốc tế IEEE 829-2008.
+
+\section{Mô hình Kim Tự Tháp Kiểm Thử Tự Động (Testing Pyramid)}
+Chiến lược phân bổ nguồn lực kiểm thử được cấu trúc theo kim tự tháp tự động hóa, minh họa tại Hình~\ref{fig:test_pyramid}.
+
+\begin{figure}[ht]
+  \centering
+  \resizebox{0.75\textwidth}{!}{
+    \begin{tikzpicture}[>=Stealth,
+      lvl1/.style={trapezium, trapezium left angle=65, trapezium right angle=65, draw=drawioredborder, fill=drawiored, thick, minimum width=3.2cm, minimum height=1.1cm, align=center, font=\small\bfseries},
+      lvl2/.style={trapezium, trapezium left angle=65, trapezium right angle=65, draw=drawioorangeborder, fill=drawioorange, thick, minimum width=6cm, minimum height=1.2cm, align=center, font=\small\bfseries},
+      lvl3/.style={trapezium, trapezium left angle=65, trapezium right angle=65, draw=drawiogreenborder, fill=drawiogreen, thick, minimum width=9cm, minimum height=1.3cm, align=center, font=\small\bfseries}]
+
+      \node[lvl1] (top) at (0, 2.6) {Kiểm thử E2E Giao diện (20\%)\\Selenium WebDriver / UI};
+      \node[lvl2] (mid) at (0, 1.3) {Kiểm thử Tích hợp \& API Tự động (40\%)\\Postman Collection / Newman CLI};
+      \node[lvl3] (bot) at (0, 0) {Kiểm thử Chức năng Hộp đen \& Hộp trắng (40\%)\\EP, BVA, Decision Table, CFG Basis Paths};
+
+      \draw[->, thick, dashed, draw=blue!70!black] (-5, 0) -- (-5, 3.2) node[midway, left, align=center, font=\footnotesize\slshape] {Chi phí \& Thời gian\\thực thi tăng dần};
+      \draw[->, thick, dashed, draw=green!60!black] (5, 3.2) -- (5, 0) node[midway, right, align=center, font=\footnotesize\slshape] {Độ ổn định \&\\Tốc độ kiểm thử tăng dần};
+    \end{tikzpicture}
+  }
+  \caption{Mô hình Kim tự tháp kiểm thử tự động áp dụng cho hệ thống Mioto.vn}
+  \label{fig:test_pyramid}
+\end{figure}
 
 % ==============================================================================
 % CHƯƠNG 4
 % ==============================================================================
 \chapter{THIẾT KẾ BỘ CA KIỂM THỬ CHỨC NĂNG CHI TIẾT (FUNCTIONAL TEST CASES)}
 
-\section{Phân tích Phân vùng tương đương (EP) và Phân tích Giá trị biên (BVA)}
+\section{Phân tích Phân vùng tương đương (EP) và Giá trị biên (BVA)}
 Các phân vùng kiểm thử được thiết lập chặt chẽ:
 \begin{itemize}
   \item \textbf{Trường Số điện thoại:} 
@@ -353,6 +517,7 @@ Các phân vùng kiểm thử được thiết lập chặt chẽ:
     \bottomrule
   \end{tabularx}
   \caption{Bảng quyết định kiểm thử tính toán chi phí thuê xe Mioto}
+  \label{tab:decision_pricing}
 \end{table}
 
 \section{Bảng Quyết định Chính sách Hủy Chuyến \& Bồi Cọc}
@@ -369,6 +534,7 @@ Các phân vùng kiểm thử được thiết lập chặt chẽ:
     \bottomrule
   \end{tabularx}
   \caption{Bảng quyết định kiểm thử chính sách hủy chuyến và bồi thường}
+  \label{tab:decision_cancellation}
 \end{table}
 
 % ==============================================================================
@@ -420,10 +586,10 @@ def calculate_rental_price(base_rate, days, is_weekend, is_holiday, delivery_dis
 
 \begin{figure}[ht]
   \centering
-  \resizebox{0.45\textwidth}{!}{
+  \resizebox{0.48\textwidth}{!}{
     \begin{tikzpicture}[>=Stealth, node distance=0.8cm,
-      nstyle/.style={circle, draw=blue!80, fill=blue!10, thick, inner sep=1pt, minimum size=7mm, font=\scriptsize\bfseries},
-      cond/.style={diamond, draw=orange!80, fill=orange!15, thick, inner sep=0pt, minimum size=8mm, font=\scriptsize\bfseries}]
+      nstyle/.style={circle, draw=drawioblueborder, fill=drawioblue, thick, inner sep=1pt, minimum size=7.5mm, font=\scriptsize\bfseries},
+      cond/.style={diamond, draw=drawioorangeborder, fill=drawioorange, thick, inner sep=0pt, minimum size=8.5mm, font=\scriptsize\bfseries}]
 
       \node[cond] (n1) {1};
       \node[nstyle, below left=0.7cm and 0.6cm of n1] (n2) {2};
@@ -431,50 +597,51 @@ def calculate_rental_price(base_rate, days, is_weekend, is_holiday, delivery_dis
       \node[nstyle, below left=0.7cm and 0.4cm of n3] (n4a) {4a};
       \node[nstyle, below right=0.7cm and 0.4cm of n3] (n4b) {4b};
       
-      \node[nstyle, below=2cm of n1] (n5) {5};
+      \node[nstyle, below=2.1cm of n1] (n5) {5};
       \node[cond, below=0.6cm of n5] (n6) {6};
       \node[nstyle, below left=0.6cm and 0.5cm of n6] (n7) {7};
       \node[nstyle, below right=0.6cm and 0.5cm of n6] (n8) {8};
       
-      \node[nstyle, below=1.8cm of n6] (n9) {9};
+      \node[nstyle, below=1.9cm of n6] (n9) {9};
       \node[cond, below=0.6cm of n9] (n10) {10};
       \node[nstyle, below left=0.6cm and 0.6cm of n10] (n11) {11};
       \node[cond, below right=0.6cm and 0.6cm of n10] (n12) {12};
       \node[nstyle, below left=0.6cm and 0.4cm of n12] (n13a) {13a};
       \node[nstyle, below right=0.6cm and 0.4cm of n12] (n13b) {13b};
       
-      \node[nstyle, below=2cm of n10] (n14) {14};
+      \node[nstyle, below=2.1cm of n10] (n14) {14};
       \node[cond, below=0.6cm of n14] (n15) {15};
       \node[nstyle, below left=0.6cm and 0.5cm of n15] (n16) {16};
       \node[nstyle, below right=0.6cm and 0.5cm of n15] (n17) {17};
 
-      \draw[->, thick] (n1) -- node[left]{\tiny T} (n2);
-      \draw[->, thick] (n1) -- node[right]{\tiny F} (n3);
-      \draw[->, thick] (n3) -- node[left]{\tiny T} (n4a);
-      \draw[->, thick] (n3) -- node[right]{\tiny F} (n4b);
+      \draw[->, thick, draw=blue!80!black] (n1) -- node[left, font=\tiny\bfseries]{True} (n2);
+      \draw[->, thick, draw=orange!80!black] (n1) -- node[right, font=\tiny\bfseries]{False} (n3);
+      \draw[->, thick, draw=blue!80!black] (n3) -- node[left, font=\tiny\bfseries]{True} (n4a);
+      \draw[->, thick, draw=orange!80!black] (n3) -- node[right, font=\tiny\bfseries]{False} (n4b);
       \draw[->, thick] (n2) -- (n5);
       \draw[->, thick] (n4a) -- (n5);
       \draw[->, thick] (n4b) -- (n5);
       \draw[->, thick] (n5) -- (n6);
-      \draw[->, thick] (n6) -- node[left]{\tiny T} (n7);
-      \draw[->, thick] (n6) -- node[right]{\tiny F} (n8);
+      \draw[->, thick, draw=blue!80!black] (n6) -- node[left, font=\tiny\bfseries]{True} (n7);
+      \draw[->, thick, draw=orange!80!black] (n6) -- node[right, font=\tiny\bfseries]{False} (n8);
       \draw[->, thick] (n7) -- (n9);
       \draw[->, thick] (n8) -- (n9);
       \draw[->, thick] (n9) -- (n10);
-      \draw[->, thick] (n10) -- node[left]{\tiny T} (n11);
-      \draw[->, thick] (n10) -- node[right]{\tiny F} (n12);
-      \draw[->, thick] (n12) -- node[left]{\tiny T} (n13a);
-      \draw[->, thick] (n12) -- node[right]{\tiny F} (n13b);
+      \draw[->, thick, draw=blue!80!black] (n10) -- node[left, font=\tiny\bfseries]{True} (n11);
+      \draw[->, thick, draw=orange!80!black] (n10) -- node[right, font=\tiny\bfseries]{False} (n12);
+      \draw[->, thick, draw=blue!80!black] (n12) -- node[left, font=\tiny\bfseries]{True} (n13a);
+      \draw[->, thick, draw=orange!80!black] (n12) -- node[right, font=\tiny\bfseries]{False} (n13b);
       \draw[->, thick] (n11) -- (n14);
       \draw[->, thick] (n13a) -- (n14);
       \draw[->, thick] (n13b) -- (n14);
       \draw[->, thick] (n14) -- (n15);
-      \draw[->, thick] (n15) -- node[left]{\tiny T} (n16);
-      \draw[->, thick] (n15) -- node[right]{\tiny F} (n17);
+      \draw[->, thick, draw=blue!80!black] (n15) -- node[left, font=\tiny\bfseries]{True} (n16);
+      \draw[->, thick, draw=orange!80!black] (n15) -- node[right, font=\tiny\bfseries]{False} (n17);
       \draw[->, thick] (n16) -- (n17);
     \end{tikzpicture}
   }
-  \caption{Đồ thị dòng điều khiển (CFG) thuật toán tính cước Mioto ($N=18, E=23$)}
+  \caption{Đồ thị dòng điều khiển (CFG) hàm tính cước Mioto ($N=18, E=23$)}
+  \label{fig:cfg_diagram}
 \end{figure}
 
 Độ phức tạp Cyclomatic $V(G)$ được tính bằng 3 phương pháp độc lập:
@@ -501,6 +668,7 @@ def calculate_rental_price(base_rate, days, is_weekend, is_holiday, delivery_dis
     \bottomrule
   \end{tabularx}
   \caption{Tập ca kiểm thử bao phủ 100\% Basis Paths cho thuật toán tính giá}
+  \label{tab:basis_paths}
 \end{table}
 
 % ==============================================================================
@@ -529,6 +697,7 @@ Hệ thống Mioto.vn được đánh giá định lượng toàn diện trên 8
     \bottomrule
   \end{tabularx}
   \caption{Bảng điểm đánh giá chất lượng toàn diện hệ thống Mioto.vn theo ISO/IEC 25010}
+  \label{tab:iso_quality_score}
 \end{table}
 
 % ==============================================================================
@@ -546,6 +715,40 @@ Mã nguồn kiểm thử tự động tại file \texttt{test\_mioto\_selenium.p
 % CHƯƠNG 8
 % ==============================================================================
 \chapter{QUẢN LÝ LỖI VÀ MA TRẬN TRUY XUẤT NGUỒN GỐC (RTM)}
+
+\section{Quy trình Vòng đời Lỗi Phần mềm (Defect Life Cycle)}
+Quy trình xử lý lỗi từ khi phát hiện đến khi đóng lỗi hoàn toàn được chuẩn hóa tại Hình~\ref{fig:defect_lifecycle}.
+
+\begin{figure}[ht]
+  \centering
+  \resizebox{0.92\textwidth}{!}{
+    \begin{tikzpicture}[node distance=1.3cm and 1.8cm, >=Stealth, auto,
+      stnode/.style={rectangle, draw=drawioblueborder, fill=drawioblue, thick, rounded corners=4pt, minimum width=2.5cm, minimum height=0.85cm, align=center, font=\small\bfseries},
+      fixnode/.style={rectangle, draw=drawioorangeborder, fill=drawioorange, thick, rounded corners=4pt, minimum width=2.5cm, minimum height=0.85cm, align=center, font=\small\bfseries},
+      endnode/.style={rectangle, draw=drawiogreenborder, fill=drawiogreen, thick, rounded corners=4pt, minimum width=2.5cm, minimum height=0.85cm, align=center, font=\small\bfseries},
+      rejnode/.style={rectangle, draw=drawioredborder, fill=drawiored, thick, rounded corners=4pt, minimum width=2.3cm, minimum height=0.85cm, align=center, font=\small\bfseries}]
+
+      \node[stnode] (new) {1. NEW\\(Tester phát hiện)};
+      \node[stnode, right=1.2cm of new] (open) {2. OPEN\\(Lead xác nhận)};
+      \node[fixnode, right=1.2cm of open] (assigned) {3. ASSIGNED\\(Giao Developer)};
+      \node[fixnode, below=1.2cm of assigned] (fixed) {4. FIXED\\(Developer sửa xong)};
+      \node[stnode, left=1.2cm of fixed] (retest) {5. RETEST\\(Tester kiểm tra lại)};
+      \node[endnode, left=1.2cm of retest] (closed) {6. CLOSED\\(Đóng lỗi triệt để)};
+
+      \node[rejnode, above=1cm of open] (rej) {REJECTED\\(Không phải lỗi)};
+
+      \draw[->, thick] (new) -- (open);
+      \draw[->, thick] (open) -- (assigned);
+      \draw[->, thick, draw=red!70!black] (open) -- node[right, font=\scriptsize]{Từ chối} (rej);
+      \draw[->, thick] (assigned) -- node[right, font=\scriptsize]{Triển khai code} (fixed);
+      \draw[->, thick] (fixed) -- node[above, font=\scriptsize]{Deploy Staging} (retest);
+      \draw[->, thick, draw=green!60!black] (retest) -- node[above, font=\scriptsize]{Đạt kỳ vọng} (closed);
+      \draw[->, thick, dashed, draw=red!80!black] (retest) |- node[near start, below, font=\scriptsize]{Tái diễn (Reopen)} (assigned);
+    \end{tikzpicture}
+  }
+  \caption{Sơ đồ quy trình quản lý vòng đời lỗi phần mềm (Defect Life Cycle)}
+  \label{fig:defect_lifecycle}
+\end{figure}
 
 \section{Báo cáo Lỗi Điển hình Phát hiện được (Defect Reports)}
 \begin{itemize}
@@ -566,7 +769,7 @@ Ma trận RTM đối chiếu 100\% 21 mã yêu cầu chức năng (SRS) với c�
 % ==============================================================================
 % CHƯƠNG 9
 % ==============================================================================
-\chapter{KẾT LUẬN VÀ ĐỀ XUẤT CẢI TIẾN HỆ THỐNG}
+\chapter{KẾ LUẬN VÀ ĐỀ XUẤT CẢI TIẾN HỆ THỐNG}
 
 \section{Kết luận Đề tài}
 Bản báo cáo đã giải quyết trọn vẹn toàn bộ các mục tiêu đặt ra của môn học Đảm bảo Chất lượng và Kiểm thử Phần mềm:
