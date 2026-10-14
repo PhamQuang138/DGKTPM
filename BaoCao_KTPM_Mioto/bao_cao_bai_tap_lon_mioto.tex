@@ -1,6 +1,6 @@
 \documentclass[12pt,a4paper,oneside]{report}
 
-% --- Gói ngôn ngữ và mã hóa ---
+% --- Gói ngôn ngữ và mã hóa tiếng Việt ---
 \usepackage[utf8]{inputenc}
 \usepackage[vietnamese]{babel}
 \usepackage{lmodern}
@@ -8,6 +8,7 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{tabularx}
+\usepackage{longtable}
 \usepackage{geometry}
 \geometry{
   a4paper,
@@ -98,7 +99,6 @@
 % ==============================================================================
 \begin{titlepage}
   \begin{tikzpicture}[remember picture, overlay]
-    % Khung đôi ngoài cùng chuẩn trang bìa học thuật
     \draw[line width=1.8pt] 
       ($(current page.north west) + (25mm,-20mm)$) 
       rectangle 
@@ -354,6 +354,11 @@ Hệ thống Mioto.vn được tổ chức theo kiến trúc phân tán hướng
   \label{fig:arch_microservices}
 \end{figure}
 
+\section{Đặc tả Yêu cầu Chức năng Hệ thống (SRS)}
+Hệ thống bao gồm 8 phân hệ nghiệp vụ chính với 21 mã yêu cầu chức năng (SRS) được chuẩn hóa. Bảng~\ref{tab:srs_full_table} trình bày chi tiết toàn văn 21 yêu cầu chức năng cốt lõi kèm tiêu chí nghiệm thu tương ứng.
+
+\input{generated_srs_table.tex}
+
 \section{Sơ đồ Ca Sử Dụng Tổng Quát (Use Case Diagram)}
 Hệ thống kết nối 3 tác nhân chính thông qua các trường hợp sử dụng (Use Cases) được chuẩn hóa tại Hình~\ref{fig:use_case_diagram}.
 
@@ -536,6 +541,8 @@ Các phân vùng kiểm thử được thiết lập chặt chẽ:
   \caption{Bảng quyết định kiểm thử chính sách hủy chuyến và bồi thường}
   \label{tab:decision_cancellation}
 \end{table}
+
+\input{generated_test_cases.tex}
 
 % ==============================================================================
 % CHƯƠNG 5
@@ -756,14 +763,19 @@ Quy trình xử lý lỗi từ khi phát hiện đến khi đóng lỗi hoàn to
   \item \textbf{BUG-MIOTO-002 (Critical - S2):} Nút "Gửi lại mã OTP" không bị vô hiệu hóa khi đồng hồ 60 giây chưa kết thúc, cho phép người dùng spam gửi SMS liên tục $\to$ \textit{Đề xuất: Khóa nút disabled và áp dụng Rate Limiting ở API Gateway.}
 \end{itemize}
 
-\section{Ma trận Truy xuất Nguồn gốc Yêu cầu (RTM) và Thống kê}
-Ma trận RTM đối chiếu 100\% 21 mã yêu cầu chức năng (SRS) với các ca kiểm thử tương ứng. Kết quả nghiệm thu kiểm thử:
+\section{Ma trận Truy xuất Nguồn gốc Yêu cầu (RTM) Toàn diện}
+Bảng~\ref{tab:rtm_full_table} trình bày chi tiết ma trận truy xuất nguồn gốc yêu cầu (RTM), liên kết chặt chẽ 100\% các mã yêu cầu SRS với các ca kiểm thử chức năng và tự động hóa.
+
+\input{generated_rtm_table.tex}
+
+\section{Thống kê và Đo lường Kết quả Kiểm thử}
+Kết quả nghiệm thu kiểm thử toàn diện trên hệ thống Mioto.vn:
 \begin{itemize}
-  \item Tổng số Test Cases chính thức: \textbf{58 ca test}.
-  \item Tỷ lệ Pass: \textbf{56 / 58 ca (96.55\%)}.
-  \item Tỷ lệ Fail: \textbf{2 / 58 ca (3.45\%)} (Đã lập 2 bug report chi tiết).
-  \item Độ bao phủ yêu cầu SRS: \textbf{100\%}.
-  \item Độ bao phủ đường đi cơ sở (Basis Path Coverage): \textbf{100\%}.
+  \item Tổng số Test Cases chính thức: \textbf{68 ca test chức năng \& 7 ca test hộp trắng}.
+  \item Tỷ lệ Pass: \textbf{73 / 75 ca (97.33\%)}.
+  \item Tỷ lệ Fail: \textbf{2 / 75 ca (2.67\%)} (Đã lập 2 bug report chi tiết).
+  \item Độ bao phủ yêu cầu SRS: \textbf{100\%} (21/21 mã yêu cầu SRS).
+  \item Độ bao phủ đường đi cơ sở (Basis Path Coverage): \textbf{100\%} (7/7 Basis Paths).
 \end{itemize}
 
 % ==============================================================================
