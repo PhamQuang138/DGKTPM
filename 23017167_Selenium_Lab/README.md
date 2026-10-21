@@ -1,7 +1,6 @@
 # BÁO CÁO THỰC HÀNH KIỂM THỬ TỰ ĐỘNG UI BẰNG SELENIUM WEBDRIVER
 
-> **TRƯỜNG ĐẠI HỌC MỎ - ĐỊA CHẤT (HUMG)**  
-> **KHOA CÔNG NGHỆ THÔNG TIN**  
+
 > **MÔN HỌC:** ĐÁNH GIÁ VÀ KIỂM ĐỊNH CHẤT LƯỢNG PHẦN MỀM  
 > **GIẢNG VIÊN HƯỚNG DẪN:** TS. Trịnh Thanh Bình  
 > **LỚP:** AI&KHDL_1  
