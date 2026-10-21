@@ -1,7 +1,5 @@
-# MÔN HỌC: ĐÁNH GIÁ VÀ KIỂM ĐỊNH CHẤT LƯỢNG PHẦN MỀM
 
-> **Trường Đại học Mỏ - Địa chất (HUMG)**  
-> **Khoa Công nghệ Thông tin**  
+
 > **Giảng viên hướng dẫn:** TS. Trịnh Thanh Bình  
 > **Sinh viên:** Phạm Duy Quang (MSSV: 23017167)  
 > **Lớp:** AI&KHDL_1  
