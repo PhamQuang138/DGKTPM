@@ -17,3 +17,4 @@ if (Test-Path $VenvPython) {
     Write-Host "[INFO] Đang chạy với Python hệ thống..." -ForegroundColor Yellow
     python run_tests.py
 }
+

@@ -1,9 +1,0 @@
-\babel@toc {vietnamese}{}\relax 
-\beamer@sectionintoc {1}{1. Tổng quan Đề tài \& Hệ thống Mioto.vn}{3}{0}{1}
-\beamer@sectionintoc {2}{2. Phân tích Kiến trúc \& Yêu cầu Hệ thống}{5}{0}{2}
-\beamer@sectionintoc {3}{3. Kế hoạch Kiểm thử Phần mềm (IEEE 829)}{7}{0}{3}
-\beamer@sectionintoc {4}{4. Thiết kế Ca Kiểm thử Chức năng (Black-Box Testing)}{8}{0}{4}
-\beamer@sectionintoc {5}{5. Kiểm thử Hộp Trắng \& Sơ đồ Dòng Điều Khiển (CFG)}{11}{0}{5}
-\beamer@sectionintoc {6}{6. Đánh giá Chất lượng Phần mềm (ISO/IEC 25010)}{13}{0}{6}
-\beamer@sectionintoc {7}{7. Kiểm thử Tự động \& Quản lý Lỗi}{14}{0}{7}
-\beamer@sectionintoc {8}{8. Kết luận \& Hướng phát triển}{16}{0}{8}
