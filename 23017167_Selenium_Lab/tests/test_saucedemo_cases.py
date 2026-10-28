@@ -126,3 +126,4 @@ class TestSauceDemoAutomation:
         assert login_page.find(*LoginPage.LOGIN_BUTTON).is_displayed(), "Nút đăng nhập không hiển thị sau Logout"
         
         login_page.take_screenshot("TC06_logout_success.png")
+

@@ -37,3 +37,4 @@ class BasePage:
         filepath = os.path.join(screenshots_dir, filename)
         self.driver.save_screenshot(filepath)
         return filepath
+

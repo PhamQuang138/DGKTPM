@@ -17,3 +17,4 @@ class CartPage(BasePage):
     def click_checkout(self):
         self.wait.until(EC.url_contains("cart.html"))
         self.click(*self.CHECKOUT_BUTTON)
+

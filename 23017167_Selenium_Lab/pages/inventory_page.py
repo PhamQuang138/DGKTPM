@@ -43,3 +43,4 @@ class InventoryPage(BasePage):
         self.click(*self.BURGER_BUTTON)
         time.sleep(0.5)
         self.click(*self.LOGOUT_LINK)
+

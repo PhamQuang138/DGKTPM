@@ -30,3 +30,4 @@ class CheckoutPage(BasePage):
     def get_completion_header(self):
         self.wait.until(EC.url_contains("checkout-complete.html"))
         return self.get_text(*self.COMPLETE_HEADER)
+

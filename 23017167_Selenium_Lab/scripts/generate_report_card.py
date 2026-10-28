@@ -62,3 +62,4 @@ def generate_summary_banner():
 
 if __name__ == '__main__':
     generate_summary_banner()
+
