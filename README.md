@@ -1,14 +1,20 @@
-# BÁO CÁO BÀI TẬP LỚN MÔN ĐẢM BẢO CHẤT LƯỢNG VÀ KIỂM THỬ PHẦN MỀM
-# ĐỀ TÀI: ĐÁNH GIÁ CHẤT LƯỢNG VÀ KIỂM THỬ CHỨC NĂNG HỆ THỐNG ĐẶT XE TRỰC TUYẾN MIOTO (MIOTO.VN)
+# BÁO CÁO BÀI TẬP LỚN MÔN: ĐÁNH GIÁ VÀ KIỂM ĐỊNH CHẤT LƯỢNG PHẦN MỀM
+## ĐỀ TÀI: ĐÁNH GIÁ CHẤT LƯỢNG VÀ KIỂM THỬ CHỨC NĂNG HỆ THỐNG ĐẶT XE TRỰC TUYẾN MIOTO (MIOTO.VN)
 
-**Sinh viên thực hiện:** Phạm Duy Quang, Trần Văn Nhật, Phạm Văn Đạt  
-**Mã số sinh viên (MSSV):** 23017167  
-**Lớp:** K17_AI&KHDL_1
-**Giảng viên hướng dẫn:** Trịnh Thanh Bình
+> **Môn học:** Đánh giá và kiểm định chất lượng phần mềm  
+> **Giảng viên hướng dẫn:** TS. Trịnh Thanh Bình  
+> **Lớp:** AI&KHDL_1  
+> **Nhóm thực hiện:** Nhóm 8  
+> - **Phạm Duy Quang** – MSSV: 23017167 (Trưởng nhóm)  
+> - **Trần Văn Nhật** – MSSV: 23010625  
+> - **Phạm Văn Đạt** – MSSV: 23017150  
+>
+> **Website thử nghiệm:** [Mioto.vn](https://www.mioto.vn/)  
+> **Repository GitHub:** [https://github.com/PhamQuang138/DGKTPM](https://github.com/PhamQuang138/DGKTPM)  
 
 ---
 
-## LỜI NÓI ĐẦU & CAM ĐOAN
+## LỜI NÓI ĐẦU
 
 Trong thời đại chuyển đổi số và sự bùng nổ của nền kinh tế chia sẻ (Sharing Economy), các dịch vụ kết nối ngang hàng (Peer-to-Peer - P2P) đang ngày càng định hình lại thói quen tiêu dùng của xã hội. Nổi bật trong lĩnh vực di chuyển thông minh tại Việt Nam là nền tảng cho thuê xe tự lái và có tài xế trực tuyến **Mioto (Mioto.vn)** thuộc Công ty Cổ phần Mioto Asia. Nền tảng này đóng vai trò cầu nối công nghệ tin cậy giữa hàng chục nghìn chủ sở hữu phương tiện nhàn rỗi và những khách hàng có nhu cầu thuê xe phục vụ công tác, du lịch hay gia đình.
 
@@ -17,8 +23,6 @@ Tuy nhiên, đặc thù của một hệ thống thương mại điện tử k�
 2. **Tính thời gian thực và giao dịch tài chính:** Hệ thống tích hợp đa cổng thanh toán (Alepay, Thẻ quốc tế Visa/MasterCard, Ví điện tử MoMo, VNPAY, Mioto Wallet) và đồng bộ lịch xe theo thời gian thực (Real-time Calendar) nhằm loại bỏ nguy cơ trùng lịch đặt xe (Double Booking).
 
 Xuất phát từ tầm quan trọng sống còn của chất lượng phần mềm đối với uy tín thương hiệu và an toàn tài sản của người dùng, đề tài **"Đánh giá chất lượng và kiểm thử chức năng hệ thống đặt xe trực tuyến Mioto (Mioto.vn)"** được thực hiện nhằm áp dụng toàn diện các kiến thức, phương pháp luận và tiêu chuẩn quốc tế về Kiểm thử & Đảm bảo Chất lượng Phần mềm (Software Quality Assurance - SQA) vào một hệ sinh thái sản phẩm thực tế.
-
-Em xin cam đoan toàn bộ các số liệu khảo sát, quy trình bóc tách mã nguồn, kiến trúc hệ thống, các bộ ca kiểm thử chức năng (Functional Test Cases), kịch bản kiểm thử tự động (Automation Test Suites với Postman và Selenium), phân tích dòng điều khiển (Control Flow Graph - CFG) và báo cáo đánh giá chất lượng theo chuẩn ISO/IEC 25010 trong tài liệu này đều do bản thân em trực tiếp nghiên cứu, thực nghiệm và xây dựng nghiêm túc.
 
 ---
 
@@ -499,11 +503,18 @@ graph TD
 ## 3.8. Phân công Trách nhiệm, Lịch trình & Ma trận Quản lý Rủi ro
 
 ### 3.8.1. Phân công vai trò (Roles & Responsibilities):
-- **Trưởng nhóm kiểm thử (Test Lead / SQA Engineer - Phạm Duy Quang):**
-  - Xây dựng Test Plan, phân tích nghiệp vụ, thiết kế bộ Test Cases chi tiết.
-  - Xây dựng mã nguồn kiểm thử tự động API và UI.
-  - Phân tích dòng điều khiển hộp trắng và thực thi kiểm thử.
-  - Lập báo cáo quản lý lỗi (Bug Reports), ma trận RTM và báo cáo tổng kết chất lượng theo chuẩn ISO 25010.
+- **Phạm Duy Quang (MSSV: 23017167 - Trưởng nhóm):**
+  - Xây dựng Test Plan, phân tích kiến trúc hệ thống và đặc tả yêu cầu SRS.
+  - Phân tích đồ thị dòng điều khiển (CFG) và thiết kế kiểm thử hộp trắng Basis Paths.
+  - Lập báo cáo quản lý lỗi (Bug Reports), ma trận RTM và báo cáo tổng kết chất lượng theo chuẩn ISO/IEC 25010.
+- **Trần Văn Nhật (MSSV: 23010625 - Thành viên):**
+  - Phân tích ca kiểm thử chức năng các phân hệ Đăng nhập/Đăng ký, Tìm kiếm & Bộ lọc xe.
+  - Xây dựng kịch bản kiểm thử API tự động với Postman/Newman Collection.
+  - Thu thập số liệu đo lường hiệu năng và độ tin cậy hệ thống.
+- **Phạm Văn Đạt (MSSV: 23017150 - Thành viên):**
+  - Phân tích ca kiểm thử phân hệ Đặt cọc, Thanh toán, Hủy chuyến và Đánh giá.
+  - Xây dựng kịch bản kiểm thử giao diện tự động với Selenium WebDriver (POM).
+  - Khảo sát các tiêu chuẩn bảo mật PCI-DSS, chính sách hoàn hủy và kiểm thử tương thích.
 
 ### 3.8.2. Ma trận Đánh giá và Giảm thiểu Rủi ro Kiểm thử (Risk Matrix):
 
