@@ -84,27 +84,27 @@ Qua phân tích bundle JavaScript (`main.bd284d10.chunk.js`, `2.68512f82.chunk.j
 ```mermaid
 flowchart TD
     subgraph Clients["Tầng Client"]
-        Web["Web SPA<br/>(ReactJS / Mioto.vn)"]
+        Web["Web SPA<br/>(ReactJS / Mioto)"]
         Mobile["Mobile App<br/>(iOS / Android)"]
     end
 
     subgraph Gateway["Tầng API Gateway"]
-        APIGW["Reverse Proxy & API Gateway<br/>(Cloudflare / NGINX)"]
+        APIGW["Reverse Proxy<br/>và API Gateway<br/>(Cloudflare / NGINX)"]
     end
 
-    subgraph Services["Tầng Vi Dịch Vụ (Backend Microservices)"]
-        S_Car["m-car.mioto.vn<br/>(Quản lý Xe & Tìm kiếm)"]
-        S_Payment["payment.mioto.vn<br/>(Thanh toán & Đặt cọc)"]
-        S_Wallet["m-wallet.mioto.vn<br/>(Ví & Quyết toán phụ phí)"]
-        S_Gift["gift.mioto.vn<br/>(Mã khuyến mại Voucher)"]
-        S_RTC["m-rtc.mioto.vn<br/>(Chat Realtime & Socket)"]
+    subgraph Services["Tầng Vi Dịch Vụ (Backend)"]
+        S_Car["m-car.mioto.vn<br/>Quản lý xe và tìm kiếm"]
+        S_Payment["payment.mioto.vn<br/>Thanh toán và cọc"]
+        S_Wallet["m-wallet.mioto.vn<br/>Ví và Quyết toán"]
+        S_Gift["gift.mioto.vn<br/>Mã khuyến mại"]
+        S_RTC["m-rtc.mioto.vn<br/>Chat và Socket"]
     end
 
-    subgraph ThirdParty["Tích hợp Đối Tác & Bên Thứ Ba"]
+    subgraph ThirdParty["Tích hợp Đối Tác"]
         Maps["Bản đồ Số<br/>(HERE / Google Maps)"]
-        PayGate["Cổng Thanh Toán<br/>(VNPay / MoMo / Alepay)"]
+        PayGate["Cổng Thanh Toán<br/>(VNPay / MoMo)"]
         Insurance["Bảo hiểm Chuyến đi<br/>(MIC / VNI)"]
-        SMS["Cổng SMS Brandname<br/>(Xác thực OTP)"]
+        SMS["Cổng SMS Brandname<br/>(Mã OTP)"]
     end
 
     Web --> APIGW
@@ -139,16 +139,16 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    Start([Bắt đầu]) --> DRAFT["DRAFT<br/>(Khách chọn xe & lịch trình)"]
-    DRAFT -->|Gửi yêu cầu| PENDING["PENDING_APPROVAL<br/>(Chờ chủ xe duyệt)"]
-    PENDING -->|Chủ xe chấp thuận| APPROVED["APPROVED<br/>(Đã phê duyệt)"]
-    PENDING -->|Từ chối / Quá 60p| CANCELLED["CANCELLED<br/>(Đã hủy chuyến)"]
-    APPROVED -->|Đặt cọc 30%| DEPOSIT_PAID["DEPOSIT_PAID<br/>(Đã cọc 30% thành công)"]
+    Start([Bắt đầu]) --> DRAFT["DRAFT<br/>Khách chọn xe<br/>và lịch trình"]
+    DRAFT -->|Gửi yêu cầu| PENDING["PENDING<br/>APPROVAL<br/>Chờ chủ duyệt"]
+    PENDING -->|Chủ xe duyệt| APPROVED["APPROVED<br/>Đã phê duyệt"]
+    PENDING -->|Từ chối / Quá 60p| CANCELLED["CANCELLED<br/>Đã hủy chuyến"]
+    APPROVED -->|Đặt cọc 30%| DEPOSIT_PAID["DEPOSIT_PAID<br/>Đã đặt cọc 30%"]
     APPROVED -->|Quá 60p không cọc| CANCELLED
-    DEPOSIT_PAID -->|Check-in & Ký bàn giao| IN_PROGRESS["IN_PROGRESS<br/>(Đang thực hiện chuyến)"]
-    DEPOSIT_PAID -->|Hủy chuyến có phạt cọc| CANCELLED
-    IN_PROGRESS -->|Check-out & Quyết toán| COMPLETED["COMPLETED<br/>(Hoàn tất trả xe)"]
-    COMPLETED -->|Đánh giá dịch vụ| REVIEWED["REVIEWED<br/>(Đã đánh giá 2 chiều)"]
+    DEPOSIT_PAID -->|Check-in bàn giao| IN_PROGRESS["IN_PROGRESS<br/>Đang đi xe"]
+    DEPOSIT_PAID -->|Hủy có phạt cọc| CANCELLED
+    IN_PROGRESS -->|Check-out trả xe| COMPLETED["COMPLETED<br/>Hoàn tất chuyến"]
+    COMPLETED -->|Đánh giá dịch vụ| REVIEWED["REVIEWED<br/>Đánh giá 2 chiều"]
     REVIEWED --> EndNode([Kết thúc])
     CANCELLED --> EndNode
 ```
@@ -243,20 +243,20 @@ Thuật toán tính toán tổng chi phí thuê xe `calculate_rental_price()` đ
 
 ```mermaid
 flowchart TD
-    N1["Node 1: Khởi tạo dữ liệu & Tham số"]
-    N2{"Node 2:<br/>Cuối tuần / Lễ?"}
-    N3["Node 3: Cộng phụ phí ngày nghỉ"]
-    N4{"Node 4:<br/>Giao xe tận nơi?"}
-    N5{"Node 5:<br/>Khoảng cách > 5km?"}
-    N6["Node 6: Tính phí vượt mốc 5km"]
-    N7["Node 7: Miễn phí giao xe (d ≤ 5km)"]
-    N8["Node 8: Tính phí bảo hiểm MIC (10%)"]
-    N9{"Node 9:<br/>Có mã Voucher?"}
-    N10{"Node 10:<br/>Voucher theo %?"}
-    N11["Node 11: Chiết khấu % (áp trần)"]
-    N12["Node 12: Chiết khấu tiền cố định"]
-    N13["Node 13: Chặn sàn tổng tiền ≥ 0"]
-    N14["Node 14: Tính cọc 30% & Trả kết quả"]
+    N1["Node 1:<br/>Khởi tạo dữ liệu<br/>và kiểm tra tham số"]
+    N2{"Node 2:<br/>Cuối tuần<br/>hoặc Lễ?"}
+    N3["Node 3:<br/>Cộng phụ phí<br/>ngày nghỉ"]
+    N4{"Node 4:<br/>Giao xe<br/>tận nơi?"}
+    N5{"Node 5:<br/>Khoảng cách<br/>d > 5km?"}
+    N6["Node 6:<br/>Tính phụ phí<br/>vượt 5km"]
+    N7["Node 7:<br/>Miễn phí giao<br/>(d ≤ 5km)"]
+    N8["Node 8:<br/>Tính bảo hiểm<br/>MIC (10%)"]
+    N9{"Node 9:<br/>Có mã Voucher<br/>hợp lệ?"}
+    N10{"Node 10:<br/>Voucher theo %<br/>hay cố định?"}
+    N11["Node 11:<br/>Chiết khấu %<br/>(áp trần max)"]
+    N12["Node 12:<br/>Chiết khấu<br/>tiền cố định"]
+    N13["Node 13:<br/>Chặn sàn<br/>tổng tiền ≥ 0"]
+    N14["Node 14:<br/>Tính cọc 30%<br/>và kết quả"]
 
     N1 --> N2
     N2 -- "True" --> N3 --> N4
@@ -361,15 +361,15 @@ python test_mioto_selenium.py
 
 ```mermaid
 flowchart TD
-    Start([Phát hiện Bug]) --> NEW["NEW<br/>(Tạo ticket lỗi)"]
-    NEW -->|SQA Lead duyệt| OPEN["OPEN<br/>(Lỗi hợp lệ)"]
-    OPEN -->|Phân công| ASSIGNED["ASSIGNED<br/>(Giao Developer)"]
-    ASSIGNED -->|Sửa mã nguồn| FIXED["FIXED<br/>(Đã sửa xong)"]
-    FIXED -->|Triển khai Retest| RETESTING["RETESTING<br/>(Kiểm thử lại)"]
-    RETESTING -->|Đạt yêu cầu| VERIFIED["VERIFIED<br/>(Xác nhận đạt)"]
-    RETESTING -->|Vẫn còn lỗi| REOPENED["REOPENED<br/>(Mở lại ticket)"]
+    Start([Phát hiện Bug]) --> NEW["NEW<br/>Tạo ticket lỗi"]
+    NEW -->|SQA Lead duyệt| OPEN["OPEN<br/>Lỗi hợp lệ"]
+    OPEN -->|Phân công| ASSIGNED["ASSIGNED<br/>Giao Developer"]
+    ASSIGNED -->|Sửa mã nguồn| FIXED["FIXED<br/>Đã sửa xong"]
+    FIXED -->|Triển khai Retest| RETESTING["RETESTING<br/>Kiểm thử lại"]
+    RETESTING -->|Đạt yêu cầu| VERIFIED["VERIFIED<br/>Xác nhận đạt"]
+    RETESTING -->|Vẫn còn lỗi| REOPENED["REOPENED<br/>Mở lại ticket"]
     REOPENED --> ASSIGNED
-    VERIFIED -->|Đóng ticket| CLOSED["CLOSED<br/>(Đóng hoàn tất)"]
+    VERIFIED -->|Đóng ticket| CLOSED["CLOSED<br/>Đóng hoàn tất"]
     CLOSED --> EndNode([Hoàn thành])
 ```
 
