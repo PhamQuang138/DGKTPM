@@ -19,6 +19,10 @@
 >
 > **Website thử nghiệm:** [Mioto.vn](https://www.mioto.vn/)  
 > **Repository GitHub:** [https://github.com/PhamQuang138/DGKTPM](https://github.com/PhamQuang138/DGKTPM)  
+>
+> **Tài nguyên kiểm thử tự động Mioto.vn:**  
+> - 📂 [\crawl_mioto/\](crawl_mioto): Bộ crawler & bóc tách cấu trúc API, routes, actions từ hệ thống Mioto.vn  
+> - 🧪 [\mioto_test_suite/\](mioto_test_suite): Bộ kịch bản kiểm thử tự động Mioto.vn (Hộp trắng Basis Path (G)=7$, UI E2E Selenium WebDriver, Postman API Collection)  
 
 ---
 
@@ -269,13 +273,67 @@ hoặc $V(G) = P_{pred} + 1 = 6 + 1 = 7$; hoặc $V(G) = 	ext{Số miền đóng
 
 | Đường đi cơ sở | Chuỗi các nút trên đồ thị CFG | Kịch bản kiểm thử đại diện | Kết quả thực thi |
 | :--- | :--- | :--- | :---: |
-| **Path 1** | $1 ightarrow 2(F) ightarrow 4(F) ightarrow 8 ightarrow 9(F) ightarrow 13 ightarrow 14$ | Ngày thường, nhận tại bãi, không voucher | **PASSED (100%)** |
-| **Path 2** | $1 ightarrow 2(T) ightarrow 3 ightarrow 4(F) ightarrow 8 ightarrow 9(F) ightarrow 13 ightarrow 14$ | Cuối tuần (+15%), nhận tại bãi, không voucher | **PASSED (100%)** |
-| **Path 3** | $1 ightarrow 2(F) ightarrow 4(T) ightarrow 5(F) ightarrow 7 ightarrow 8 ightarrow 9(F) ightarrow 13 ightarrow 14$ | Ngày thường, giao xe 4km ($\le 5$km, miễn phí) | **PASSED (100%)** |
-| **Path 4** | $1 ightarrow 2(F) ightarrow 4(T) ightarrow 5(T) ightarrow 6 ightarrow 8 ightarrow 9(F) ightarrow 13 ightarrow 14$ | Ngày thường, giao xe 10km ($> 5$km, phụ phí 75k) | **PASSED (100%)** |
-| **Path 5** | $1 ightarrow 2(F) ightarrow 4(F) ightarrow 8 ightarrow 9(T) ightarrow 10(T) ightarrow 11 ightarrow 13 ightarrow 14$ | Ngày thường, áp voucher phần trăm (-10%) | **PASSED (100%)** |
-| **Path 6** | $1 ightarrow 2(F) ightarrow 4(F) ightarrow 8 ightarrow 9(T) ightarrow 10(F) ightarrow 12 ightarrow 13 ightarrow 14$ | Ngày thường, áp voucher cố định (-100.000đ) | **PASSED (100%)** |
-| **Path 7** | $1 ightarrow 2(F) ightarrow 4(F) ightarrow 8 ightarrow 9(T) ightarrow 10(F) ightarrow 12 ightarrow 13(	ext{Floor}) ightarrow 14$ | Voucher vượt quá tổng tiền $ightarrow$ gán chặn sàn 0đ | **PASSED (100%)** |
+| **Path 1** | $1 
+ightarrow 2(F) 
+ightarrow 4(F) 
+ightarrow 8 
+ightarrow 9(F) 
+ightarrow 13 
+ightarrow 14$ | Ngày thường, nhận tại bãi, không voucher | **PASSED (100%)** |
+| **Path 2** | $1 
+ightarrow 2(T) 
+ightarrow 3 
+ightarrow 4(F) 
+ightarrow 8 
+ightarrow 9(F) 
+ightarrow 13 
+ightarrow 14$ | Cuối tuần (+15%), nhận tại bãi, không voucher | **PASSED (100%)** |
+| **Path 3** | $1 
+ightarrow 2(F) 
+ightarrow 4(T) 
+ightarrow 5(F) 
+ightarrow 7 
+ightarrow 8 
+ightarrow 9(F) 
+ightarrow 13 
+ightarrow 14$ | Ngày thường, giao xe 4km ($\le 5$km, miễn phí) | **PASSED (100%)** |
+| **Path 4** | $1 
+ightarrow 2(F) 
+ightarrow 4(T) 
+ightarrow 5(T) 
+ightarrow 6 
+ightarrow 8 
+ightarrow 9(F) 
+ightarrow 13 
+ightarrow 14$ | Ngày thường, giao xe 10km ($> 5$km, phụ phí 75k) | **PASSED (100%)** |
+| **Path 5** | $1 
+ightarrow 2(F) 
+ightarrow 4(F) 
+ightarrow 8 
+ightarrow 9(T) 
+ightarrow 10(T) 
+ightarrow 11 
+ightarrow 13 
+ightarrow 14$ | Ngày thường, áp voucher phần trăm (-10%) | **PASSED (100%)** |
+| **Path 6** | $1 
+ightarrow 2(F) 
+ightarrow 4(F) 
+ightarrow 8 
+ightarrow 9(T) 
+ightarrow 10(F) 
+ightarrow 12 
+ightarrow 13 
+ightarrow 14$ | Ngày thường, áp voucher cố định (-100.000đ) | **PASSED (100%)** |
+| **Path 7** | $1 
+ightarrow 2(F) 
+ightarrow 4(F) 
+ightarrow 8 
+ightarrow 9(T) 
+ightarrow 10(F) 
+ightarrow 12 
+ightarrow 13(	ext{Floor}) 
+ightarrow 14$ | Voucher vượt quá tổng tiền $
+ightarrow$ gán chặn sàn 0đ | **PASSED (100%)** |
 
 > **Kết quả đo lường độ bao phủ (Coverage Analysis):** Toàn bộ 7 đường đi cơ sở được thực thi tự động qua test suite `test_whitebox_basis_paths.py`, đạt **100% Statement Coverage, 100% Branch Coverage và 100% Basis Path Coverage**.
 
@@ -325,6 +383,19 @@ cd 23017167_Selenium_Lab
 python run_tests.py
 ```
 
+## 7.4. Bộ Kịch bản Kiểm thử Tự động Mioto.vn (`mioto_test_suite`)
+Bộ kịch bản kiểm thử tự động toàn diện dành riêng cho hệ thống **Mioto.vn** được tổ chức tại thư mục [`mioto_test_suite`](mioto_test_suite):
+- **White-box Unit Tests:** [`test_whitebox_basis_paths.py`](mioto_test_suite/test_whitebox_basis_paths.py) kiểm thử 100% 07 đường đi cơ sở ($V(G)=7$) thuật toán tính giá cước và cọc.
+- **UI E2E Automation:** [`test_mioto_selenium.py`](mioto_test_suite/test_mioto_selenium.py) tự động hóa kiểm thử giao diện trực tiếp trên nền tảng Mioto.vn bằng Selenium WebDriver.
+- **API Automation Collection:** [`Mioto_Postman_Collection.json`](mioto_test_suite/Mioto_Postman_Collection.json) kiểm thử tự động API microservices Mioto bằng Postman / Newman.
+
+```bash
+# Thực thi bộ kiểm thử tự động Mioto.vn
+cd mioto_test_suite
+pytest test_whitebox_basis_paths.py -v
+python test_mioto_selenium.py
+```
+
 ---
 
 # CHƯƠNG 8: QUẢN LÝ LỖI, BÁO CÁO KẾT QUẢ KIỂM THỬ & MA TRẬN TRUY XUẤT (RTM)
@@ -357,10 +428,13 @@ stateDiagram-v2
 
 | Mã Yêu cầu SRS | Ca kiểm thử chức năng | Kịch bản tự động hóa | Kết quả nghiệm thu |
 | :--- | :--- | :--- | :---: |
-| **REQ-AUTH-01** (Đăng nhập OTP) | `TC-AUTH-01` $ightarrow$ `TC-AUTH-06` | Postman API: `Auth_VerifyOTP` | **PASSED** |
+| **REQ-AUTH-01** (Đăng nhập OTP) | `TC-AUTH-01` $
+ightarrow$ `TC-AUTH-06` | Postman API: `Auth_VerifyOTP` | **PASSED** |
 | **REQ-AUTH-02** (Xác minh KYC GPLX) | `TC-AUTH-07`, `TC-AUTH-08` | Postman API: `KYC_UploadGPLX` | **PASSED** |
-| **REQ-SRCH-01** (Tìm kiếm & Bộ lọc) | `TC-SRCH-01` $ightarrow$ `TC-SRCH-05` | Selenium UI: `test_03_sort_products` | **PASSED** |
-| **REQ-PRIC-01** (Bảng giá cước & Phụ phí) | `TC-PRIC-01` $ightarrow$ `TC-PRIC-06` | White-box CFG: 7 Basis Paths | **PASSED** |
+| **REQ-SRCH-01** (Tìm kiếm & Bộ lọc) | `TC-SRCH-01` $
+ightarrow$ `TC-SRCH-05` | Selenium UI: `test_03_sort_products` | **PASSED** |
+| **REQ-PRIC-01** (Bảng giá cước & Phụ phí) | `TC-PRIC-01` $
+ightarrow$ `TC-PRIC-06` | White-box CFG: 7 Basis Paths | **PASSED** |
 | **REQ-BOOK-01** (Đặt xe & Thanh toán cọc) | `TC-BOOK-01`, `TC-BOOK-02` | Selenium UI: `test_05_checkout_order` | **PASSED** |
 | **REQ-TRIP-01** (Check-in/Check-out) | `TC-TRIP-01`, `TC-TRIP-02` | Postman API: `Trip_Lifecycle_Check` | **PASSED** |
 | **REQ-CANC-01** (Chính sách hủy chuyến) | `TC-CANC-01`, `TC-CANC-02` | Unit Test: `test_cancellation_refund` | **PASSED** |
