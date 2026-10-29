@@ -22,7 +22,7 @@
 >
 > **Tài nguyên kiểm thử tự động Mioto.vn:**  
 > - 📂 [\crawl_mioto/\](crawl_mioto): Bộ crawler & bóc tách cấu trúc API, routes, actions từ hệ thống Mioto.vn  
-> - 🧪 [\mioto_test_suite/\](mioto_test_suite): Bộ kịch bản kiểm thử tự động Mioto.vn (Hộp trắng Basis Path (G)=7$, UI E2E Selenium WebDriver, Postman API Collection)  
+> - 🧪 [`mioto_test_suite/`](mioto_test_suite): Bộ kịch bản kiểm thử tự động Mioto.vn (Hộp trắng Basis Path V(G) = 7, UI E2E Selenium WebDriver, Postman API Collection)
 
 ---
 
@@ -82,36 +82,43 @@
 Qua phân tích bundle JavaScript (`main.bd284d10.chunk.js`, `2.68512f82.chunk.js`) và network traffic, hệ thống Mioto được cấu trúc theo kiến trúc Microservices phân tán:
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph Clients["Tầng Client"]
-        Web["Web SPA (ReactJS / Mioto.vn)"]
-        Mobile["Mobile App (iOS / Android)"]
+        Web["Web SPA<br/>(ReactJS / Mioto.vn)"]
+        Mobile["Mobile App<br/>(iOS / Android)"]
     end
 
     subgraph Gateway["Tầng API Gateway"]
-        APIGW["Reverse Proxy & Gateway (Cloudflare / NGINX)"]
+        APIGW["Reverse Proxy & API Gateway<br/>(Cloudflare / NGINX)"]
     end
 
-    subgraph Services["Tầng Vi Dịch Vụ"]
+    subgraph Services["Tầng Vi Dịch Vụ (Backend Microservices)"]
         S_Car["m-car.mioto.vn<br/>(Quản lý Xe & Tìm kiếm)"]
-        S_Wallet["m-wallet.mioto.vn<br/>(Ví Mioto & Quyết toán)"]
-        S_Payment["payment.mioto.vn<br/>(Thanh toán & Cọc)"]
-        S_RTC["m-rtc.mioto.vn<br/>(Chat & Socket Realtime)"]
-        S_Gift["gift.mioto.vn<br/>(Mã giảm giá)"]
+        S_Payment["payment.mioto.vn<br/>(Thanh toán & Đặt cọc)"]
+        S_Wallet["m-wallet.mioto.vn<br/>(Ví & Quyết toán phụ phí)"]
+        S_Gift["gift.mioto.vn<br/>(Mã khuyến mại Voucher)"]
+        S_RTC["m-rtc.mioto.vn<br/>(Chat Realtime & Socket)"]
     end
 
-    subgraph ThirdParty["Tích hợp Bên Thứ Ba"]
-        Maps["Bản đồ (HERE Maps / Google Maps)"]
-        PayGate["Cổng TT (Alepay / MoMo / VNPay)"]
-        Insurance["Bảo hiểm (MIC / VNI)"]
-        SMS["SMS Brandname (Mã OTP)"]
+    subgraph ThirdParty["Tích hợp Đối Tác & Bên Thứ Ba"]
+        Maps["Bản đồ Số<br/>(HERE / Google Maps)"]
+        PayGate["Cổng Thanh Toán<br/>(VNPay / MoMo / Alepay)"]
+        Insurance["Bảo hiểm Chuyến đi<br/>(MIC / VNI)"]
+        SMS["Cổng SMS Brandname<br/>(Xác thực OTP)"]
     end
 
-    Web & Mobile --> APIGW
-    APIGW --> S_Car & S_Wallet & S_Payment & S_RTC & S_Gift
-    S_Car --> Maps & Insurance
-    S_Payment --> PayGate & S_Wallet
+    Web --> APIGW
+    Mobile --> APIGW
+    APIGW --> S_Car
+    APIGW --> S_Payment
+    APIGW --> S_Wallet
+    APIGW --> S_Gift
+    APIGW --> S_RTC
     APIGW --> SMS
+    S_Car --> Maps
+    S_Car --> Insurance
+    S_Payment --> PayGate
+    S_Payment --> S_Wallet
 ```
 
 ## 2.2. Bảng Đặc tả Yêu cầu Chức năng Cốt lõi (SRS Summary)
@@ -121,7 +128,7 @@ graph TD
 | **REQ-AUTH-01** | Xác thực | Đăng nhập qua OTP SMS | Nhập SĐT 10 số, nhận mã OTP 6 số qua SMS, thời hạn hiệu lực 60 giây. |
 | **REQ-AUTH-02** | Xác thực | Xác minh KYC GPLX | Nhập số GPLX 12 chữ số, tải 2 ảnh mặt bằng lái B1/B2 còn hiệu lực > 30 ngày. |
 | **REQ-SRCH-01** | Tìm kiếm | Bộ lọc xe đa tiêu chí | Lọc theo vị trí, thời gian thuê, hãng xe, kiểu dáng, hộp số, nhiên liệu và khoảng giá. |
-| **REQ-PRIC-01** | Tính giá | Bảng giá cước & Phụ phí | Đơn giá ngày $	imes$ số ngày thuê + phụ phí cuối tuần (10-20%) + phí giao xe tận nhà. |
+| **REQ-PRIC-01** | Tính giá | Bảng giá cước & Phụ phí | Đơn giá ngày × số ngày thuê + phụ phí cuối tuần (10-20%) + phí giao xe tận nhà. |
 | **REQ-PRIC-02** | Tính giá | Bảo hiểm & Khuyến mãi | Tự động tính phí bảo hiểm 10% đơn giá; giảm trừ voucher hợp lệ vào tiền thuê gốc. |
 | **REQ-BOOK-01** | Đặt xe | Thanh toán đặt cọc | Khách thanh toán 30% giá trị hợp đồng qua cổng Alepay/MoMo/VNPay trong 60 phút. |
 | **REQ-TRIP-01** | Chuyến đi | Check-in / Check-out | Chụp tối thiểu 4 ảnh góc xe + ảnh đồng hồ ODO/xăng khi giao nhận; tính phụ phí vượt km. |
@@ -131,19 +138,19 @@ graph TD
 ## 2.3. Sơ đồ Máy Trạng thái Vòng đời Chuyến đi (Trip State Machine)
 
 ```mermaid
-stateDiagram-v2
-    [*] --> DRAFT: Khách chọn xe & lịch trình
-    DRAFT --> PENDING_APPROVAL: Gửi yêu cầu đặt xe
-    PENDING_APPROVAL --> CANCELLED: Chủ xe từ chối / Quá 60 phút
-    PENDING_APPROVAL --> APPROVED: Chủ xe chấp thuận
-    APPROVED --> CANCELLED: Khách không cọc sau 60 phút
-    APPROVED --> DEPOSIT_PAID: Đặt cọc 30% thành công
-    DEPOSIT_PAID --> IN_PROGRESS: Check-in & Ký bàn giao xe
-    DEPOSIT_PAID --> CANCELLED: Khách/Chủ xe hủy (áp dụng bồi cọc)
-    IN_PROGRESS --> COMPLETED: Check-out, quyết toán phụ phí & Trả xe
-    COMPLETED --> REVIEWED: Đánh giá dịch vụ 2 chiều
-    REVIEWED --> [*]
-    CANCELLED --> [*]
+flowchart TD
+    Start([Bắt đầu]) --> DRAFT["DRAFT<br/>(Khách chọn xe & lịch trình)"]
+    DRAFT -->|Gửi yêu cầu| PENDING["PENDING_APPROVAL<br/>(Chờ chủ xe duyệt)"]
+    PENDING -->|Chủ xe chấp thuận| APPROVED["APPROVED<br/>(Đã phê duyệt)"]
+    PENDING -->|Từ chối / Quá 60p| CANCELLED["CANCELLED<br/>(Đã hủy chuyến)"]
+    APPROVED -->|Đặt cọc 30%| DEPOSIT_PAID["DEPOSIT_PAID<br/>(Đã cọc 30% thành công)"]
+    APPROVED -->|Quá 60p không cọc| CANCELLED
+    DEPOSIT_PAID -->|Check-in & Ký bàn giao| IN_PROGRESS["IN_PROGRESS<br/>(Đang thực hiện chuyến)"]
+    DEPOSIT_PAID -->|Hủy chuyến có phạt cọc| CANCELLED
+    IN_PROGRESS -->|Check-out & Quyết toán| COMPLETED["COMPLETED<br/>(Hoàn tất trả xe)"]
+    COMPLETED -->|Đánh giá dịch vụ| REVIEWED["REVIEWED<br/>(Đã đánh giá 2 chiều)"]
+    REVIEWED --> EndNode([Kết thúc])
+    CANCELLED --> EndNode
 ```
 
 ---
@@ -154,7 +161,7 @@ stateDiagram-v2
 - **Mã định danh kế hoạch:** `TP-MIOTO-SQA-2026-V1.0`
 - **Mục tiêu:** Kiểm chứng 100% tính đúng đắn của các quy tắc nghiệp vụ tài chính, đo lường chất lượng hệ thống theo ISO/IEC 25010 và tự động hóa các kịch bản hồi quy then chốt.
 - **Tiêu chí hoàn thành (Exit Criteria):**
-  - Tỷ lệ thực thi test cases đạt 100%; tỷ lệ đạt (Pass Rate) $\ge 95\%$.
+  - Tỷ lệ thực thi test cases đạt 100%; tỷ lệ đạt (Pass Rate) ≥ 95%.
   - 100% lỗi nghiêm trọng (Blocker/Critical) được khắc phục và retest thành công.
   - Đạt 100% Statement Coverage và Basis Path Coverage cho module tính giá cước.
 
@@ -203,14 +210,14 @@ stateDiagram-v2
 
 **Bảng Quyết định Tính giá:**
 - **C1 (Ngày thuê):** R1, R4, R6 = Ngày thường; R2, R5 = Cuối tuần (+15%); R3 = Lễ/Tết (+30%).
-- **C2 (Giao xe):** R1, R4 = Tại bãi ($0$đ); R2 = Bán kính $\le 5$km ($0$đ); R3, R5, R6 = Khoảng cách $d > 5$km ($[d-5] 	imes 15.000$đ).
+- **C2 (Giao xe):** R1, R4 = Tại bãi (0đ); R2 = Bán kính ≤ 5km (0đ); R3, R5, R6 = Khoảng cách $dd > 5km ([d - 5] × 15.000đ).
 - **C3 (Voucher):** R1, R2, R3 = Không dùng; R4 = Giảm 10%; R5 = Giảm 100k; R6 = Mã hết hạn.
 
 | Test Case ID | Quy tắc áp dụng | Kịch bản thử nghiệm | Kết quả tính toán kỳ vọng | Trạng thái |
 | :--- | :--- | :--- | :--- | :---: |
-| **TC-PRIC-01** | Quy tắc R1 | Ngày thường, nhận tại bãi, không voucher | Tổng = Đơn giá $	imes$ ngày + Bảo hiểm 10%. Cọc = 30%. | **PASSED** |
-| **TC-PRIC-02** | Quy tắc R2 | Cuối tuần (+15%), giao xe 4km ($\le 5$km) | Tiền thuê tăng 15%, phí giao xe 0đ. Cọc = 30%. | **PASSED** |
-| **TC-PRIC-03** | Quy tắc R3 | Ngày thường, giao xe 12km ($> 5$km) | Phí giao xe $= (12 - 5) 	imes 15.000 = 105.000$đ. | **PASSED** |
+| **TC-PRIC-01** | Quy tắc R1 | Ngày thường, nhận tại bãi, không voucher | Tổng = Đơn giá × ngày + Bảo hiểm 10%. Cọc = 30%. | **PASSED** |
+| **TC-PRIC-02** | Quy tắc R2 | Cuối tuần (+15%), giao xe 4km (≤ 5km) | Tiền thuê tăng 15%, phí giao xe 0đ. Cọc = 30%. | **PASSED** |
+| **TC-PRIC-03** | Quy tắc R3 | Ngày thường, giao xe 12km (> 5km) | Phí giao xe = (12 - 5) × 15.000 = 105.000đ. | **PASSED** |
 | **TC-PRIC-04** | Quy tắc R4 | Ngày thường, áp voucher 10% hợp lệ | Tổng tiền giảm trừ chính xác 10% tiền thuê gốc. | **PASSED** |
 | **TC-PRIC-05** | Quy tắc R5 | Cuối tuần, áp voucher cố định 100k | Giảm trực tiếp 100.000đ vào tổng thanh toán. | **PASSED** |
 | **TC-PRIC-06** | Quy tắc R6 | Nhập voucher đã hết hạn sử dụng | Báo lỗi "Mã hết hạn", giữ nguyên tổng tiền ban đầu. | **PASSED** |
@@ -222,7 +229,7 @@ stateDiagram-v2
 | **TC-BOOK-01** | Đặt cọc | Thanh toán cọc 30% qua Thẻ Visa | Giao dịch thành công, đổi trạng thái sang "Đã đặt cọc" | **PASSED** |
 | **TC-BOOK-02** | Đặt cọc | Thanh toán cọc qua Ví MoMo QR | Webhook IPN cập nhật tức thời trạng thái thanh toán | **PASSED** |
 | **TC-TRIP-01** | Chuyến đi | Check-in bàn giao xe (ảnh + ODO) | Lưu 4 ảnh ngoại thất + ảnh xăng/ODO, mở hợp đồng số | **PASSED** |
-| **TC-TRIP-02** | Chuyến đi | Check-out trả xe vượt hạn mức 50km | Tự động tính phụ phí vượt km: $50 	imes 3.000 = 150.000$đ | **PASSED** |
+| **TC-TRIP-02** | Chuyến đi | Check-out trả xe vượt hạn mức 50km | Tự động tính phụ phí vượt km: $5050 × 3.000 = 150.000đ | **PASSED** |
 | **TC-CANC-01** | Hủy chuyến | Khách hủy trước giờ nhận > 7 ngày | Hoàn 100% tiền cọc về Ví Mioto trong 3-5 ngày | **PASSED** |
 | **TC-CANC-02** | Hủy chuyến | Khách hủy trong vòng 24h trước chuyến | Mất 100% tiền cọc theo chính sách bồi cọc cho chủ xe | **PASSED** |
 | **TC-RATE-01** | Đánh giá | Khách đánh giá 5 sao kèm nhận xét | Điểm trung bình của xe được tính toán và cập nhật chuẩn xác | **PASSED** |
@@ -236,20 +243,20 @@ Thuật toán tính toán tổng chi phí thuê xe `calculate_rental_price()` đ
 
 ```mermaid
 flowchart TD
-    N1["Node 1: Khởi tạo dữ liệu & Kiểm tra tham số"]
-    N2{"Node 2: Ngày thuê cuối tuần/Lễ?"}
+    N1["Node 1: Khởi tạo dữ liệu & Tham số"]
+    N2{"Node 2:<br/>Cuối tuần / Lễ?"}
     N3["Node 3: Cộng phụ phí ngày nghỉ"]
-    N4{"Node 4: Giao xe tận nơi d > 0?"}
-    N5{"Node 5: Khoảng cách d > 5km?"}
-    N6["Node 6: Tính phí vượt 5km"]
-    N7["Node 7: Miễn phí giao xe (d <= 5km)"]
-    N8["Node 8: Tính phí bảo hiểm (10%)"]
-    N9{"Node 9: Có mã voucher hợp lệ?"}
-    N10{"Node 10: Loại voucher: Percentage?"}
-    N11["Node 11: Giảm trừ % (có trần max)"]
-    N12["Node 12: Giảm trừ giá trị cố định"]
-    N13["Node 13: Kiểm tra tổng tiền >= 0"]
-    N14["Node 14: Tính tiền cọc 30% & Trả kết quả"]
+    N4{"Node 4:<br/>Giao xe tận nơi?"}
+    N5{"Node 5:<br/>Khoảng cách > 5km?"}
+    N6["Node 6: Tính phí vượt mốc 5km"]
+    N7["Node 7: Miễn phí giao xe (d ≤ 5km)"]
+    N8["Node 8: Tính phí bảo hiểm MIC (10%)"]
+    N9{"Node 9:<br/>Có mã Voucher?"}
+    N10{"Node 10:<br/>Voucher theo %?"}
+    N11["Node 11: Chiết khấu % (áp trần)"]
+    N12["Node 12: Chiết khấu tiền cố định"]
+    N13["Node 13: Chặn sàn tổng tiền ≥ 0"]
+    N14["Node 14: Tính cọc 30% & Trả kết quả"]
 
     N1 --> N2
     N2 -- "True" --> N3 --> N4
@@ -266,74 +273,24 @@ flowchart TD
     N13 --> N14
 ```
 
-## 5.2. Độ phức tạp Cyclomatic $V(G)$ & 07 Đường đi Cơ sở (Basis Paths)
+## 5.2. Độ phức tạp Cyclomatic V(G) & 07 Đường đi Cơ sở (Basis Paths)
+
 Độ phức tạp Cyclomatic được tính theo 3 phương pháp chuẩn quốc tế:
 $$V(G) = E - N + 2P = 18 - 13 + 2(1) = 7$$
-hoặc $V(G) = P_{pred} + 1 = 6 + 1 = 7$; hoặc $V(G) = 	ext{Số miền đóng } R = 7$.
+
+Độ phức tạp $VV(G) = 7 cũng được kiểm chứng đồng nhất qua:
+- Số vị từ điều kiện: $VV(G) = P_pred + 1 = 6 + 1 = 7
+- Số miền đóng của đồ thị phẳng: $VV(G) = R = 7
 
 | Đường đi cơ sở | Chuỗi các nút trên đồ thị CFG | Kịch bản kiểm thử đại diện | Kết quả thực thi |
 | :--- | :--- | :--- | :---: |
-| **Path 1** | $1 
-ightarrow 2(F) 
-ightarrow 4(F) 
-ightarrow 8 
-ightarrow 9(F) 
-ightarrow 13 
-ightarrow 14$ | Ngày thường, nhận tại bãi, không voucher | **PASSED (100%)** |
-| **Path 2** | $1 
-ightarrow 2(T) 
-ightarrow 3 
-ightarrow 4(F) 
-ightarrow 8 
-ightarrow 9(F) 
-ightarrow 13 
-ightarrow 14$ | Cuối tuần (+15%), nhận tại bãi, không voucher | **PASSED (100%)** |
-| **Path 3** | $1 
-ightarrow 2(F) 
-ightarrow 4(T) 
-ightarrow 5(F) 
-ightarrow 7 
-ightarrow 8 
-ightarrow 9(F) 
-ightarrow 13 
-ightarrow 14$ | Ngày thường, giao xe 4km ($\le 5$km, miễn phí) | **PASSED (100%)** |
-| **Path 4** | $1 
-ightarrow 2(F) 
-ightarrow 4(T) 
-ightarrow 5(T) 
-ightarrow 6 
-ightarrow 8 
-ightarrow 9(F) 
-ightarrow 13 
-ightarrow 14$ | Ngày thường, giao xe 10km ($> 5$km, phụ phí 75k) | **PASSED (100%)** |
-| **Path 5** | $1 
-ightarrow 2(F) 
-ightarrow 4(F) 
-ightarrow 8 
-ightarrow 9(T) 
-ightarrow 10(T) 
-ightarrow 11 
-ightarrow 13 
-ightarrow 14$ | Ngày thường, áp voucher phần trăm (-10%) | **PASSED (100%)** |
-| **Path 6** | $1 
-ightarrow 2(F) 
-ightarrow 4(F) 
-ightarrow 8 
-ightarrow 9(T) 
-ightarrow 10(F) 
-ightarrow 12 
-ightarrow 13 
-ightarrow 14$ | Ngày thường, áp voucher cố định (-100.000đ) | **PASSED (100%)** |
-| **Path 7** | $1 
-ightarrow 2(F) 
-ightarrow 4(F) 
-ightarrow 8 
-ightarrow 9(T) 
-ightarrow 10(F) 
-ightarrow 12 
-ightarrow 13(	ext{Floor}) 
-ightarrow 14$ | Voucher vượt quá tổng tiền $
-ightarrow$ gán chặn sàn 0đ | **PASSED (100%)** |
+| **Path 1** | `1 → 2(F) → 4(F) → 8 → 9(F) → 13 → 14` | Ngày thường, nhận tại bãi, không voucher | **PASSED (100%)** |
+| **Path 2** | `1 → 2(T) → 3 → 4(F) → 8 → 9(F) → 13 → 14` | Cuối tuần (+15%), nhận tại bãi, không voucher | **PASSED (100%)** |
+| **Path 3** | `1 → 2(F) → 4(T) → 5(F) → 7 → 8 → 9(F) → 13 → 14` | Ngày thường, giao xe 4km (≤ 5km, miễn phí) | **PASSED (100%)** |
+| **Path 4** | `1 → 2(F) → 4(T) → 5(T) → 6 → 8 → 9(F) → 13 → 14` | Ngày thường, giao xe 10km (> 5km, phụ phí 75k) | **PASSED (100%)** |
+| **Path 5** | `1 → 2(F) → 4(F) → 8 → 9(T) → 10(T) → 11 → 13 → 14` | Ngày thường, áp voucher phần trăm (-10%) | **PASSED (100%)** |
+| **Path 6** | `1 → 2(F) → 4(F) → 8 → 9(T) → 10(F) → 12 → 13 → 14` | Ngày thường, áp voucher cố định (-100.000đ) | **PASSED (100%)** |
+| **Path 7** | `1 → 2(F) → 4(F) → 8 → 9(T) → 10(F) → 12 → 13(Floor) → 14` | Voucher vượt quá tổng tiền → gán chặn sàn 0đ | **PASSED (100%)** |
 
 > **Kết quả đo lường độ bao phủ (Coverage Analysis):** Toàn bộ 7 đường đi cơ sở được thực thi tự động qua test suite `test_whitebox_basis_paths.py`, đạt **100% Statement Coverage, 100% Branch Coverage và 100% Basis Path Coverage**.
 
@@ -385,7 +342,7 @@ python run_tests.py
 
 ## 7.4. Bộ Kịch bản Kiểm thử Tự động Mioto.vn (`mioto_test_suite`)
 Bộ kịch bản kiểm thử tự động toàn diện dành riêng cho hệ thống **Mioto.vn** được tổ chức tại thư mục [`mioto_test_suite`](mioto_test_suite):
-- **White-box Unit Tests:** [`test_whitebox_basis_paths.py`](mioto_test_suite/test_whitebox_basis_paths.py) kiểm thử 100% 07 đường đi cơ sở ($V(G)=7$) thuật toán tính giá cước và cọc.
+- **White-box Unit Tests:** [`test_whitebox_basis_paths.py`](mioto_test_suite/test_whitebox_basis_paths.py) kiểm thử 100% 07 đường đi cơ sở (V(G) = 7) thuật toán tính giá cước và cọc.
 - **UI E2E Automation:** [`test_mioto_selenium.py`](mioto_test_suite/test_mioto_selenium.py) tự động hóa kiểm thử giao diện trực tiếp trên nền tảng Mioto.vn bằng Selenium WebDriver.
 - **API Automation Collection:** [`Mioto_Postman_Collection.json`](mioto_test_suite/Mioto_Postman_Collection.json) kiểm thử tự động API microservices Mioto bằng Postman / Newman.
 
@@ -403,17 +360,17 @@ python test_mioto_selenium.py
 ## 8.1. Vòng đời Quản lý Lỗi (Defect Life Cycle)
 
 ```mermaid
-stateDiagram-v2
-    [*] --> NEW: Tester phát hiện lỗi & Tạo ticket
-    NEW --> OPEN: SQA Lead xác nhận lỗi hợp lệ
-    OPEN --> ASSIGNED: Phân công Developer phụ trách
-    ASSIGNED --> FIXED: Developer sửa lỗi mã nguồn
-    FIXED --> RETESTING: Tester kiểm thử lại trên môi trường test
-    RETESTING --> VERIFIED: Retest đạt yêu cầu
-    RETESTING --> REOPENED: Retest vẫn phát sinh lỗi
+flowchart TD
+    Start([Phát hiện Bug]) --> NEW["NEW<br/>(Tạo ticket lỗi)"]
+    NEW -->|SQA Lead duyệt| OPEN["OPEN<br/>(Lỗi hợp lệ)"]
+    OPEN -->|Phân công| ASSIGNED["ASSIGNED<br/>(Giao Developer)"]
+    ASSIGNED -->|Sửa mã nguồn| FIXED["FIXED<br/>(Đã sửa xong)"]
+    FIXED -->|Triển khai Retest| RETESTING["RETESTING<br/>(Kiểm thử lại)"]
+    RETESTING -->|Đạt yêu cầu| VERIFIED["VERIFIED<br/>(Xác nhận đạt)"]
+    RETESTING -->|Vẫn còn lỗi| REOPENED["REOPENED<br/>(Mở lại ticket)"]
     REOPENED --> ASSIGNED
-    VERIFIED --> CLOSED: Đóng lỗi hoàn tất
-    CLOSED --> [*]
+    VERIFIED -->|Đóng ticket| CLOSED["CLOSED<br/>(Đóng hoàn tất)"]
+    CLOSED --> EndNode([Hoàn thành])
 ```
 
 ## 8.2. Danh sách Các Lỗi Điển hình Phát hiện trong Quá trình Kiểm thử
@@ -428,13 +385,10 @@ stateDiagram-v2
 
 | Mã Yêu cầu SRS | Ca kiểm thử chức năng | Kịch bản tự động hóa | Kết quả nghiệm thu |
 | :--- | :--- | :--- | :---: |
-| **REQ-AUTH-01** (Đăng nhập OTP) | `TC-AUTH-01` $
-ightarrow$ `TC-AUTH-06` | Postman API: `Auth_VerifyOTP` | **PASSED** |
+| **REQ-AUTH-01** (Đăng nhập OTP) | `TC-AUTH-01` → `TC-AUTH-06` | Postman API: `Auth_VerifyOTP` | **PASSED** |
 | **REQ-AUTH-02** (Xác minh KYC GPLX) | `TC-AUTH-07`, `TC-AUTH-08` | Postman API: `KYC_UploadGPLX` | **PASSED** |
-| **REQ-SRCH-01** (Tìm kiếm & Bộ lọc) | `TC-SRCH-01` $
-ightarrow$ `TC-SRCH-05` | Selenium UI: `test_03_sort_products` | **PASSED** |
-| **REQ-PRIC-01** (Bảng giá cước & Phụ phí) | `TC-PRIC-01` $
-ightarrow$ `TC-PRIC-06` | White-box CFG: 7 Basis Paths | **PASSED** |
+| **REQ-SRCH-01** (Tìm kiếm & Bộ lọc) | `TC-SRCH-01` → `TC-SRCH-05` | Selenium UI: `test_03_sort_products` | **PASSED** |
+| **REQ-PRIC-01** (Bảng giá cước & Phụ phí) | `TC-PRIC-01` → `TC-PRIC-06` | White-box CFG: 7 Basis Paths | **PASSED** |
 | **REQ-BOOK-01** (Đặt xe & Thanh toán cọc) | `TC-BOOK-01`, `TC-BOOK-02` | Selenium UI: `test_05_checkout_order` | **PASSED** |
 | **REQ-TRIP-01** (Check-in/Check-out) | `TC-TRIP-01`, `TC-TRIP-02` | Postman API: `Trip_Lifecycle_Check` | **PASSED** |
 | **REQ-CANC-01** (Chính sách hủy chuyến) | `TC-CANC-01`, `TC-CANC-02` | Unit Test: `test_cancellation_refund` | **PASSED** |

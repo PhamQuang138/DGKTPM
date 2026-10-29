@@ -96,3 +96,4 @@ newman run Mioto_Postman_Collection.json
 **Các ca kiểm thử tự động API:**
 - `GET /cars?city=hochiminh`: Xác thực HTTP 200/404, thời gian phản hồi $< 1500\text{ ms}$, cấu trúc dữ liệu JSON.
 - `POST /pricing/calculate`: Kiểm tra tự động các tham số tính tiền thuê, cọc 30%, phụ phí giao xe quá 5km và giảm giá voucher.
+
