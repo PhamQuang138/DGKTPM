@@ -1,9 +1,7 @@
 # BÁO CÁO BÀI TẬP LỚN MÔN: ĐÁNH GIÁ VÀ KIỂM ĐỊNH CHẤT LƯỢNG PHẦN MỀM
 ## ĐỀ TÀI: ĐÁNH GIÁ CHẤT LƯỢNG VÀ KIỂM THỬ CHỨC NĂNG HỆ THỐNG ĐẶT XE TRỰC TUYẾN MIOTO (MIOTO.VN)
-LINK thuyết trình:
-- Phạm Duy Quang:
-- Phạm Văn Đạt:
-- Trần Văn Nhật:
+**LINK thuyết trình: https://youtu.be/dL_-GzgUCwM
+
 <p align="center">
   <img src="https://img.shields.io/badge/Subject-Đánh_Giá_&_Kiểm_Định_CLPM-blue?style=flat-square" alt="Subject" />
   <img src="https://img.shields.io/badge/Team-Nhóm_8-8A2BE2?style=flat-square" alt="Team 8" />
